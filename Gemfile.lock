@@ -31,7 +31,11 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     diff-lcs (1.2.5)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
+    eventmachine (1.0.8)
     execjs (2.6.0)
     ffi (1.9.10)
     haml (4.0.7)
@@ -39,6 +43,7 @@ GEM
     hike (1.2.3)
     hooks (0.4.1)
       uber (~> 0.0.14)
+    http_parser.rb (0.6.0)
     i18n (0.7.0)
     json (1.8.3)
     kramdown (1.8.0)
@@ -68,6 +73,11 @@ GEM
       rack (>= 1.4.5, < 2.0)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1, < 2.0)
+    middleman-livereload (3.1.1)
+      em-websocket (>= 0.2.0)
+      middleman-core (>= 3.0.2)
+      multi_json (~> 1.0)
+      rack-livereload
     middleman-sprockets (3.4.2)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -86,6 +96,8 @@ GEM
     padrino-support (0.12.5)
       activesupport (>= 3.1)
     rack (1.6.4)
+    rack-livereload (0.3.16)
+      rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rb-fsevent (0.9.6)
@@ -128,6 +140,7 @@ PLATFORMS
 DEPENDENCIES
   capybara (~> 2.4.4)
   middleman (~> 3.4.0)
+  middleman-livereload (~> 3.1.0)
   rspec (~> 2.14.1)
 
 BUNDLED WITH
