@@ -6,7 +6,7 @@ require "rack/contrib/try_static"
 # Build statics
 ####
 
-`bundle exec midleman build`
+`bundle exec middleman build`
 
 # Enable proper HEAD responses
 use Rack::Head
