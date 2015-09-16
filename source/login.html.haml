@@ -1,0 +1,6 @@
+%div{:class => "grid-4 centered vertical-align-middle"}
+  %h2{:class => 'grid-12 centered'}= "Login"
+  %form{action: 'login', method: "post"}
+    %label{class: 'grid-6', for: "password"} Password:
+    %input{class: 'grid-6 centered', type: 'password', name: 'password'}
+    %input{class: 'grid-12 centered', type: 'submit', value: 'Log In', name: 'login'}

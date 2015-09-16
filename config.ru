@@ -1,7 +1,9 @@
 require "rack"
-require './advisor'
+require "warden"
 require "middleman/rack"
 require "rack/contrib/try_static"
+
+require_relative 'apps/advisor'
 
 ###
 # Build statics
@@ -9,6 +11,4 @@ require "rack/contrib/try_static"
 
 `bundle exec middleman build`
 
-# Enable proper HEAD responses
-use Rack::Head
 run Advisor.app
