@@ -47,6 +47,11 @@ end
 #     "Helping"
 #   end
 # end
+helpers do
+  def menu(selected={})
+    partial "components/nav.haml", selected: '#cash'
+  end
+end
 
 activate :directory_indexes
 set :css_dir, 'stylesheets'
