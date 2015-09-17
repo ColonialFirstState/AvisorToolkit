@@ -16,5 +16,65 @@
   background: #7CC021;
 }
 
-.basics .info {
+.basics .explaination .rating li {
+  display: inline-block;
+  list-style: none;
+}
+
+.basics .explaination .rating .description {
+  display: inline-block;
+  list-style: none;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding-right: 1.2em;
+  border-right: 1px solid #000000;
+  text-transform: uppercase;
+}
+
+.basics .explaination .steps {
+  padding-top: 5em;
+}
+
+.basics .explaination .steps div .number {
+  background: #505050;
+  font-size: 1.0em;
+  font-weight: 600;
+  color: #FFFFFF;
+  width: 1.40em;
+  height: 1.40em;
+  border-radius: 50%;
+  padding-left: 0.4em;
+}
+
+.basics .explaination .steps div .st1 {
+  padding-top: 1em;
+  font-size: 1.0em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.basics .explaination .steps div .img {
+  padding-top: 1em;
+  height: 8em;
+}
+
+.basics .explaination .steps div .st2 {
+  padding-top: 1em;
+  font-size: 0.9em;
+  font-weight: 300;
+  text-align: center;
+}
+
+#rating-enabled {
+    background: #7CC021;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#rating-disabled {
+    background: #E2E3E5;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
