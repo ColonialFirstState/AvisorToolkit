@@ -7,7 +7,7 @@ class LoginPage < BasePage
   end
 
   def click_login
-    click_on('Log In')
+    click_on('Login')
 
     if current_path == "/" then
       HomePage.new

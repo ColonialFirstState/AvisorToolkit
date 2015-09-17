@@ -15,5 +15,6 @@
         %form{action: 'login', method: "post"}
           %label.grid-12.password-label.no-gutter-left{for: "password"} Password
           %input.grid-12.password-input{type: 'password', name: 'password'}
-          %div.grid-12.login-button{onClick:"javascript:this.form.submit();"}
+          %div.grid-12.login-button{onClick:"javascript:document.forms[0].submit();"}
             %p= "Login"
+            %input.grid-12.hidden{type: "submit", value: "Login"}

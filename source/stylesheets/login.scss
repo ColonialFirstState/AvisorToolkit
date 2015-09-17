@@ -56,10 +56,22 @@ body {
   margin-bottom: 0.5em;
 }
 
+.login-button:hover {
+  background: #46AFFF;
+}
+
+.login-button:active {
+  background: #269FEF;
+}
+
 .login-button p {
   color: #FFFFFF;
   font-size: 0.9rem;
   text-transform: uppercase;
   margin: 0;
   padding-top: 0.5em;
+}
+
+.login-button input {
+  visibility: hidden;
 }
