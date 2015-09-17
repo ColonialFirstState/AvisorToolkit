@@ -1,10 +1,6 @@
 require_relative '../base_page'
 
 class LoginPage < BasePage
-  def initialize
-    page.visit "/login"
-  end
-
   def type_password(password)
     fill_in 'password', with: password
     self
@@ -21,6 +17,6 @@ class LoginPage < BasePage
   end
 
   def login_with(password)
-    type_password(password).click_on
+    type_password(password).click_login
   end
 end
