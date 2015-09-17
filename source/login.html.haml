@@ -1,6 +1,19 @@
-%div{:class => "grid-4 centered vertical-align-middle"}
-  %h2{:class => 'grid-12 centered'}= "Login"
-  %form{action: 'login', method: "post"}
-    %label{class: 'grid-6', for: "password"} Password:
-    %input{class: 'grid-6', type: 'password', name: 'password'}
-    %input{class: 'grid-12 centered', type: 'submit', value: 'Log In', name: 'login'}
+%html
+  %head
+    %meta{:charset => 'utf-8'}
+    %meta{:content => 'IE=edge,chrome=1', "http-equiv" => 'X-UA-Compatible'}
+
+    %link{href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700', rel: 'stylesheet', type: 'text/css'}
+    %title= "Financial Advisor - Login"
+    = stylesheet_link_tag "grid", "login"
+    = javascript_include_tag "all"
+  %body
+    %div.grid-4.login.no-gutter-left.no-gutter-right.pane.push-4
+      %div.grid-12.title
+        %p= "Login"
+      %div.grid-12.info
+        %form{action: 'login', method: "post"}
+          %label.grid-12.password-label.no-gutter-left{for: "password"} Password
+          %input.grid-12.password-input{type: 'password', name: 'password'}
+          %div.grid-12.login-button{onClick:"javascript:this.form.submit();"}
+            %p= "Login"
