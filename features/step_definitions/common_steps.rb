@@ -6,11 +6,15 @@ Given(/^I click on next$/) do
   @page = @page.click_next
 end
 
-Then(/^I see (.*) is selected on top level menu$/) do |item_selected|
+Given(/^I click on previous$/) do
+  @page = @page.click_previous
+end
+
+Then(/^I see (.*) selected on top level menu$/) do |item_selected|
   expect(@page.selected_top_menu_item.text).to eq(item_selected.upcase)
 end
 
-Then(/^I see (.*) is selected on second level menu$/) do |item_selected|
+Then(/^I see (.*) selected on second level menu$/) do |item_selected|
   expect(@page.selected_second_level_menu_item.text).to eq(item_selected)
 end
 
