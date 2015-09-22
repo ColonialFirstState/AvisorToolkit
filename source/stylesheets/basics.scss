@@ -4,35 +4,102 @@
 
 .basics .title {
   letter-spacing: 0.1rem;
-  font-size: 1.8rem;
-  font-weight: 300;
+  font-size: 3.2rem;
+  font-weight: 400;
   text-align: center;
-  padding-top: 0.65%;
-  padding-bottom: 0.65%;
-  color: #ffffff;
+  color: #1651BA;
+}
+
+.basics .title p {
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .basics .cash {
-  background: #7CC021;
+  //background: #7CC021;
 }
 
-.basics .explaination .rating li {
+.basics .explaination {
+  max-width: 1280px;
+}
+
+.basics .explaination .risk {
   display: inline-block;
   list-style: none;
+  font-size: 0.700em;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 1px solid #D2D4D8;
+  text-align: center;
+  width: 22em;
+}
+
+.basics .explaination .index {
+  border-top: 1px solid #204581;
+  float: left;
+  margin-bottom: 0.5em;
+}
+
+.basics .explaination .rating .value {
+  vertical-align: middle;
+  margin-top: 0.5em;
 }
 
 .basics .explaination .rating .description {
   display: inline-block;
   list-style: none;
-  font-size: 0.8em;
-  font-weight: 700;
-  padding-right: 1.2em;
-  border-right: 1px solid #000000;
-  text-transform: uppercase;
+  text-align: center;
+  color: #204581;
+}
+
+
+.basics .explaination .rating .value p {
+  vertical-align: middle;
+  margin: 0.4em 0 0 0;
+}
+.basics .explaination .rating .value .rating-yes {
+  float: left;
+  width: 13.6%;
+  height: 2.2em;
+  margin: 0.5% 0.3% 0.5% 0.3%;
+  color: #FFFFFF;
+  background: #F58C23;
+  vertical-align: middle;
+}
+
+.basics .explaination .rating .value .rating-no {
+  float: left;
+  width: 13.6%;
+  height: 2.2em;
+  //margin: 1px 1px 1px 1px;
+  margin: 0.5% 0.3% 0.5% 0.3%;
+  background: #EDEFF4;
+  color: #A5ACB8;
+}
+
+.basics .explaination .rating .low {
+  text-align: left;
+  color: #204581;
+}
+
+.basics .explaination .rating .medium {
+  text-align: right;
+  color: #204581;
+}
+
+.basics .explaination .rating .high {
+  text-align: right;
+  color: #204581;
 }
 
 .basics .explaination .steps {
-  padding-top: 5em;
+  border-top: 1px solid #D5DCE9;
+  margin-top: 1.5em;
+}
+
+.basics .explaination .steps .step {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
 .basics .explaination .steps div .number {
@@ -48,7 +115,7 @@
 
 .basics .explaination .steps div .st1 {
   padding-top: 1em;
-  font-size: 1.0em;
+  font-size: 1.2em;
   font-weight: 300;
   text-align: center;
 }

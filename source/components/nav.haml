@@ -3,10 +3,34 @@
     %a.grid-2{href: "/"}
       %img{src: "/images/home.svg"}
   %div.nav.grid-9
-    %ul#l1
-      %li
+    #l1.grid-12
+      .l1-item.grid-1{class: ('selected' if page_classes.include?("risk"))}
+        = link_to "RISK", "/risk"
+      .l1-item.grid-3{class: ('selected' if page_classes.include?("basics"))}
+        = link_to "ASSET CLASSES", "/basics/cash"
+      .l1-item.grid-3{class: ('selected' if page_classes.include?("managed_funds"))}
+        = link_to "MANAGED FUNDS", "/managed_funds"
+.sub-menu.grid-12.no-gutter-left{class: ('hide' if !page_classes.include?("basics"))}
+  .nav.grid-10.prefix-2
+    #l2
+      .l2-item.grid-2{class: ('selected' if page_classes.include?("basics_cash"))}
         = link_to "Cash", "/basics/cash"
-      %li
-        = link_to "Fixed Income", "/basics/fixedincome"
-      %li
-        = link_to "Property", "/basics/fixedincome"
+      .l2-item.grid-2{class: ('selected' if page_classes.include?('basics_fixed_income'))}
+        = link_to "Fixed Income", "/basics/fixed_income"
+      .l2-item.grid-2{class: ('selected' if page_classes.include?('basics_property'))}
+        = link_to "Property", "/basics/property"
+      .l2-item.grid-2{class: ('selected' if page_classes.include?('basics_shares'))}
+        = link_to "Shares", "/basics/shares"
+      .l2-item.grid-2.no-border{class: ('selected' if page_classes.include?('basics_performance'))}
+        = link_to "Performance", "/basics/performance"
+  .nav.pointer.grid-10.prefix-2
+    .grid-2{class: ('hide' if !page_classes.include?("basics_cash"))}
+      %img.centered{src: "/images/nav/pointer.svg"}
+    .grid-2.prefix-2{class: ('hide' if !page_classes.include?("basics_fixed_income"))}
+      %img.centered{src: "/images/nav/pointer.svg"}
+    .grid-2.prefix-4{class: ('hide' if !page_classes.include?("basics_property"))}
+      %img.centered{src: "/images/nav/pointer.svg"}
+    .grid-2.prefix-6{class: ('hide' if !page_classes.include?("basics_shares"))}
+      %img.centered{src: "/images/nav/pointer.svg"}
+    .grid-2.prefix-6{class: ('hide' if !page_classes.include?("basics_performance"))}
+      %img.centered{src: "/images/nav/pointer.svg"}

@@ -1,41 +1,48 @@
 %div.grid-12.basics.no-gutter-left.no-gutter-right
-  %div.grid-12.title.cash
-    %p= "How investing in cash works"
   %div.grid-1.previous
   %div.grid-10.explaination
+    %div.grid-12.title.cash
+      %p= "How investing in cash works"
     %div.grid-12.rating
-      %ul.grid-2.push-4.safety.grid-tablet-3.push-tablet-3
-        %li.description= "Safety"
-        %li#rating-enabled
-        %li#rating-enabled
-        %li#rating-enabled
-        %li#rating-enabled
-        %li#rating-disabled
-      %ul.grid-2.push-4.growth.grid-tablet-3.push-tablet-3
-        %li.description= "Growth"
-        %li#rating-enabled
-        %li#rating-disabled
-        %li#rating-disabled
-        %li#rating-disabled
-        %li#rating-disabled
+      .grid-4.prefix-4.risk.parent.centered
+        .grid-12.no-gutter-left.value
+          .grid-2.description.no-gutter-left
+            %p Risk
+          .grid-10.no-gutter
+            .rating-yes
+              %p 1
+            .rating-no
+              %p 2
+            .rating-no
+              %p 3
+            .rating-no
+              %p 4
+            .rating-no
+              %p 5
+            .rating-no
+              %p 6
+            .rating-no
+              %p 7
+        .grid-12.no-gutter-left
+          .grid-10.prefix-2.no-gutter.index
+            .grid-4.low.no-gutter-left Low
+            .grid-4.medium Medium
+            .grid-4.high.no-gutter-right High
     %div.grid-12.steps
-      %div.grid-4
-        .grid-1.push-5.no-gutter-left.number= "1"
+      %div.grid-4.step
         .grid-12.st1
-          %p= "Your money in the bank"
+          %p You loan money to the bank
         %img.grid-12.img{src: "/images/basics/cash/1.svg"}
         .grid-12.st2
-          %p= "In the form of a term deposit"
-      %div.grid-4
-        .grid-1.push-5.no-gutter-left.number= "2"
+          %p In the form of a term deposit
+      %div.grid-4.step
         .grid-12.st1
-          %p= "The bank invests the money in things like overseas investments"
+          %p The bank invests the money in things like overseas investments
         %img.grid-12.img{src: "/images/basics/cash/2.svg"}
-      %div.grid-4
-        .grid-1.push-5.no-gutter-left.number= "3"
+      %div.grid-4.step
         .grid-12.st1
-          %p= "You recieve a return in the form of a periodic payment"
+          %p You recieve a return in the form of a periodic payment
         %img.grid-12.img{src: "/images/basics/cash/3.svg"}
         .grid-12.st2
-          %p= "plus you recieve your initial deposit at the end of the term"
+          %p plus you receive your initial loan at the end of the term
   %div.grid-1.next

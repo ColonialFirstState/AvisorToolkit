@@ -2,40 +2,57 @@
 
 .top {
   background: #292929;
-  height: 4em;
+  height: 3.5em;
 }
 
 .logo a {
-  padding-left: 1.1em;
+  padding-left: 5%;
 }
 
 .logo img {
   height: 1.7em;
-  padding-top: 1.2em;
+  padding-top: 1.0em;
 }
 
 .nav {
   vertical-align: baseline;
   //padding-left: 3.2em;
+  height: 100%;
+  max-width: 800px;
 }
 
+.nav #l1 {
+  padding-left: 8%;
+  text-align: center;
+  height: 100%;
+}
 
-.nav ul {
+.nav #l1 .l1-item {
+  padding-top: 2%;
+  height: 100%;
+}
+
+.nav #l1 .l1-item.selected {
+  background: #D5DCE9;
+}
+
+.nav #l1 .l1-item.selected a {
+  color: #1651BA;
+}
+
+.nav #l1 .l1-item ul {
   margin: 0;
 }
 
-.nav li {
-  padding-top: 1.2em;
+.nav #l1 .l1-item li {
   display: inline-block;
-  padding-left: 0.6em;
-  padding-right: 0.6em;
   list-style: none;
   margin: 0;
 }
 
-.nav li a {
+.nav #l1 .l1-item a {
   letter-spacing: 0.1em;
-  font-size: 0.7em;
+  font-size: 0.75em;
   color: #ffffff;
   font-weight: 300;
   vertical-align: middle;
@@ -43,6 +60,44 @@
   margin-right: 5px;
 }
 
-.nav li a:hover {
+.nav #l1 a:hover {
   font-weight: 400;
+}
+
+.sub-menu {
+  height: 2.5em;
+  background: #D5DCE9;
+  font-size: 1.10em;
+}
+
+.nav #l2 {
+  margin-top: 1.25%;
+}
+
+.nav #l2 .l2-item  {
+  text-align: center;
+  border-right: 2px solid #BAC0CA;
+}
+
+.nav #l2 .l2-item.no-border  {
+  border-right: 0px solid #BAC0CA;
+}
+
+.nav #l2 .l2-item a {
+  letter-spacing: 0.1em;
+  font-size: 0.75em;
+  color: #000000;
+  font-weight: 300;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.nav #l2 .l2-item.selected a {
+  color: #1651BA;
+}
+
+
+.sub-menu .pointer img {
+  height: 0.7em;
 }
