@@ -1,9 +1,11 @@
-%div.grid-12.basics.no-gutter-left.no-gutter-right
-  %div.grid-1.previous
-  %div.grid-10.explaination
-    %div.grid-12.title.cash
+.grid-12.basics.no-gutter-left.no-gutter-right
+  .grid-1.previous
+    %a.centered{href: "/"}
+      %img{src: "/images/nav/previous.svg"}
+  .grid-10.explaination
+    .grid-12.title.cash
       %p= "How investing in cash works"
-    %div.grid-12.rating
+    .grid-12.rating
       .grid-4.prefix-4.risk.parent.centered
         .grid-12.no-gutter-left.value
           .grid-2.description.no-gutter-left
@@ -28,21 +30,23 @@
             .grid-4.low.no-gutter-left Low
             .grid-4.medium Medium
             .grid-4.high.no-gutter-right High
-    %div.grid-12.steps
-      %div.grid-4.step
+    .grid-12.steps
+      .grid-4.step
         .grid-12.st1
           %p You loan money to the bank
         %img.grid-12.img{src: "/images/basics/cash/1.svg"}
         .grid-12.st2
           %p In the form of a term deposit
-      %div.grid-4.step
+      .grid-4.step
         .grid-12.st1
           %p The bank invests the money in things like overseas investments
         %img.grid-12.img{src: "/images/basics/cash/2.svg"}
-      %div.grid-4.step
+      .grid-4.step
         .grid-12.st1
           %p You recieve a return in the form of a periodic payment
         %img.grid-12.img{src: "/images/basics/cash/3.svg"}
         .grid-12.st2
           %p plus you receive your initial loan at the end of the term
-  %div.grid-1.next
+  .grid-1.next
+    %a.centered{href: "/basics/fixed_income"}
+      %img{src: "/images/nav/next.svg"}
