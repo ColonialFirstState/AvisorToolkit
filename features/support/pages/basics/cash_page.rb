@@ -10,5 +10,10 @@ module Basics
       find(".basics .next a").click
       Basics::FixedIncomePage.new()
     end
+
+    def click_previous
+      find(".basics .previous a").click
+      BasePage.new()
+    end
   end
 end

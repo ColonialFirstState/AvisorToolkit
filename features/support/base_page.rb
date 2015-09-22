@@ -20,6 +20,10 @@ class BasePage
     click_asset_classes.click_cash
   end
 
+  def goto_fixed_income_page
+    click_asset_classes.click_fixed_income
+  end
+
   def click_asset_classes
     click_on('ASSET CLASSES')
     self
@@ -28,6 +32,11 @@ class BasePage
   def click_cash
     click_on('Cash')
     Basics::CashPage.new()
+  end
+
+  def click_fixed_income
+    click_on('Fixed Income')
+    Basics::FixedIncomePage.new()
   end
 
   def goto_login_page
