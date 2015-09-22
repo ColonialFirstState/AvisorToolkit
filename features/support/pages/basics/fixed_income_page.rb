@@ -1,9 +1,8 @@
 require_relative '../../base_page'
 require_relative 'explainer_contents'
-#require_relative 'fixed_income_page'
 
 module Basics
-  class CashPage < BasePage
+  class FixedIncomePage < BasePage
     include ExplainerContents
 
     def click_next

@@ -2,6 +2,10 @@ Given(/^I logged in$/) do
   @page = HomePage.new.login_with('test123')
 end
 
+Given(/^I click on next$/) do
+  @page = @page.click_next
+end
+
 Then(/^I see (.*) is selected on top level menu$/) do |item_selected|
   expect(@page.selected_top_menu_item.text).to eq(item_selected.upcase)
 end

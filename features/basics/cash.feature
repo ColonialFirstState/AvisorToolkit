@@ -5,7 +5,11 @@ Feature: Explain asset class cash
 
 
   Scenario: display cash
-    Then I see the heading "How investing in cash works"
+    Then I see explaination for "How investing in cash works"
     And I see that it has a risk rating of 1
     And I see Asset Classes is selected on top level menu
     And I see Cash is selected on second level menu
+
+  Scenario: clicking next
+    Given I click on next
+    Then I see explaination for "How investing in fixed income works"
