@@ -40,28 +40,18 @@
   color: #1651BA;
 }
 
-.nav #l1 .l1-item ul {
-  margin: 0;
-}
-
-.nav #l1 .l1-item li {
-  display: inline-block;
-  list-style: none;
-  margin: 0;
-}
-
 .nav #l1 .l1-item a {
   letter-spacing: 0.1em;
   font-size: 0.75em;
   color: #ffffff;
-  font-weight: 300;
+  font-weight: 600;
   vertical-align: middle;
   text-decoration: none;
   margin-right: 5px;
 }
 
 .nav #l1 a:hover {
-  font-weight: 400;
+  font-weight: 800;
 }
 
 .sub-menu {
@@ -87,10 +77,14 @@
   letter-spacing: 0.1em;
   font-size: 0.75em;
   color: #000000;
-  font-weight: 300;
+  font-weight: 400;
   vertical-align: middle;
   text-decoration: none;
   margin-right: 5px;
+}
+
+.nav #l2 a:hover {
+  font-weight: 600;
 }
 
 .nav #l2 .l2-item.selected a {

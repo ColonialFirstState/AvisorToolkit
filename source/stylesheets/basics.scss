@@ -4,15 +4,15 @@
 
 .basics .title {
   letter-spacing: 0.1rem;
-  font-size: 3.2rem;
-  font-weight: 400;
+  font-size: 2.8rem;
+  font-weight: 300;
   text-align: center;
   color: #1651BA;
 }
 
 .basics .title p {
-  margin-top: 4%;
-  margin-bottom: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .basics .cash {
@@ -26,8 +26,8 @@
 .basics .explaination .risk {
   display: inline-block;
   list-style: none;
-  font-size: 0.700em;
-  font-weight: 400;
+  font-size: 0.625em;
+  font-weight: 600;
   text-transform: uppercase;
   border: 1px solid #D2D4D8;
   text-align: center;
@@ -61,6 +61,7 @@
   float: left;
   width: 13.6%;
   height: 2.2em;
+  font-size: 1.3em;
   margin: 0.5% 0.3% 0.5% 0.3%;
   color: #FFFFFF;
   background: #F58C23;
@@ -71,7 +72,7 @@
   float: left;
   width: 13.6%;
   height: 2.2em;
-  //margin: 1px 1px 1px 1px;
+  font-size: 1.3em;
   margin: 0.5% 0.3% 0.5% 0.3%;
   background: #EDEFF4;
   color: #A5ACB8;
@@ -98,8 +99,8 @@
 }
 
 .basics .explaination .steps .step {
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+  padding-left: 3.125%;
+  padding-right: 3.125%;
 }
 
 .basics .explaination .steps div .number {
@@ -115,8 +116,9 @@
 
 .basics .explaination .steps div .st1 {
   padding-top: 1em;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 300;
+  color: #313131;
   text-align: center;
 }
 
@@ -129,6 +131,7 @@
   padding-top: 1em;
   font-size: 0.9em;
   font-weight: 300;
+  color: #313131;
   text-align: center;
 }
 
