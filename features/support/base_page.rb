@@ -16,14 +16,6 @@ class BasePage
     find('#l2 .selected')
   end
 
-  def goto_cash_page
-    click_asset_classes.click_cash
-  end
-
-  def goto_fixed_income_page
-    click_asset_classes.click_fixed_income
-  end
-
   def click_asset_classes
     click_on('ASSET CLASSES')
     self
@@ -36,6 +28,11 @@ class BasePage
 
   def click_fixed_income
     click_on('Fixed Income')
+    Basics::FixedIncomePage.new()
+  end
+
+  def click_property
+    click_on('Property')
     Basics::FixedIncomePage.new()
   end
 
