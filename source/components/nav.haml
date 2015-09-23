@@ -1,29 +1,30 @@
-.menu.grid-12.no-gutter
-  .first-level.grid-10.centered
-    .logo.float-left
-      %a.grid-2{href: "/"}
-        %img{src: "/images/home.svg"}
-    .nav.float-left
-      .grid-5.centered
+.menu
+  .first-level
+    .interactable
+      .logo.float-left
+        %a{href: "/"}
+          %img{src: "/images/home.svg"}
+      .nav.float-left
         .l1-item.float-left{class: ('selected' if page_classes.include?("risk"))}
           = link_to "RISK", "/risk"
         .l1-item.float-left{class: ('selected' if page_classes.include?("asset_classes"))}
           = link_to "ASSET CLASSES", "/asset_classes/cash"
         .l1-item.float-left{class: ('selected' if page_classes.include?("managed_funds"))}
           = link_to "MANAGED FUNDS", "/managed_funds"
-  .second-level.grid-12.no-gutter-left{class: ('hide' if !page_classes.include?("asset_classes"))}
-    .nav.grid-7.centered
-      .l2-item.float-left{class: ('selected' if page_classes.include?("asset_classes_cash"))}
-        = secondary_menu_item "Cash", "/asset_classes/cash"
-      .l2-divider.float-left
-      .l2-item.float-left{class: ('selected' if page_classes.include?('asset_classes_fixed_income'))}
-        = secondary_menu_item "Fixed Income", "/asset_classes/fixed_income"
-      .l2-divider.float-left
-      .l2-item.float-left{class: ('selected' if page_classes.include?('asset_classes_property'))}
-        = secondary_menu_item "Property", "/asset_classes/property"
-      .l2-divider.float-left
-      .l2-item.float-left{class: ('selected' if page_classes.include?('asset_classes_shares'))}
-        = secondary_menu_item "Shares", "/asset_classes/shares"
-      .l2-divider.float-left
-      .l2-item.float-left.no-border{class: ('selected' if page_classes.include?('asset_classes_performance'))}
-        = secondary_menu_item "Performance", "/asset_classes/performance"
+  .second-level{class: ('hide' if !page_classes.include?("asset_classes"))}
+    .interactable
+      .nav.float-left
+        .l2-item.float-left{class: ('selected' if page_classes.include?("asset_classes_cash"))}
+          = secondary_menu_item "Cash", "/asset_classes/cash"
+        .l2-divider.float-left
+        .l2-item.float-left{class: ('selected' if page_classes.include?('asset_classes_fixed_income'))}
+          = secondary_menu_item "Fixed Income", "/asset_classes/fixed_income"
+        .l2-divider.float-left
+        .l2-item.float-left{class: ('selected' if page_classes.include?('asset_classes_property'))}
+          = secondary_menu_item "Property", "/asset_classes/property"
+        .l2-divider.float-left
+        .l2-item.float-left{class: ('selected' if page_classes.include?('asset_classes_shares'))}
+          = secondary_menu_item "Shares", "/asset_classes/shares"
+        .l2-divider.float-left
+        .l2-item.float-left.no-border{class: ('selected' if page_classes.include?('asset_classes_performance'))}
+          = secondary_menu_item "Performance", "/asset_classes/performance"

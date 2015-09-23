@@ -1,17 +1,23 @@
 @charset "utf-8";
 
 .menu {
-  background: #292929;
+  width: 100%;
 }
 
 .menu .first-level {
-  min-width: 1024px;
-  max-width: 1300px;
-  height: 3.5em;
+  background: #292929;
+  width: 100%;
 }
 
-.menu .first-level .logo a {
-  padding-left: 5%;
+.menu .first-level .interactable {
+  height: 3.5em;
+  margin: auto;
+  min-width: 1024px;
+  max-width: 1300px;
+}
+
+.menu .first-level .logo  {
+  padding-left: 1.5%;
 }
 
 .menu .first-level .logo img {
@@ -22,7 +28,8 @@
 .menu .first-level .nav {
   vertical-align: baseline;
   height: 100%;
-  width: 96%;
+  width: 60%;
+  padding-left: 27%;
 }
 
 .menu .first-level .nav div {
@@ -48,7 +55,7 @@
 }
 
 .menu .first-level .nav .l1-item a {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.07em;
   font-size: 0.75em;
   color: #ffffff;
   font-weight: 600;
@@ -62,17 +69,28 @@
 }
 
 .menu .second-level {
-  height: 2em;
+  width: 100%;
   background: #D5DCE9;
+  height: 2.4em;
+}
+
+.menu .second-level .interactable {
   font-size: 1.10em;
+  margin: auto;
+  min-width: 1024px;
+  max-width: 1300px;
+  height: 100%;
 }
 
 .menu .second-level .nav {
   height: 100%;
+  width: 100%;
+  padding-left: 20%;
 }
 
 .menu .second-level .nav div {
   margin-top: 0.4%;
+  height: 100%;
 }
 
 .menu .second-level .nav .l2-item  {
@@ -98,7 +116,7 @@
 }
 
 .menu .second-level .nav .l2-item a {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.03em;
   font-size: 0.75em;
   color: #000000;
   font-weight: 400;
@@ -114,6 +132,7 @@
 
 .menu .second-level .nav .l2-item.selected a {
   color: #1651BA;
+  font-weight: 600;
 }
 
 .menu .second-level .nav .l2-item.selected .pointer {
