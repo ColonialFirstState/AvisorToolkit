@@ -31,23 +31,26 @@
             .grid-4.medium Medium
             .grid-4.high.no-gutter-right High
     .grid-12.steps
-      .grid-4.step
-        .grid-12.st1
+      .grid-12.st1
+        .grid-4
           %p You invest money into a company
-        %img.grid-12.img{src: "/images/asset_classes/cash/1.svg"}
-        .grid-12.st2
-          %p you now own a small share of that company
-      .grid-4.step
-        .grid-12.st1
+        .grid-4
           %p Your money is then invested
-        %img.grid-12.img{src: "/images/asset_classes/cash/2.svg"}
-        .grid-12.st2
-          %p into things like new products or stores
-      .grid-4.step
-        .grid-12.st1
+        .grid-4
           %p If that company increases in value your share value will increase
-        %img.grid-12.img{src: "/images/asset_classes/cash/3.svg"}
-        .grid-12.st2
+      .grid-12.visualisation
+        .grid-4
+          %img.grid-12.img{src: "/images/asset_classes/cash/1.svg"}
+        .grid-4
+          %img.grid-12.img{src: "/images/asset_classes/cash/2.svg"}
+        .grid-4
+          %img.grid-12.img{src: "/images/asset_classes/cash/3.svg"}
+      .grid-12.st2
+        .grid-4
+          %p you now own a small share of that company
+        .grid-4
+          %p into things like new products or stores
+        .grid-4
           %p and you receive a payment in the form of a dividend
   .grid-1.next
     %a.centered{href: "/asset_classes/performance"}

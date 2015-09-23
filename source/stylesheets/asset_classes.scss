@@ -11,8 +11,8 @@
 }
 
 .asset_classes .title p {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .asset_classes .cash {
@@ -110,7 +110,7 @@
   padding-left: 0.4em;
 }
 
-.asset_classes .explaination .steps div .st1 {
+.asset_classes .explaination .steps .st1 {
   padding-top: 1em;
   font-size: 1.1em;
   font-weight: 300;
@@ -118,12 +118,15 @@
   text-align: center;
 }
 
-.asset_classes .explaination .steps div .img {
+.asset_classes .explaination .steps .visualisation {
   padding-top: 1em;
+}
+
+.asset_classes .explaination .steps .visualisation img {
   height: 8em;
 }
 
-.asset_classes .explaination .steps div .st2 {
+.asset_classes .explaination .steps .st2 {
   padding-top: 1em;
   font-size: 0.9em;
   font-weight: 300;
