@@ -54,6 +54,10 @@ helpers do
   def menu(selected={})
     partial "components/nav.haml", selected: '#cash'
   end
+
+  def secondary_menu_item(text, url)
+    link_to(text, url) + tag(:img, src: "/images/nav/pointer.svg", class: "pointer")
+  end
 end
 
 activate :directory_indexes
