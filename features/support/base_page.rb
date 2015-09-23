@@ -33,7 +33,12 @@ class BasePage
 
   def click_property
     click_on('Property')
-    Basics::FixedIncomePage.new()
+    Basics::PropertyPage.new()
+  end
+
+  def click_shares
+    click_on('Shares')
+    Basics::SharesPage.new()
   end
 
   def goto_login_page

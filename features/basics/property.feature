@@ -13,3 +13,7 @@ Feature: Explain asset class property
   Scenario: clicking previous
     Given I click on previous
     Then I see explaination for "How investing in fixed income works"
+
+  Scenario: clicking next
+    Given I click on next
+    Then I see explaination for "How investing in shares works"
