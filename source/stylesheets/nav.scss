@@ -1,46 +1,53 @@
 @charset "utf-8";
 
-.top {
+.menu {
   background: #292929;
+}
+
+.menu .first-level {
+  min-width: 1024px;
+  max-width: 1300px;
   height: 3.5em;
 }
 
-.logo a {
+.menu .first-level .logo a {
   padding-left: 5%;
 }
 
-.logo img {
+.menu .first-level .logo img {
   height: 1.7em;
   padding-top: 1.0em;
 }
 
-.nav {
+.menu .first-level .nav {
   vertical-align: baseline;
-  //padding-left: 3.2em;
   height: 100%;
-  max-width: 800px;
+  width: 96%;
 }
 
-.nav #l1 {
-  padding-left: 8%;
+.menu .first-level .nav div {
   text-align: center;
   height: 100%;
 }
 
-.nav #l1 .l1-item {
+.menu .first-level .nav .l1-item {
   padding-top: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
   height: 100%;
+  text-align: center;
 }
 
-.nav #l1 .l1-item.selected {
+
+.menu .first-level .nav .l1-item.selected {
   background: #D5DCE9;
 }
 
-.nav #l1 .l1-item.selected a {
+.menu .first-level .nav .l1-item.selected a {
   color: #1651BA;
 }
 
-.nav #l1 .l1-item a {
+.menu .first-level .nav .l1-item a {
   letter-spacing: 0.1em;
   font-size: 0.75em;
   color: #ffffff;
@@ -50,30 +57,47 @@
   margin-right: 5px;
 }
 
-.nav #l1 a:hover {
+.menu .first-level .nav a:hover {
   font-weight: 800;
 }
 
-.sub-menu {
-  height: 2.5em;
+.menu .second-level {
+  height: 2em;
   background: #D5DCE9;
   font-size: 1.10em;
 }
 
-.nav #l2 {
-  margin-top: 1.25%;
+.menu .second-level .nav {
+  height: 100%;
 }
 
-.nav #l2 .l2-item  {
+.menu .second-level .nav div {
+  margin-top: 0.4%;
+}
+
+.menu .second-level .nav .l2-item  {
   text-align: center;
-  border-right: 2px solid #BAC0CA;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.nav #l2 .l2-item.no-border  {
-  border-right: 0px solid #BAC0CA;
+.menu .second-level .nav .l2-item .pointer {
+  width: 2em;
+  padding-left: 0.1%;
+  visibility: hidden;
+  display: block;
+  margin: auto;
 }
 
-.nav #l2 .l2-item a {
+.menu .second-level .nav .l2-divider {
+  width: 1px;
+  background-color: #E3E6EA;
+  height: 0.9em;
+  margin-top: 0.9%;
+  border-left: 1px solid #BAC0CA;
+}
+
+.menu .second-level .nav .l2-item a {
   letter-spacing: 0.1em;
   font-size: 0.75em;
   color: #000000;
@@ -83,15 +107,15 @@
   margin-right: 5px;
 }
 
-.nav #l2 a:hover {
+
+.menu .second-level .nav a:hover {
   font-weight: 600;
 }
 
-.nav #l2 .l2-item.selected a {
+.menu .second-level .nav .l2-item.selected a {
   color: #1651BA;
 }
 
-
-.sub-menu .pointer img {
-  height: 0.7em;
+.menu .second-level .nav .l2-item.selected .pointer {
+  visibility: visible;
 }
