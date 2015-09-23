@@ -9,11 +9,11 @@ class BasePage
   end
 
   def selected_top_menu_item
-    find('#l1 .selected')
+    find('.menu .first-level .selected')
   end
 
   def selected_second_level_menu_item
-    find('#l2 .selected')
+    find('.menu .second-level .selected')
   end
 
   def click_asset_classes
