@@ -23,22 +23,22 @@ class BasePage
 
   def click_cash
     click_on('Cash')
-    Basics::CashPage.new()
+    AssetClasses::CashPage.new()
   end
 
   def click_fixed_income
     click_on('Fixed Income')
-    Basics::FixedIncomePage.new()
+    AssetClasses::FixedIncomePage.new()
   end
 
   def click_property
     click_on('Property')
-    Basics::PropertyPage.new()
+    AssetClasses::PropertyPage.new()
   end
 
   def click_shares
     click_on('Shares')
-    Basics::SharesPage.new()
+    AssetClasses::SharesPage.new()
   end
 
   def goto_login_page

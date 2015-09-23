@@ -1,10 +1,10 @@
-.grid-12.basics.no-gutter-left.no-gutter-right
+.grid-12.asset_classes.no-gutter-left.no-gutter-right
   .grid-1.previous
-    %a.centered{href: "/basics/fixed_income"}
+    %a.centered{href: "/asset_classes/cash"}
       %img{src: "/images/nav/previous.svg"}
   .grid-10.explaination
-    .grid-12.title.cash
-      %p= "How investing in property works"
+    .grid-12.title.fixed_income
+      %p= "How investing in fixed income works"
     .grid-12.rating
       .grid-4.prefix-4.risk.parent.centered
         .grid-12.no-gutter-left.value
@@ -13,7 +13,7 @@
           .grid-10.no-gutter
             .rating-no
               %p 1
-            .rating-no
+            .rating-yes
               %p 2
             .rating-no
               %p 3
@@ -21,7 +21,7 @@
               %p 4
             .rating-no
               %p 5
-            .rating-yes
+            .rating-no
               %p 6
             .rating-no
               %p 7
@@ -33,22 +33,20 @@
     .grid-12.steps
       .grid-4.step
         .grid-12.st1
-          %p You invest money into a property
-        %img.grid-12.img{src: "/images/basics/cash/1.svg"}
+          %p You loan money to the government
+        %img.grid-12.img{src: "/images/asset_classes/cash/1.svg"}
         .grid-12.st2
-          %p such as Westfield Shopping Centre
+          %p In the form of a government bond
       .grid-4.step
         .grid-12.st1
-          %p Tenants pay rent to Westfield Shopping Centre
-        %img.grid-12.img{src: "/images/basics/cash/2.svg"}
-        .grid-12.st2
-          %p you receive a return
+          %p The government invest your money in things like public infrastructure
+        %img.grid-12.img{src: "/images/asset_classes/cash/2.svg"}
       .grid-4.step
         .grid-12.st1
-          %p If that property's value increases
-        %img.grid-12.img{src: "/images/basics/cash/3.svg"}
+          %p You receive a return in the form of periodic payment
+        %img.grid-12.img{src: "/images/asset_classes/cash/3.svg"}
         .grid-12.st2
-          %p your investment grows
+          %p plus you receive your initial loan at the end of the term
   .grid-1.next
-    %a.centered{href: "/basics/shares"}
+    %a.centered{href: "/asset_classes/property"}
       %img{src: "/images/nav/next.svg"}

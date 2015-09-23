@@ -1,18 +1,18 @@
 require_relative '../../base_page'
 require_relative 'explainer_contents'
 
-module Basics
+module AssetClasses
   class FixedIncomePage < BasePage
     include ExplainerContents
 
     def click_next
-      find(".basics .next a").click
-      Basics::PropertyPage.new()
+      find(".asset_classes .next a").click
+      AssetClasses::PropertyPage.new()
     end
 
     def click_previous
-      find(".basics .previous a").click
-      Basics::CashPage.new()
+      find(".asset_classes .previous a").click
+      AssetClasses::CashPage.new()
     end
   end
 end

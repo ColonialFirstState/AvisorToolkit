@@ -1,8 +1,8 @@
-.basics {
+.asset_classes {
   margin: 0;
 }
 
-.basics .title {
+.asset_classes .title {
   letter-spacing: 0.1rem;
   font-size: 2.8rem;
   font-weight: 300;
@@ -10,20 +10,20 @@
   color: #1651BA;
 }
 
-.basics .title p {
+.asset_classes .title p {
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
-.basics .cash {
+.asset_classes .cash {
   //background: #7CC021;
 }
 
-.basics .explaination {
+.asset_classes .explaination {
   max-width: 1280px;
 }
 
-.basics .explaination .risk {
+.asset_classes .explaination .risk {
   display: inline-block;
   list-style: none;
   font-size: 0.625em;
@@ -34,18 +34,18 @@
   width: 22em;
 }
 
-.basics .explaination .index {
+.asset_classes .explaination .index {
   border-top: 1px solid #204581;
   float: left;
   margin-bottom: 0.5em;
 }
 
-.basics .explaination .rating .value {
+.asset_classes .explaination .rating .value {
   vertical-align: middle;
   margin-top: 0.5em;
 }
 
-.basics .explaination .rating .description {
+.asset_classes .explaination .rating .description {
   display: inline-block;
   list-style: none;
   text-align: center;
@@ -53,11 +53,11 @@
 }
 
 
-.basics .explaination .rating .value p {
+.asset_classes .explaination .rating .value p {
   vertical-align: middle;
   margin: 0.4em 0 0 0;
 }
-.basics .explaination .rating .value .rating-yes {
+.asset_classes .explaination .rating .value .rating-yes {
   float: left;
   width: 13.6%;
   height: 2.2em;
@@ -68,7 +68,7 @@
   vertical-align: middle;
 }
 
-.basics .explaination .rating .value .rating-no {
+.asset_classes .explaination .rating .value .rating-no {
   float: left;
   width: 13.6%;
   height: 2.2em;
@@ -78,32 +78,32 @@
   color: #A5ACB8;
 }
 
-.basics .explaination .rating .low {
+.asset_classes .explaination .rating .low {
   text-align: left;
   color: #204581;
 }
 
-.basics .explaination .rating .medium {
+.asset_classes .explaination .rating .medium {
   text-align: right;
   color: #204581;
 }
 
-.basics .explaination .rating .high {
+.asset_classes .explaination .rating .high {
   text-align: right;
   color: #204581;
 }
 
-.basics .explaination .steps {
+.asset_classes .explaination .steps {
   border-top: 1px solid #D5DCE9;
   margin-top: 1.5em;
 }
 
-.basics .explaination .steps .step {
+.asset_classes .explaination .steps .step {
   padding-left: 3.125%;
   padding-right: 3.125%;
 }
 
-.basics .explaination .steps div .number {
+.asset_classes .explaination .steps div .number {
   background: #505050;
   font-size: 1.0em;
   font-weight: 600;
@@ -114,7 +114,7 @@
   padding-left: 0.4em;
 }
 
-.basics .explaination .steps div .st1 {
+.asset_classes .explaination .steps div .st1 {
   padding-top: 1em;
   font-size: 1.1em;
   font-weight: 300;
@@ -122,12 +122,12 @@
   text-align: center;
 }
 
-.basics .explaination .steps div .img {
+.asset_classes .explaination .steps div .img {
   padding-top: 1em;
   height: 8em;
 }
 
-.basics .explaination .steps div .st2 {
+.asset_classes .explaination .steps div .st2 {
   padding-top: 1em;
   font-size: 0.9em;
   font-weight: 300;
@@ -149,10 +149,10 @@
     border-radius: 50%;
 }
 
-.basics .previous img {
+.asset_classes .previous img {
   padding-top: 22em;
 }
 
-.basics .next img {
+.asset_classes .next img {
   padding-top: 22em;
 }

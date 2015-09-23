@@ -4,7 +4,7 @@ module ExplainerContents
   end
 
   def heading
-    find('.basics .title').text
+    find('.asset_classes .title').text
   end
 
 end
