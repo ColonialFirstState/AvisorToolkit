@@ -31,6 +31,7 @@ require "gridle"
 #
 
 page "/login.html", :layout => false
+page "/image_galary.html", :layout => 'image_galary.haml'
 
 ###
 # Helpers
