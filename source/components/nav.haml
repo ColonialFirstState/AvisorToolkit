@@ -2,15 +2,17 @@
   .first-level
     .interactable
       .logo.float-left
-        %a{href: "/"}
+        %a{href: "/asset_classes/cash"}
           %img{src: "/images/nav/home.svg"}
       .nav.float-left
-        .l1-item.float-left{class: ('selected' if page_classes.include?("risk"))}
-          = link_to "RISK", "/risk"
+        -#
+          .l1-item.float-left{class: ('selected' if page_classes.include?("risk"))}
+            = link_to "RISK", "/risk"
         .l1-item.float-left{class: ('selected' if page_classes.include?("asset_classes"))}
           = link_to "ASSET CLASSES", "/asset_classes/cash"
-        .l1-item.float-left{class: ('selected' if page_classes.include?("managed_funds"))}
-          = link_to "MANAGED FUNDS", "/managed_funds"
+        -#
+          .l1-item.float-left{class: ('selected' if page_classes.include?("managed_funds"))}
+            = link_to "MANAGED FUNDS", "/managed_funds"
   .second-level{class: ('hide' if !page_classes.include?("asset_classes"))}
     .interactable
       .nav.float-left

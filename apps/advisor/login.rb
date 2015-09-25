@@ -16,7 +16,7 @@ module Advisor
         if is_login_page and env['REQUEST_METHOD'] == "POST"
           env['warden'].authenticate!
           res = Rack::Response.new
-          res.redirect("/")
+          res.redirect("/asset_classes/cash")
           res.finish
         else
           @app.call(env)
