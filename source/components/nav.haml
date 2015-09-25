@@ -27,6 +27,7 @@
         .l2-divider.float-left
         .l2-item.float-left{class: ('selected' if page_classes.include?('asset_classes_shares'))}
           = secondary_menu_item "Shares", "/asset_classes/shares"
-        .l2-divider.float-left
-        .l2-item.float-left.no-border{class: ('selected' if page_classes.include?('asset_classes_performance'))}
-          = secondary_menu_item "Performance", "/asset_classes/performance"
+        -#
+          .l2-divider.float-left
+          .l2-item.float-left.no-border{class: ('selected' if page_classes.include?('asset_classes_performance'))}
+            = secondary_menu_item "Performance", "/asset_classes/performance"
