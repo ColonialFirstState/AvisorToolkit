@@ -6,7 +6,6 @@ Feature: Explain asset class fixed income
 
   Scenario: display fixed income
     Then I see explaination for "How investing in fixed income works"
-    And I see that it has a risk rating of 2
     And I see Asset Classes selected on top level menu
     And I see Fixed Income selected on second level menu
 

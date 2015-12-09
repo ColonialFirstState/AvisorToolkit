@@ -1,5 +1,5 @@
 And(/^I am on the explain cash page$/) do
-  @page = @page.click_asset_classes.click_cash
+  @page = @page.go_to_asset_classes_page.click_cash
 end
 
 Then(/^I see explaination for "(.*)"/) do |heading|

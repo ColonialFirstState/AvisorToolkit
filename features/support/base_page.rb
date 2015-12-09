@@ -16,6 +16,11 @@ class BasePage
     find('.menu .second-level .selected')
   end
 
+  def go_to_asset_classes_page
+    click_on('Asset Classes')
+    self
+  end
+
   def click_asset_classes
     click_on('ASSET CLASSES')
     self
