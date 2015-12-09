@@ -26,6 +26,14 @@ $(document).ready(function() {
     $('#balanced').removeClass('selected');
     $('#growth').addClass('selected');
   });
+
+  $('body').on( "swipeleft", function(){
+    $('.previous').click();
+  });
+
+  $('body').on( "swiperight", function(){
+    $('.next').click();
+  });
 });
 
 var startup = function() {
