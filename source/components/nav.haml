@@ -16,7 +16,4 @@
   .second-level{class: ('hide' if !page_classes.include?("asset_classes"))}
     .interactable
       .nav
-        - if page_classes.include?("asset_classes")
-          = secondary_asset_classes_menu
-        - else
-          = secondary_risk_menu
+        = secondary_asset_classes_menu
