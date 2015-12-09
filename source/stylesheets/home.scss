@@ -77,3 +77,38 @@
 .other {
   margin-top: 8%
 }
+
+.concepts table {
+  width: 100%;
+  padding-top: 1.5em;
+  text-align: center;
+  border-spacing: 2em;
+
+  td {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    height: 2em;
+    box-shadow: 0px 2px 0px #A2A6AF;
+    font-weight: 100;
+    font-size: small;
+    text-align: center;
+    font-size: 1em;
+
+    a, u{
+      text-decoration: none;
+      color: #1768C7;
+      width: 100%;
+      height: 100%;
+      display: block;
+      padding-top: 2%;
+
+      &:hover {
+        color: #FFFFFF;
+      }
+    }
+
+    &:hover {
+      background-color: #000000;
+    }
+  }
+}
