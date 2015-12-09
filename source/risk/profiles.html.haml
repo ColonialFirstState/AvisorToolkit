@@ -1,0 +1,30 @@
+.grid-12.risk.no-gutter-left.no-gutter-right
+  .grid-1.previous
+  .grid-10.explaination
+    .grid-12.title#risk-profile-title
+      Conservative portfolio
+    .grid-12.portfolio
+      .grid-3.buttons
+        .button.selected#conservative
+          CONSERVATIVE
+        .button#balanced
+          BALANCED
+        .button#growth
+          GROWTH
+      .grid-5.chart
+        %img.grid-12#risk-profile-chart{src: "/images/asset_classes/cash/1.svg"}
+      .grid-4.rating
+        .grid-10.box
+          Placeholder : Low
+        .grid-12.chart-indicator
+          .shares
+            .indicator
+            .explaination
+              Shares and Property
+          .cash
+            .indicator
+            .explaination
+              Cash and Fixed Income
+  .grid-1.next
+    %a.centered{href: "/risk/factors"}
+      %img{src: "/images/nav/next.svg"}

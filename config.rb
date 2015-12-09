@@ -31,6 +31,7 @@ require "gridle"
 #
 
 page "/login.html", :layout => false
+page "/index.html", :layout => false
 page "/image_galary.html", :layout => 'image_galary.haml'
 
 ###
@@ -53,11 +54,19 @@ end
 # end
 helpers do
   def menu(selected={})
-    partial "components/nav.haml", selected: '#cash'
+    partial "components/nav.haml"
   end
 
   def secondary_menu_item(text, url)
     link_to(text, url) + tag(:img, src: "/images/nav/pointer.svg", class: "pointer")
+  end
+
+  def secondary_asset_classes_menu(selected={})
+    partial "components/secondary_menu/_asset_classes.haml", selected:'#cash'
+  end
+
+  def secondary_risk_menu(selected={})
+    partial "components/secondary_menu/_risk.haml", selected:'#profiles'
   end
 end
 

@@ -1,2 +1,34 @@
-%div.welcome
-  %h1= "Financial Advisor Toolkit"
+%html
+  %head
+    %meta{:charset => 'utf-8'}
+    %meta{:content => 'IE=edge,chrome=1', "http-equiv" => 'X-UA-Compatible'}
+
+    %link{href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700', rel: 'stylesheet', type: 'text/css'}
+    %title= "Financial Advisor - Login"
+    = stylesheet_link_tag "grid", "home", "all"
+    = javascript_include_tag "all"
+  %body.content.centered.home
+    .title.grid-12
+      .title-text
+        Advisor Toolkit
+      .description
+        finance concepts explained
+    .grid-12
+      %a{href: "/risk/profiles"}
+        .grid-4
+          .risk.section-details
+            %img.img{src: "/images/home/home.svg"}
+            .section-title Risk
+      %a{href: "/asset_classes/cash"}
+        .grid-4
+          .asset-classes.section-details
+            %img.img{src: "/images/home/home.svg"}
+            .section-title Asset Classes
+      %a{href: "/managed_funds"}
+        .grid-4
+          .managed-funds.section-details
+            %img.img{src: "/images/home/home.svg"}
+            .section-title Managed Funds
+    .other.grid-12
+      .divider
+        %span Other Concepts

@@ -3,6 +3,7 @@
 @import 'settings';
 @import 'nav';
 @import 'asset_classes';
+@import 'risk';
 
 body {
     background: #ffffff;
@@ -27,4 +28,94 @@ h1 {
 .disclaimer a {
   text-decoration: none;
   color: #279EEE;
+}
+
+.explaination .risk-rating {
+  display: inline-block;
+  list-style: none;
+  font-size: 0.625em;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #D2D4D8;
+  text-align: center;
+  width: 22em;
+}
+
+.explaination .rating .value {
+  vertical-align: middle;
+  margin-top: 0.5em;
+}
+
+.explaination .rating .description {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  color: #204581;
+}
+
+.explaination .rating .value p {
+  vertical-align: middle;
+  margin: 0.4em 0 0 0;
+}
+
+.explaination .rating .value .rating-yes {
+  float: left;
+  width: 13.6%;
+  height: 2.2em;
+  font-size: 1.3em;
+  margin: 0.5% 0.3% 0.5% 0.3%;
+  color: #FFFFFF;
+  background: #F58C23;
+  vertical-align: middle;
+}
+
+.explaination .rating .value .rating-no {
+  float: left;
+  width: 13.6%;
+  height: 2.2em;
+  font-size: 1.3em;
+  margin: 0.5% 0.3% 0.5% 0.3%;
+  background: #EDEFF4;
+  color: #A5ACB8;
+}
+
+.explaination .rating .low {
+  text-align: left;
+  color: #204581;
+}
+
+.explaination .rating .medium {
+  text-align: right;
+  color: #204581;
+}
+
+.explaination .rating .high {
+  text-align: right;
+  color: #204581;
+}
+
+#rating-enabled {
+    background: #7CC021;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#rating-disabled {
+    background: #E2E3E5;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.previous img {
+  padding-top: 20em;
+}
+
+.next img {
+  padding-top: 20em;
+}
+
+a, u {
+  text-decoration: none;
 }

@@ -1,0 +1,14 @@
+.l2-item{class: ('selected' if page_classes.include?("asset_classes_cash"))}
+  = secondary_menu_item "Cash", "/asset_classes/cash"
+.l2-divider
+.l2-item{class: ('selected' if page_classes.include?('asset_classes_fixed_income'))}
+  = secondary_menu_item "Fixed Income", "/asset_classes/fixed_income"
+.l2-divider
+.l2-item{class: ('selected' if page_classes.include?('asset_classes_property'))}
+  = secondary_menu_item "Property", "/asset_classes/property"
+.l2-divider
+.l2-item{class: ('selected' if page_classes.include?('asset_classes_shares'))}
+  = secondary_menu_item "Shares", "/asset_classes/shares"
+.l2-divider
+.l2-item.no-border{class: ('selected' if page_classes.include?('asset_classes_performance'))}
+  = secondary_menu_item "Performance", "/asset_classes/performance"
