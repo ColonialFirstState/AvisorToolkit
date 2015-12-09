@@ -5,14 +5,14 @@ Feature: Explain asset class fixed income
 
 
   Scenario: display fixed income
-    Then I see explaination for "How investing in fixed income works"
+    Then I see explaination for "Investing in fixed interest"
     And I see Asset Classes selected on top level menu
     And I see Fixed Income selected on second level menu
 
   Scenario: clicking previous
     Given I click on previous
-    Then I see explaination for "How investing in cash works"
+    Then I see explaination for "Investing in cash"
 
   Scenario: clicking next
     Given I click on next
-    Then I see explaination for "How investing in property works"
+    Then I see explaination for "Investing in property"
