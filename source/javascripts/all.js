@@ -29,12 +29,12 @@ $(document).ready(function() {
 
   $(window).swipeleft(function(e){
     e.preventDefault();
-    $('.next > a.centered').click();
+    $('.next a')[0].click();
   });
 
   $(window).swiperight(function (e) {
     e.preventDefault();
-    $('.previous > a.centered').click();
+    $('.previous a')[0].click();
   });
 });
 
