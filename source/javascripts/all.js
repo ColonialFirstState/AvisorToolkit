@@ -27,12 +27,12 @@ $(document).ready(function() {
     $('#growth').addClass('selected');
   });
 
-  $('body').on( "swipeleft", function(){
-    $('.previous').click();
+  $('.next').swipeleft(function(e){
+    $(this).click();
   });
 
-  $('body').on( "swiperight", function(){
-    $('.next').click();
+  $('.previous').swiperight(function (e) {
+    $(this).click();
   });
 });
 
