@@ -27,12 +27,14 @@ $(document).ready(function() {
     $('#growth').addClass('selected');
   });
 
-  $('.next').swipeleft(function(e){
-    $(this).click();
+  $(window).swipeleft(function(e){
+    e.preventDefault();
+    $('.next > a.centered').click();
   });
 
-  $('.previous').swiperight(function (e) {
-    $(this).click();
+  $(window).swiperight(function (e) {
+    e.preventDefault();
+    $('.previous > a.centered').click();
   });
 });
 
