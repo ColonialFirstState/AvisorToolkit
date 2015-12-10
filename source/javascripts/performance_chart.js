@@ -1,5 +1,4 @@
 $(window).load(function () {
-    console.log($("#chartContainer"));
     var chart = new CanvasJS.Chart("chartContainer", {
         animationEnabled: true,
         axisY: {
@@ -85,8 +84,6 @@ $(window).load(function () {
             if(chart.options.data[key].name == id){
                 chart.options.data[key].visible = !chart.options.data[key].visible;
                 var cssClass = chart.options.data[key].visible ? "active" : "disabled";
-                console.log($("div#"+id));
-                console.log(cssClass);
                 $("div#" + id).attr('class', 'legend ' + cssClass);
                 chart.render();
                 return ;
