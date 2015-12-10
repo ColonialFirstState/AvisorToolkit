@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#all-assets').on('click', function(e) {
         e.preventDefault();
-        $("#managed-funds-chart").attr("src","/images/asset_classes/cash/1.svg");
+        $("#managed-funds-chart").attr("src","/images/managed_funds/all_assets.svg");
         $('#all-assets').addClass('selected');
         $('#property-mix').removeClass('selected');
         $('#share-mix').removeClass('selected');
@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     $('#property-mix').on('click', function(e) {
         e.preventDefault();
-        $("#managed-funds-chart").attr("src","/images/asset_classes/cash/1.svg");
+        $("#managed-funds-chart").attr("src","/images/managed_funds/property_mix.svg");
         $('#all-assets').removeClass('selected');
         $('#property-mix').addClass('selected');
         $('#share-mix').removeClass('selected');
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     $('#share-mix').on('click', function(e) {
         e.preventDefault();
-        $("#managed-funds-chart").attr("src","/images/asset_classes/cash/1.svg");
+        $("#managed-funds-chart").attr("src","/images/managed_funds/share_mix.svg");
         $('#all-assets').removeClass('selected');
         $('#property-mix').removeClass('selected');
         $('#share-mix').addClass('selected');
@@ -31,7 +31,7 @@ $(document).ready(function() {
 
     $('#cash-mix').on('click', function(e) {
         e.preventDefault();
-        $("#managed-funds-chart").attr("src","/images/asset_classes/cash/1.svg");
+        $("#managed-funds-chart").attr("src","/images/managed_funds/cash_mix.svg");
         $('#all-assets').removeClass('selected');
         $('#property-mix').removeClass('selected');
         $('#share-mix').removeClass('selected');
@@ -40,7 +40,7 @@ $(document).ready(function() {
     });
     $('#fixed-income-mix').on('click', function(e) {
         e.preventDefault();
-        $("#managed-funds-chart").attr("src","/images/asset_classes/cash/1.svg");
+        $("#managed-funds-chart").attr("src","/images/managed_funds/fixed_income_mix.svg");
         $('#all-assets').removeClass('selected');
         $('#property-mix').removeClass('selected');
         $('#share-mix').removeClass('selected');
