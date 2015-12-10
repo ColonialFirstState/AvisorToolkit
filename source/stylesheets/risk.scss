@@ -15,9 +15,12 @@
   border: 1px solid;
   border-color: #FF0094;
   height: 6em;
-  display: flex;
-  align-items: center;
-  padding: 0 1em;
+
+  .risk-rating {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 .risk .chart img {
