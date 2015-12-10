@@ -14,8 +14,31 @@
       .grid-5.chart
         %img.grid-12#risk-profile-chart{src: "/images/risk/conservative.svg"}
       .grid-4.rating
-        .grid-10.box
-          Volatility : Low
+        .gird-10.box
+          .grid-4.prefix-4.risk-rating.parent.centered
+            .grid-12.no-gutter-left.value
+              .grid-2.description.no-gutter-left
+                %p Risk
+              .grid-10.no-gutter
+                .rating-yes
+                  %p 1
+                .rating-no
+                  %p 2
+                .rating-no
+                  %p 3
+                .rating-no
+                  %p 4
+                .rating-no
+                  %p 5
+                .rating-no
+                  %p 6
+                .rating-no
+                  %p 7
+            .grid-12.no-gutter-left
+              .grid-10.prefix-2.no-gutter.index
+                .grid-4.low.no-gutter-left Low
+                .grid-4.medium Medium
+                .grid-4.high.no-gutter-right High
         .grid-12.chart-indicator
           .shares
             .indicator
