@@ -11,6 +11,7 @@
     %title= current_page.data.title || "Financial Advisor"
     = stylesheet_link_tag "grid", "all"
     = javascript_include_tag "all"
+    = javascript_include_tag "../libraries/canvasjs.min"
   %body{:class => page_classes}
     = menu
     .container.content

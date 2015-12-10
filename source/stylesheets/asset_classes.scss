@@ -69,3 +69,49 @@
   color: #313131;
   text-align: center;
 }
+
+#chartContainer {
+  height: 350px;
+  margin-top:80px;
+}
+
+.chart-legend {
+  height: 60px;
+  margin-left: 100px;
+}
+
+#aus-shares {
+  background-color: #279EEE;
+}
+
+#int-shares {
+  background-color: #204581;
+}
+
+#property {
+  background-color: #F58C23;
+}
+
+#fixed {
+  background-color: #08C288;
+}
+
+#cash {
+  background-color: #F14140;
+}
+
+#diversified {
+  background-color: #40F174;
+}
+
+.legend {
+  padding: 5px;
+  text-align: center;
+  color: white;
+  border-radius:5px;
+}
+
+.legend.disabled {
+  background: none !important;
+  color: black !important;
+}
