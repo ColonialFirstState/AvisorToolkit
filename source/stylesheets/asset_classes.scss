@@ -72,7 +72,13 @@
 
 #chartContainer {
   height: 350px;
-  margin-top:80px;
+}
+
+.xAxisLabels {
+  margin-top: -5px;
+  margin-left: 7%;
+  padding-right: 5%;
+  margin-bottom: 10px;
 }
 
 .chart-legend {
@@ -101,7 +107,7 @@
 }
 
 #diversified {
-  background-color: #40F174;
+  background-color: #2F4F4F;
 }
 
 .legend {
