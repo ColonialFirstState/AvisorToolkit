@@ -83,7 +83,6 @@
 
 .chart-legend {
   height: 60px;
-  margin-left: 100px;
 }
 
 #aus-shares {
@@ -116,6 +115,7 @@
   color: white;
   border-radius:5px;
   cursor: pointer !important;
+  min-width: 85px;
 }
 
 .legend.disabled {
