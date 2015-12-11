@@ -29,25 +29,27 @@ $(window).load(function () {
     var pieChart = new CanvasJS.Chart("pieChartContainer", chartOptions);
 
     pieChart.render();
-
     $('.canvasjs-chart-credit').hide();
 
     $('#conservative').click(function () {
         var pieChart = new CanvasJS.Chart("pieChartContainer", chartOptions);
         pieChart.options.data[0].dataPoints = [{y:30},{y:70}];
         pieChart.render();
+        $('.canvasjs-chart-credit').hide();
     });
 
     $('#balanced').click(function () {
         var pieChart = new CanvasJS.Chart("pieChartContainer", chartOptions);
         pieChart.options.data[0].dataPoints = [{y:70},{y:30}];
         pieChart.render();
+        $('.canvasjs-chart-credit').hide();
     });
 
     $('#growth').click(function () {
         var pieChart = new CanvasJS.Chart("pieChartContainer", chartOptions);
         pieChart.options.data[0].dataPoints = [{y:85},{y:15}];
         pieChart.render();
+        $('.canvasjs-chart-credit').hide();
     });
 
 });
