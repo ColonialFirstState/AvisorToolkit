@@ -4,14 +4,14 @@
       .logo.float-left
         %a{href: "/"}
           %img{src: "/images/nav/home.svg"}
-      .nav.float-left
-        .l1-item.float-left{class: ('selected' if page_classes.include?("risk"))}
+      .nav
+        .l1-item{class: ('selected' if page_classes.include?("risk"))}
           = link_to "RISK", "/risk/profiles"
-        .l1-item.float-left{class: ('selected' if page_classes.include?("asset_classes"))}
+        .l1-item{class: ('selected' if page_classes.include?("asset_classes"))}
           = link_to "ASSET CLASSES", "/asset_classes/cash"
-        .l1-item.float-left{class: ('selected' if page_classes.include?("managed_funds"))}
+        .l1-item{class: ('selected' if page_classes.include?("managed_funds"))}
           = link_to "MANAGED FUNDS", "/managed_funds"
-        .l1-item.float-left{class: ('selected' if page_classes.include?("super"))}
+        .l1-item{class: ('selected' if page_classes.include?("super"))}
           = link_to "SUPER", "/super"
   .second-level{class: ('hide' if !page_classes.include?("asset_classes"))}
     .interactable
