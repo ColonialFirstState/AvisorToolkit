@@ -5,10 +5,10 @@ Feature: Explain asset class cash
 
 
   Scenario: display cash
-    Then I see explaination for "Investing in cash"
+    Then I see explaination for "An example of investing in cash"
     And I see Asset Classes selected on top level menu
     And I see Cash selected on second level menu
 
   Scenario: clicking next
     Given I click on next
-    Then I see explaination for "Investing in fixed interest"
+    Then I see explaination for "An example of investing in fixed interest"

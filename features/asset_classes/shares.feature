@@ -5,10 +5,10 @@ Feature: Explain asset class property
 
 
   Scenario: display property
-    Then I see explaination for "Investing in shares"
+    Then I see explaination for "An example of investing in shares"
     And I see Asset Classes selected on top level menu
     And I see Shares selected on second level menu
 
   Scenario: clicking previous
     Given I click on previous
-    Then I see explaination for "Investing in property"
+    Then I see explaination for "An example of investing in property"
