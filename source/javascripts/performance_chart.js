@@ -3,6 +3,9 @@ $(window).load(function () {
 
         var chart = new CanvasJS.Chart("chartContainer", {
             animationEnabled: true,
+            toolTip: {
+                 enabled: false
+            },
             axisY: {
                 prefix: "$",
                 maximum: 70000,

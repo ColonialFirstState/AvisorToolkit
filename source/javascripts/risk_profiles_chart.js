@@ -12,6 +12,7 @@ $(window).load(function () {
                 {
                     type: "pie",
                     visible: true,
+                    highlightEnabled: false,
                     name: "aus-shares",
                     startAngle: -90,
                     markerType: "none",
