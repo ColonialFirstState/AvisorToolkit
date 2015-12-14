@@ -17,7 +17,7 @@ $(window).load(function () {
                     indexLabelFontSize: 30,
                     indexLabelFontWeight: 'bold',
                     indexLabelFontColor: "white",
-                    indexLabelFontFamily: "sans-serif",
+                    indexLabelFontFamily: "Open sans, sans-serif",
                     dataPoints: [{y: 30}, {y: 70}]
                 }
             ]
