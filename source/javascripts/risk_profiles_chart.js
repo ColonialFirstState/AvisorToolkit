@@ -15,7 +15,6 @@ $(window).load(function () {
                     indexLabel: "#percent%",
                     indexLabelPlacement: "inside",
                     indexLabelFontSize: 30,
-                    indexLabelFontWeight: 'bold',
                     indexLabelFontColor: "white",
                     indexLabelFontFamily: "Open sans, sans-serif",
                     dataPoints: [{y: 30}, {y: 70}]
