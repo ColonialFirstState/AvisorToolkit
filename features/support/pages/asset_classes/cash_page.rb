@@ -1,6 +1,5 @@
 require_relative '../../base_page'
-require_relative 'explainer_contents'
-#require_relative 'fixed_income_page'
+require_relative '../explainer_contents'
 
 module AssetClasses
   class CashPage < BasePage

@@ -21,6 +21,11 @@ class BasePage
     self
   end
 
+  def go_to_risk_page
+    click_on('Risk')
+    Risk::RiskPage.new()
+  end
+
   def click_asset_classes
     click_on('ASSET CLASSES')
     self

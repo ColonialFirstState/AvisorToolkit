@@ -1,5 +1,5 @@
 require_relative '../../base_page'
-require_relative 'explainer_contents'
+require_relative '../explainer_contents'
 
 module AssetClasses
   class PropertyPage < BasePage
