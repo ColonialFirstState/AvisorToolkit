@@ -5,6 +5,9 @@ $(window).load(function () {
             animationEnabled: true,
             animationDuration: 600,
             colorSet: "customColorSet1",
+            toolTip: {
+                enabled: false
+            },
             data: [//array of dataSeries
                 {
                     type: "pie",
