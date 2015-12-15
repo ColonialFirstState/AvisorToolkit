@@ -26,16 +26,16 @@
                     <path d="M473.804518,27.5026166 C402.99172,27.5026166 345.586354,84.9478751 345.586354,155.809883 L473.804518,155.809883 L473.804518,27.5026166" id="Fill-2-Copy-4" fill="#ADBAD2" sketch:type="MSShapeGroup" transform="translate(409.695436, 91.656250) rotate(-315.000000) translate(-409.695436, -91.656250) "></path>
                     <path d="M564.805008,246.809393 C564.805008,175.947926 507.399203,118.503106 436.585864,118.503106 L436.585864,246.809393 L564.805008,246.809393" id="Fill-2-Copy-5" fill="#279EEE" sketch:type="MSShapeGroup" transform="translate(500.695436, 182.656250) rotate(-315.000000) translate(-500.695436, -182.656250) "></path>
                     <path d="M345.586354,337.809883 C416.399152,337.809883 473.804518,280.364625 473.804518,209.502617 L345.586354,209.502617 L345.586354,337.809883" id="Fill-2-Copy-3" fill="#204581" sketch:type="MSShapeGroup" transform="translate(409.695436, 273.656250) rotate(-315.000000) translate(-409.695436, -273.656250) "></path>
-                    <text id="PROPERTY" sketch:type="MSTextLayer" font-family="Open Sans" font-size="8.90816327" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                    <text id="PROPERTY" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="8.90816327" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                         <tspan x="461.741699" y="200.960814">PROPERTY</tspan>
                     </text>
-                    <text id="FIXED" sketch:type="MSTextLayer" font-family="Open Sans" font-size="8.90816327" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                    <text id="FIXED" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="8.90816327" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                         <tspan x="395.83302" y="116.960814">FIXED</tspan>
                     </text>
-                    <text id="CASH" sketch:type="MSTextLayer" font-family="Open Sans" font-size="8.90816327" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                    <text id="CASH" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="8.90816327" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                         <tspan x="314.876289" y="199.960814">CASH</tspan>
                     </text>
-                    <text id="SHARES" sketch:type="MSTextLayer" font-family="Open Sans" font-size="8.90816327" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                    <text id="SHARES" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="8.90816327" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                         <tspan x="391.2263" y="274.960814">SHARES</tspan>
                     </text>
                     <path d="M319.318137,176.39034 L334.794152,176.39034 L334.794152,185.132526 L319.318137,185.132526 L319.318137,176.39034 Z M318,186.560937 L336.112289,186.560937 L336.112289,174.960814 L318,174.960814 L318,186.560937 Z" id="Fill-1" fill="#F5BC23" sketch:type="MSShapeGroup"></path>
