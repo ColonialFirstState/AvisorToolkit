@@ -38,17 +38,21 @@ Rack starts out of config.ru which serves the static content built onto the buil
 
 ### Running specs
 Specs for this project are written in 
-  * cucumber
   * capybara
   * rack-test
   * rspec
 
 There are no traditional rspec components to this app as it has very limited backend activities.
 
-To run the specs run
+To run all of the specs run
 
 ```bash
-bundle exec cucumber
+bundle exec rake
+```
+
+To run single spec run
+```bash
+bundle exec rake spec SPEC=/path-to-your-spec/
 ```
 
 The features are present in features directory. The specs are written with page objects which either return other page objects are respective text based on the spec.
