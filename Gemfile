@@ -8,8 +8,9 @@ gem 'gridle'
 gem 'warden'
 
 group :development do
-  gem 'rspec', '~> 2.14.1'
-  gem 'capybara', '~> 2.4.4'
-  gem 'cucumber', '~> 2.1.0'
-  gem 'middleman-livereload', '~> 3.1.0'
+  gem 'rake'
+  gem 'rack-test'
+  gem 'rspec'
+  gem 'capybara'
+  gem 'selenium-webdriver'
 end

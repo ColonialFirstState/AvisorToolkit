@@ -42,9 +42,10 @@ page "/image_galary.html", :layout => 'image_galary.haml'
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-configure :development do
-   activate :livereload
-end
+# comment this as it never worked!
+# configure :development do
+#    activate :livereload
+# end
 
 # Methods defined in the helpers block are available in templates
 # helpers do
