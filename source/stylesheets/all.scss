@@ -7,11 +7,16 @@
 @import 'managed_funds';
 @import 'super';
 
+html {
+  min-height: 100%;
+  position: relative;
+}
+
 body {
-    background: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    height: 100vh;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  margin-bottom: 100px !important;
 }
 
 .content {
@@ -29,7 +34,8 @@ h1 {
   text-align: center;
   padding: 0 5em;
   position: absolute;
-  bottom: 1em;
+  height: 100px;
+  bottom: 0;
 }
 
 .right {
@@ -106,17 +112,17 @@ h1 {
 }
 
 #rating-enabled {
-    background: #7CC021;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+  background: #7CC021;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
 
 #rating-disabled {
-    background: #E2E3E5;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+  background: #E2E3E5;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
 
 .previous img {
