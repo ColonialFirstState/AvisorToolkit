@@ -4,7 +4,7 @@ describe 'Login' do
 
     it 'should direct to home page' do
       visit 'http://localhost:8081/login'
-      fill_in('password', :with => 'hello')
+      fill_in('password', :with => 'test123')
       find('.login-button').click
       expect(page).to have_content('Wealth iQ')
     end
