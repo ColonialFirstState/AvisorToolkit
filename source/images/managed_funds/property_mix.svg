@@ -16,14 +16,14 @@
                         <path d="M269.011864,30.2266192 C241.384919,11.4776986 208.149326,0.515942206 172.373661,0.515942206 C136.597995,0.515942206 103.08758,11.4776986 75.4606353,30.2266192 C30.1312411,61.4629182 0.00650466644,114.431216 0.00650466644,172.714845 L172.347642,172.714845 L269.011864,30.2266192 Z" id="Fill-3" fill="#0C8EE6"></path>
                     </g>
                 </g>
-                <text id="COMMERCIAL-BUSINESSE" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="COMMERCIAL-BUSINESSE" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="124.008594" y="316.5">COMMERCIAL </tspan>
                     <tspan x="129.391602" y="331.5">BUSINESSES</tspan>
                 </text>
-                <text id="APARTMENTS" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="APARTMENTS" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="106.950195" y="176.5">APARTMENTS</tspan>
                 </text>
-                <text id="SHOPPING-CENTRES" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="SHOPPING-CENTRES" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="262.838086" y="223.833984">SHOPPING </tspan>
                     <tspan x="268.691016" y="238.833984">CENTRES</tspan>
                 </text>

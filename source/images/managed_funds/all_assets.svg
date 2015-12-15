@@ -17,16 +17,16 @@
                     <path d="M172.99934,0.279339026 C172.99934,95.6697753 250.329496,172.99934 345.720661,172.99934 L345.720661,0.279339026 L172.99934,0.279339026" id="Fill-2-Copy-5" fill="#279EEE" transform="translate(259.360001, 86.639340) rotate(-180.000000) translate(-259.360001, -86.639340) "></path>
                     <path d="M173,173.00066 C173,268.391096 250.330156,345.720661 345.721321,345.720661 L345.721321,173.00066 L173,173.00066" id="Fill-2-Copy-3" fill="#204581" transform="translate(259.360660, 259.360660) rotate(-90.000000) translate(-259.360660, -259.360660) "></path>
                 </g>
-                <text id="PROPERTY" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="PROPERTY" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="315.979883" y="269.5">PROPERTY</tspan>
                 </text>
-                <text id="FIXED" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="FIXED" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="226.608399" y="156">FIXED</tspan>
                 </text>
-                <text id="CASH" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="CASH" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="117.133008" y="268">CASH</tspan>
                 </text>
-                <text id="SHARES" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="SHARES" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="220.538867" y="368.5">SHARES</tspan>
                 </text>
                 <g transform="translate(117.000000, 220.000000)" fill="#F5BC23" sketch:type="MSShapeGroup">

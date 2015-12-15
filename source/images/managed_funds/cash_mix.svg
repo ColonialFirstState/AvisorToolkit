@@ -12,13 +12,13 @@
                     <path d="M172.911885,172.965477 L274.222847,312.842962 C197.211212,368.969382 89.4228074,351.844248 33.4701556,274.591951 C-0.100570785,228.24079 -8.66078177,174.025837 8.98816838,119.536578 L172.911885,172.965477" id="Fill-2" fill="#F87C09"></path>
                     <path d="M172.911885,172.965477 L172.911885,0.0672211644 C268.103161,0.0672211644 345.271517,77.4756446 345.271517,172.965477 C345.271517,230.258509 320.429612,279.166243 274.222847,312.842962 L172.911885,172.965477" id="Fill-3" fill="#F58C23"></path>
                 </g>
-                <text id="BANK-THREE" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="BANK-THREE" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="74.3515627" y="259.5">BANK THREE</tspan>
                 </text>
-                <text id="BANK-ONE" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="BANK-ONE" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="74.1146486" y="110">BANK ONE</tspan>
                 </text>
-                <text id="BANK-TWO" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="BANK-TWO" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="209.706445" y="168.65625">BANK TWO</tspan>
                 </text>
                 <g id="banking2-(1)" transform="translate(94.000000, 63.000000)" fill="#FFFFFF" sketch:type="MSShapeGroup">

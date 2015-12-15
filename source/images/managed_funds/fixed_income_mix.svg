@@ -12,15 +12,15 @@
                     <path d="M172.658252,0.516794034 L172.658252,345.561239 C268.760486,345.561239 345.516852,268.320223 345.516852,173.039016 C345.516852,77.7578101 268.760486,0.516794034 172.658252,0.516794034" id="Fill-2" fill="#A6B4CE"></path>
                     <path d="M269.456006,30.2765238 C241.783449,11.4966484 208.492983,0.516794034 172.658252,0.516794034 C136.82352,0.516794034 103.257779,11.4966484 75.5852219,30.2765238 C30.1809882,61.5643944 0.00651540573,114.620143 0.00651540573,173 L172.63219,173 L269.456006,30.2765238 Z" id="Fill-3" fill="#B2C2DD"></path>
                 </g>
-                <text id="ASSET-BACKED-BONDS" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="ASSET-BACKED-BONDS" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="195.895738" y="258.692392">ASSET-BACKED </tspan>
                     <tspan x="219.679527" y="273.692392">BONDS</tspan>
                 </text>
-                <text id="GOVERNMENT" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="GOVERNMENT" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="46.8957377" y="230.692392">GOVERNMENT</tspan>
                     <tspan x="69.495347" y="245.692392">BONDS</tspan>
                 </text>
-                <text id="CORPORATE" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="CORPORATE" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" line-spacing="15" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="144.371289" y="108.692392">CORPORATE</tspan>
                     <tspan x="159.639649" y="123.692392">BONDS</tspan>
                 </text>
