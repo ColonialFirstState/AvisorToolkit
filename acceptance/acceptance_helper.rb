@@ -9,7 +9,7 @@ require File.expand_path '../../apps/advisor', __FILE__
 
 Capybara.default_driver = :selenium
 
-ENV['PASS_DIGEST'] = "DCRzTXv1lU8I5b/kggsLL2PajWWN83ydUAgEheA0tyE="
+ENV['PASS_DIGEST'] = "7NcYcNGWMxapfjrDQIyYNa2M8PPBvHA1J8MCZVNPda4="
 puts "generating"
 `bundle exec middleman build`
 
