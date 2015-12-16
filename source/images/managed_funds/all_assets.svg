@@ -12,24 +12,24 @@
                     <path d="M26.9670352,31.7735224 L16.40625,21.3865258 L26.9670352,11 L27.5136914,11.5701243 L17.5339609,21.3865258 L27.5136914,31.2033981 L26.9670352,31.7735224 Z" id="arrow395" fill="#313131" transform="translate(21.984375, 21.828125) scale(-1, 1) translate(-21.984375, -21.828125) "></path>
                 </g>
                 <g transform="translate(245.000000, 245.000000) rotate(-315.000000) translate(-245.000000, -245.000000) translate(72.000000, 72.000000)" sketch:type="MSShapeGroup">
-                    <path d="M0.278679272,173.00066 C0.278679272,268.391096 77.608835,345.720661 173,345.720661 L173,173.00066 L0.278679272,173.00066" id="Fill-2-Copy-2" fill="#F58C23"></path>
-                    <path d="M0.279998779,0.279339026 C0.279998779,95.6697753 77.6101545,172.99934 173.00132,172.99934 L173.00132,0.279339026 L0.279998779,0.279339026" id="Fill-2-Copy-4" fill="#ADBAD2" transform="translate(86.640659, 86.639340) rotate(-270.000000) translate(-86.640659, -86.639340) "></path>
+                    <path d="M0.278679272,173.00066 C0.278679272,268.391096 77.608835,345.720661 173,345.720661 L173,173.00066 L0.278679272,173.00066" id="Fill-2-Copy-2" fill="#061A40"></path>
+                    <path d="M0.279998779,0.279339026 C0.279998779,95.6697753 77.6101545,172.99934 173.00132,172.99934 L173.00132,0.279339026 L0.279998779,0.279339026" id="Fill-2-Copy-4" fill="#00635D" transform="translate(86.640659, 86.639340) rotate(-270.000000) translate(-86.640659, -86.639340) "></path>
                     <path d="M172.99934,0.279339026 C172.99934,95.6697753 250.329496,172.99934 345.720661,172.99934 L345.720661,0.279339026 L172.99934,0.279339026" id="Fill-2-Copy-5" fill="#279EEE" transform="translate(259.360001, 86.639340) rotate(-180.000000) translate(-259.360001, -86.639340) "></path>
                     <path d="M173,173.00066 C173,268.391096 250.330156,345.720661 345.721321,345.720661 L345.721321,173.00066 L173,173.00066" id="Fill-2-Copy-3" fill="#204581" transform="translate(259.360660, 259.360660) rotate(-90.000000) translate(-259.360660, -259.360660) "></path>
                 </g>
-                <text id="PROPERTY" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="PROPERTY" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="315.979883" y="269.5">PROPERTY</tspan>
                 </text>
-                <text id="FIXED" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="FIXED" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="226.608399" y="156">FIXED</tspan>
                 </text>
-                <text id="CASH" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="CASH" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="117.133008" y="268">CASH</tspan>
                 </text>
-                <text id="SHARES" sketch:type="MSTextLayer" font-family="Open Sans, sans-serif" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
+                <text id="SHARES" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" sketch:alignment="middle" letter-spacing="0.599999964" fill="#FFFFFF">
                     <tspan x="220.538867" y="368.5">SHARES</tspan>
                 </text>
-                <g transform="translate(117.000000, 220.000000)" fill="#F5BC23" sketch:type="MSShapeGroup">
+                <g transform="translate(117.000000, 220.000000)" fill="#576D97" sketch:type="MSShapeGroup">
                     <path d="M6.12077769,16.0737872 L26.9681937,16.0737872 L26.9681937,27.8421152 L6.12077769,27.8421152 L6.12077769,16.0737872 Z M4.34514339,29.7649759 L28.743828,29.7649759 L28.743828,14.1494254 L4.34514339,14.1494254 L4.34514339,29.7649759 Z" id="Fill-1"></path>
                     <path d="M22.0890113,14.1494254 L24.5854339,16.8588428 C24.5688003,16.959414 24.5313748,17.0464756 24.5313748,17.1515499 C24.5313748,18.0146607 25.1759258,18.7126547 25.9715653,18.7126547 C26.0685945,18.7126547 26.1503762,18.6706249 26.2418609,18.6526122 L28.743828,21.3560253 L28.743828,14.1494254 L22.0890113,14.1494254 Z" id="Fill-2"></path>
                     <path d="M25.1911733,21.9609533 C25.1911733,22.8165588 24.5466222,23.5145528 23.7509828,23.5145528 C22.9553434,23.5145528 22.3107923,22.8165588 22.3107923,21.9609533 C22.3107923,21.0978426 22.9553434,20.4013497 23.7509828,20.4013497 C24.5466222,20.4013497 25.1911733,21.0978426 25.1911733,21.9609533 L25.1911733,21.9609533 Z" id="Fill-3"></path>
@@ -47,9 +47,11 @@
                     <path d="M0,13.0497152 C0,13.0497152 0.894166667,14.6824364 2.85184975,13.0497152 L14.5369823,3.27615758 L25.4918788,12.9921212 C27.7516818,14.6034121 28.6038497,12.9921212 28.6038497,12.9921212 L14.5369823,0.393781818 L0,13.0497152 Z" id="Fill-3-Copy"></path>
                     <path d="M25.222274,3.25472727 L22.4070038,3.25472727 L22.4178422,6.63535758 L25.222274,8.99001212 L25.222274,3.25472727 Z" id="Fill-5-Copy"></path>
                 </g>
-                <path d="M236.964675,116.072681 L230,136.925457 L233.520249,136.925457 L238.570851,116.072681 L236.964675,116.072681 Z" id="Fill-1" fill="#D6E1F5" sketch:type="MSShapeGroup"></path>
-                <path d="M252.020788,116.072681 L250.41432,116.072681 L255.465141,136.925457 L258.985463,136.925457 L252.020788,116.072681 Z" id="Fill-2" fill="#D6E1F5" sketch:type="MSShapeGroup"></path>
-                <path d="M239.944809,116.072681 L234.904798,136.925457 L242.362766,136.925457 L242.568249,133.856628 L246.417214,133.856628 L246.622698,136.925457 L254.080665,136.925457 L249.040655,116.072681 L239.944809,116.072681 Z M243.829421,116.311798 L245.15597,116.311798 L245.365982,119.235862 L243.619116,119.235862 L243.829421,116.311798 Z M243.409103,122.160149 L245.576287,122.160149 L245.786592,125.084213 L243.198872,125.084213 L243.409103,122.160149 Z M242.778554,130.932564 L242.988567,128.0085 L245.996897,128.0085 L246.207202,130.932564 L242.778554,130.932564 Z" id="Fill-3" fill="#D6E1F5" sketch:type="MSShapeGroup"></path>
+                <g id="Fill-1-+-Fill-2-+-Fill-3" transform="translate(230.000000, 116.000000)" fill="#13AEA4" sketch:type="MSShapeGroup">
+                    <path d="M6.96467506,0.0726808511 L0,20.9254574 L3.52024937,20.9254574 L8.57085139,0.0726808511 L6.96467506,0.0726808511 Z" id="Fill-1"></path>
+                    <path d="M22.0207884,0.0726808511 L20.4143199,0.0726808511 L25.4651411,20.9254574 L28.9854635,20.9254574 L22.0207884,0.0726808511 Z" id="Fill-2"></path>
+                    <path d="M9.94480856,0.0726808511 L4.90479849,20.9254574 L12.3627657,20.9254574 L12.5682494,17.8566277 L16.4172141,17.8566277 L16.6226977,20.9254574 L24.080665,20.9254574 L19.0406549,0.0726808511 L9.94480856,0.0726808511 Z M13.8294207,0.311797872 L15.1559698,0.311797872 L15.3659824,3.2358617 L13.6191159,3.2358617 L13.8294207,0.311797872 Z M13.4091033,6.16014894 L15.5762872,6.16014894 L15.7865919,9.08421277 L13.1988715,9.08421277 L13.4091033,6.16014894 Z M12.7785542,14.9325638 L12.9885668,12.0085 L15.9968967,12.0085 L16.2072015,14.9325638 L12.7785542,14.9325638 Z" id="Fill-3"></path>
+                </g>
                 <rect id="Rectangle-266-Copy-4" fill="#6D95C6" sketch:type="MSShapeGroup" transform="translate(246.500000, 349.000000) rotate(-270.000000) translate(-246.500000, -349.000000) " x="246" y="333" width="1" height="32" rx="1"></rect>
                 <g transform="translate(231.000000, 321.000000)" fill="#6D95C6" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-266" x="24" y="0" width="6" height="25" rx="1"></rect>
