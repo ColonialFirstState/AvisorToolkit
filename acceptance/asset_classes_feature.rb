@@ -29,19 +29,16 @@ describe 'Asset Classes Page' do
       it 'should navigate to property page when click property' do
         click_link('Property')
         expect(current_url).to include('/asset_classes/property')
-        expect(find('.explaination .title p').text).to eq('An example of investing in property')
       end
 
       it 'should navigate to shares page when click shares' do
         click_link('Shares')
         expect(current_url).to include('/asset_classes/shares')
-        expect(find('.explaination .title p').text).to eq('An example of investing in shares')
       end
 
       it 'should navigate to performance page when click performance' do
         click_link('Performance')
         expect(current_url).to include('/asset_classes/performance')
-        expect(find('.explaination .title p').text).to eq('Performance of Asset Classes')
       end
 
     end
