@@ -31,7 +31,7 @@ describe 'Performance Page' do
       expect(find('.explaination .title p').text).to eq('Performance of Asset Classes')
     end
 
-    it 'should have five asset buttons' do
+    it 'should have six asset buttons with correct title' do
       buttons_title = all('.legend').map {|button| button.text}
 
       expect(buttons_title).to eq(['Aus Shares', 'Int Shares', 'Property', 'Fixed', 'Cash', 'Diversified'])

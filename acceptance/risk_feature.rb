@@ -13,6 +13,10 @@ describe 'Risk Page' do
     it 'should select Risk tab' do
       expect(find('.nav .selected a').text).to eq('RISK')
     end
+
+    it 'should hide the second level' do
+      page.should have_css('div.second-level', :visible => false)
+    end
   end
 
   describe 'Buttons' do
