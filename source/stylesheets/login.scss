@@ -24,15 +24,24 @@ body {
   background: #39393A;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .title p {
   margin: 0;
+  position: relative;
 }
 
 .info {
   padding-top: 2.4em;
   padding-bottom: 0.3em;
+  background: #fff;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0px 3px 0px #C2C7D0;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .password-label {
@@ -43,10 +52,14 @@ body {
 }
 
 .password-input {
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: .85rem;
+  font-weight: 100;
   text-align: left;
   margin-bottom: 0.5em;
+  border-radius: 3px;
+  border: none;
+  background: #EDEAF5;
+  height: 2.4rem;
 }
 
 .login-button {
@@ -54,6 +67,8 @@ body {
   text-align: center;
   height: 2.4rem;
   margin-bottom: 0.5em;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px #C2C7D0;
 }
 
 .login-button:hover {
@@ -66,12 +81,22 @@ body {
 
 .login-button p {
   color: #FFFFFF;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   margin: 0;
-  padding-top: 0.5em;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
 }
 
 .login-button input {
   visibility: hidden;
+}
+
+.login-box {
+  width: 341px;
+  margin: 0 auto;
+  position: relative;
+  top: 30%;
 }

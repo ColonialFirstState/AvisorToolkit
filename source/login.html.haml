@@ -8,13 +8,13 @@
     = stylesheet_link_tag "grid", "login"
     = javascript_include_tag "all"
   %body
-    %div.grid-4.login.no-gutter-left.no-gutter-right.pane.push-4
-      %div.grid-12.title
+    %div.login-box
+      %div.title
         %p= "Login"
       %div.grid-12.info
         %form{action: 'login', method: "post"}
           %label.grid-12.password-label.no-gutter-left{for: "password"} Password
-          %input.grid-12.password-input{type: 'password', name: 'password'}
+          %input.grid-12.password-input{type: 'password', name: 'password', placeholder: "Enter your password"}
           %div.grid-12.login-button{onClick:"javascript:document.forms[0].submit();"}
             %p= "Login"
             %input.grid-12.hidden{type: "submit", value: "Login"}
