@@ -43,10 +43,20 @@ h1 {
   font-weight: 400;
   font-size: 0.65em;
   text-align: center;
-  padding: 0 5em;
   position: absolute;
   height: 100px;
   bottom: 0;
+  p {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    .disclaimer {
+      p {
+        padding: 0 13%;
+      }
+    }
 }
 
 .right {
