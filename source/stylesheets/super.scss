@@ -11,3 +11,41 @@
   margin: 3% 0;
   text-align: center;
 }
+
+// .super .explaination .visualisation {
+//   padding-top: 4em;
+// }
+//
+//
+// @media screen and (min-height: 783px) {
+//   .super .explaination .visualisation {
+//     padding-top: 5em;
+//   }
+// }
+
+.super .explaination .visualisation img {
+  height: 10em;
+}
+
+.super .explaination .st1{
+  padding-top: 1em;
+  font-size: 1.02em;
+  font-weight: 100;
+  color: #000;
+  text-align: center;
+  line-height: 1.5em;
+
+  p {
+    padding: 0;
+    margin-top: 3%
+  }
+}
+
+.super .visualisation .sub-step p {
+  padding: 0;
+  margin-top: 1em;
+}
+
+.super .step-title {
+  font-weight: 600;
+}
