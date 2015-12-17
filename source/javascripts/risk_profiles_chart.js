@@ -18,9 +18,10 @@ $(window).load(function () {
                     markerType: "none",
                     indexLabel: "#percent%",
                     indexLabelPlacement: "inside",
-                    indexLabelFontSize: 30,
+                    indexLabelFontSize: 28,
                     indexLabelFontColor: "white",
                     indexLabelFontFamily: "Open sans, sans-serif",
+                    indexLabelFontWeight: 100,
                     dataPoints: [{y: 30}, {y: 70}]
                 }
             ]
