@@ -47,8 +47,12 @@
   color: #1651BA;
 }
 
-.menu .first-level .nav a:hover {
-  font-weight: 800;
+.menu .first-level .nav .l1-item {
+  &:hover {
+    a {
+      color: #999B9D;
+    }
+  }
 }
 
 .menu .first-level .nav .l1-item a {
@@ -58,13 +62,12 @@
   font-weight: 600;
   vertical-align: middle;
   text-decoration: none;
-  // margin-right: 5px;
 }
 
 .menu .second-level {
   width: 100%;
   background: #D5DCE9;
-  height: 2.4em;
+  height: 2.5em;
 }
 
 .menu .second-level .interactable {
@@ -103,7 +106,7 @@
   width: 1px;
   background-color: #E3E6EA;
   height: 0.9em;
-  margin-top: 0.9%;
+  margin-top: .7em;
   border-left: 1px solid #BAC0CA;
   display: inline-block;
 }
@@ -113,13 +116,14 @@
   font-size: 0.75em;
   color: #000000;
   font-weight: 400;
-  vertical-align: middle;
+  vertical-align: top;
   text-decoration: none;
 }
 
 
 .menu .second-level .nav a:hover {
-  font-weight: 600;
+  // font-weight: 600;
+  color: #999B9D;
 }
 
 .menu .second-level .nav .l2-item.selected a {
