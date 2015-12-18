@@ -30,19 +30,20 @@
 }
 
 .risk .buttons .button {
-  background-color: #E8EBF3;
+  background-color: #eff2f7;
+  background-image: -webkit-linear-gradient(top, #eff2f7, #d7deea);
   color: #000000;
   width: 68%;
   margin: 0 auto;
   border-radius: 4px;
-  height: 2em;
-  padding-top: 0.6em;
+  height: 2.4em;
+  padding-top: 1em;
   box-shadow: 0px 2px 0px #A2A6AF;
   font-weight: bold;
   font-size: small;
   text-align: center;
-  margin-bottom: 1em;
-  min-width: 110px;
+  margin-bottom: 1.3em;
+  min-width: 172px;
 
   &:hover {
     cursor: pointer;
@@ -50,18 +51,20 @@
 }
 
 .risk .buttons .button.selected {
-    background-color: #2A2A2A;
+  background-color: #2A2A2A;
+  background-image: -webkit-linear-gradient(top, #2A2A2A, #2A2A2A);
     color: #FFFFFF;
 }
 
 .risk .chart-indicator {
   padding-top: 40%;
+  padding-left: 0;
 }
 
 .risk .chart-indicator .indicator {
   display: inline-block;
-  height: 0.6em;
-  width: 0.6em;
+  height: .7em;
+  width: .7em;
   background: #204581;
   border-radius: 100%;
   margin-right: 0.5em;
@@ -78,13 +81,92 @@
 
 .risk .chart-indicator .cash {
   margin-top: 1em;
-  padding-left: 10%;
-}
-
-.risk .chart-indicator .shares {
-  padding-left: 10%;
 }
 
 #pieChartContainer {
   margin-top: -30px;
+}
+
+.explaination .risk-rating {
+  display: inline-block;
+  list-style: none;
+  font-size: 0.625em;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #D2D4D8;
+  text-align: center;
+  width: 22em;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.explaination .rating {
+  padding-left: 3%;
+}
+.explaination .rating .value {
+  vertical-align: middle;
+  margin-top: 0.5em;
+}
+
+.explaination .rating .description {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  color: #204581;
+}
+
+.explaination .rating .value p {
+  vertical-align: middle;
+  margin: 0.4em 0 0 0;
+}
+
+.explaination .rating .value .rating-yes {
+  float: left;
+  width: 13.6%;
+  height: 2.2em;
+  font-size: 1.3em;
+  margin: 0.5% 0.3% 0.5% 0.3%;
+  color: #FFFFFF;
+  background: #F58C23;
+  vertical-align: middle;
+}
+
+.explaination .rating .value .rating-no {
+  float: left;
+  width: 13.6%;
+  height: 2.2em;
+  font-size: 1.3em;
+  margin: 0.5% 0.3% 0.5% 0.3%;
+  background: #EDEFF4;
+  color: #A5ACB8;
+}
+
+.explaination .rating .low {
+  text-align: left;
+  color: #204581;
+}
+
+.explaination .rating .medium {
+  text-align: right;
+  color: #204581;
+}
+
+.explaination .rating .high {
+  text-align: right;
+  color: #204581;
+}
+
+#rating-enabled {
+  background: #7CC021;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+#rating-disabled {
+  background: #E2E3E5;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }

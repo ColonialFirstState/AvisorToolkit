@@ -27,24 +27,34 @@
   height: 50vh;
 }
 
+.managed-funds .chart {
+  display: inline-block;
+  width: 50%;
+}
+
 .managed-funds .buttons {
-  padding-top: 10vh;
+  padding-top: 6vh;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 9%;
+  padding-right: 3%;
 }
 
 .managed-funds .buttons .button {
-  background-color: #E8EBF3;
+  background-color: #eff2f7;
+  background-image: -webkit-linear-gradient(top, #eff2f7, #d7deea);
   color: #000000;
   width: 68%;
   margin: 0 auto;
   border-radius: 4px;
-  height: 2em;
-  padding-top: 0.6em;
+  height: 2.4em;
+  padding-top: 1em;
   box-shadow: 0px 2px 0px #A2A6AF;
   font-weight: bold;
   font-size: small;
   text-align: center;
-  margin-bottom: 1em;
-  min-width: 150px;
+  margin-bottom: 1.3em;
+  min-width: 172px;
 
   &:hover {
     cursor: pointer;
@@ -53,6 +63,7 @@
 
 .managed-funds .buttons .button.selected {
   background-color: #2A2A2A;
+  background-image: -webkit-linear-gradient(top, #2A2A2A, #2A2A2A);
   color: #FFFFFF;
 }
 
