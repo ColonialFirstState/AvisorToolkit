@@ -23,6 +23,7 @@ $(window).load(function () {
             axisX: {
                 tickLength: 10,
                 interval: 120,
+                maximum: 245,
                 valueFormatString: " ",
                 lineColor: '#E9EDF4',
                 lineThickness: 1,
