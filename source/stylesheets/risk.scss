@@ -27,13 +27,15 @@
 
 .risk .buttons {
   padding-top: 6em;
+  padding-left: 5%;
+  padding-right: 0;
 }
 
 .risk .buttons .button {
   background-color: #eff2f7;
   background-image: -webkit-linear-gradient(top, #eff2f7, #d7deea);
   color: #000000;
-  width: 68%;
+  width: 55%;
   margin: 0 auto;
   border-radius: 4px;
   height: 2.4em;
@@ -102,7 +104,9 @@
 }
 
 .explaination .rating {
-  padding-left: 3%;
+  padding-top: 7%;
+  padding-right: 0;
+  padding-left: 0;
 }
 .explaination .rating .value {
   vertical-align: middle;

@@ -10,17 +10,39 @@ $(window).load(function () {
                 prefix: "$",
                 maximum: 70000,
                 title: "Return on $10,000 invested ($AUD)",
-                titleFontSize: 12
+                titleFontSize: 12,
+                gridThickness: 1,
+                gridColor: '#E9EDF4',
+                lineColor: '#E9EDF4',
+                lineThickness: 1,
+                tickColor: '#E9EDF4',
+                tickThickness: 1,
+                titleFontFamily: "Open Sans",
+                labelFontFamily: "Open Sans"
             },
             axisX: {
                 tickLength: 10,
                 interval: 120,
-                valueFormatString: " "
-
+                valueFormatString: " ",
+                lineColor: '#E9EDF4',
+                lineThickness: 1,
+                tickColor: '#E9EDF4',
+                tickThickness: 1,
+                titleFontFamily: "Open Sans",
+                labelFontFamily: "Open Sans",
+                labelFormatter: function ( e ) {
+                  if (e.value === 0)
+                    return "1995";
+                  if (e.value === 120)
+                    return "2005";
+                  if (e.value === 240)
+                    return "2015";
+                }
             },
             data: [//array of dataSeries
                 {
                     type: "line",
+                    lineThickness: 1,
                     visible: true,
                     color: "#279EEE",
                     name: "aus-shares",
@@ -272,6 +294,7 @@ $(window).load(function () {
                 },
                 {
                     type: "line",
+                    lineThickness: 1,
                     visible: true,
                     name: "int-shares",
                     markerType: "none",
@@ -522,6 +545,7 @@ $(window).load(function () {
                 },
                 {
                     type: "line",
+                    lineThickness: 1,
                     visible: true,
                     name: "property",
                     markerType: "none",
@@ -769,6 +793,7 @@ $(window).load(function () {
                 },
                 {
                     type: "line",
+                    lineThickness: 1,
                     visible: true,
                     name: "fixed",
                     color: "#08C288",
@@ -1019,6 +1044,7 @@ $(window).load(function () {
                 },
                 {
                     type: "line",
+                    lineThickness: 1,
                     visible: true,
                     name: "cash",
                     color: "#F14140",
@@ -1269,6 +1295,7 @@ $(window).load(function () {
                 },
                 {
                     type: "line",
+                    lineThickness: 1,
                     visible: true,
                     name: "diversified",
                     color: "#2F4F4F",
