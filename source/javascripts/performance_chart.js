@@ -45,7 +45,7 @@ $(window).load(function () {
                     type: "line",
                     lineThickness: 1,
                     visible: true,
-                    color: "#279EEE",
+                    color: "#225ab7",
                     name: "aus-shares",
                     markerType: "none",
                     dataPoints: [
@@ -550,7 +550,7 @@ $(window).load(function () {
                     visible: true,
                     name: "property",
                     markerType: "none",
-                    color: "#F58C23",
+                    color: "#279eee",
                     dataPoints: [
                         {x: 0, y: 10000.0}, {x: 1, y: 10269.75945017182}, {x: 2, y: 10149.85272459499}, {
                             x: 3,
@@ -797,7 +797,7 @@ $(window).load(function () {
                     lineThickness: 1,
                     visible: true,
                     name: "fixed",
-                    color: "#08C288",
+                    color: "#f58c23",
                     markerType: "none",
                     dataPoints: [
                         {x: 0, y: 10000.0}, {x: 1, y: 10420.83467143201}, {x: 2, y: 10394.32935306848}, {
@@ -1048,7 +1048,7 @@ $(window).load(function () {
                     lineThickness: 1,
                     visible: true,
                     name: "cash",
-                    color: "#F14140",
+                    color: "#12a99c",
                     markerType: "none",
                     dataPoints: [
                         {x: 0, y: 10000.0}, {x: 1, y: 10068.03838217637}, {x: 2, y: 10129.9927455278}, {

@@ -78,6 +78,10 @@
   text-align: center;
 }
 
+.asset_classes .performance-chart {
+  padding-top: 3%;
+}
+
 #chartContainer {
   height: 350px;
 }
@@ -90,31 +94,37 @@
 }
 
 .chart-legend {
-  height: 60px;
+  padding-top: 2%;
 }
 
 #aus-shares {
-  background-color: #279EEE;
+  background-color: #225Ab7;
+  border: 1px solid #225ab7;
 }
 
 #int-shares {
   background-color: #204581;
+  border: 1px solid #204581;
 }
 
 #property {
-  background-color: #F58C23;
+  background-color: #279eee;
+  border: 1px solid #279eee;
 }
 
 #fixed {
-  background-color: #08C288;
+  background-color: #f58c23;
+  border: 1px solid #f58c23;
 }
 
 #cash {
-  background-color: #F14140;
+  background-color: #12a99c;
+  border: 1px solid #12a99c;
 }
 
 #diversified {
   background-color: #2F4F4F;
+  border: 1px solid #2F4F4F;
 }
 
 .legend {
@@ -129,5 +139,4 @@
 .legend.disabled {
   background: none !important;
   color: black !important;
-  border: 1px solid
 }

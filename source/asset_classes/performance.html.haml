@@ -5,27 +5,27 @@
   .grid-10.explaination
     .grid-12.title.performance
       %p= "Performance of Asset Classes"
-    .grid-12
+    .grid-12.performance-chart
       #chartContainer.grid-10.centered
-    .chart-legend
-      .grid-2
-        #aus-shares.legend
-          Aus Shares
-      .grid-2
-        #int-shares.legend
-          Int Shares
-      .grid-2
-        #property.legend
-          Property
-      .grid-2
-        #fixed.legend
-          Fixed
-      .grid-2
-        #cash.legend
-          Cash
-      .grid-2
-        #diversified.legend
-          Diversified
+      .chart-legend.grid-10.centered
+        .grid-2
+          #aus-shares.legend
+            Aus Shares
+        .grid-2
+          #int-shares.legend
+            Int Shares
+        .grid-2
+          #property.legend
+            Property
+        .grid-2
+          #fixed.legend
+            Fixed
+        .grid-2
+          #cash.legend
+            Cash
+        .grid-2
+          #diversified.legend
+            Diversified
   .grid-1.next
     %a.right{href: "/managed_funds"}
       %img{src: "/images/nav/next.svg"}
