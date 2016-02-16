@@ -17,4 +17,16 @@ describe 'Supporting Content Page' do
     page.driver.browser.switch_to.window(page.driver.browser.window_handles.last)
     expect(current_url).to include('.pdf')
   end
+
+  describe 'Navigation Bar' do
+
+    it 'should select supporting content tab' do
+      expect(find('.nav .selected a').text).to eq('SUPPORTING CONTENT')
+    end
+
+    it 'should hide the second level' do
+      page.should have_css('div.second-level', :visible => false)
+    end
+  end
+
 end
