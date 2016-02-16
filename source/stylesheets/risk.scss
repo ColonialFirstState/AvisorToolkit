@@ -8,7 +8,7 @@
   margin: 3% 0;
 }
 
-.risk .explaination .portfolio {
+.risk .explanation .portfolio {
   border-top: 1px solid #D5DCE9;
   padding: 5% 0;
 }
@@ -80,7 +80,7 @@
 }
 
 .risk .chart-indicator .cash .indicator {
-  background: #279EEE;
+  background: $LIGHT-BLUE;
 }
 
 .risk .chart-indicator .cash {
@@ -91,7 +91,7 @@
   margin-top: -30px;
 }
 
-.explaination .risk-rating {
+.explanation .risk-rating {
   display: inline-block;
   list-style: none;
   font-size: 0.625em;
@@ -105,40 +105,40 @@
   padding-bottom: 2%;
 }
 
-.explaination .rating {
+.explanation .rating {
   padding-top: 7%;
   padding-right: 0;
   padding-left: 0;
 }
-.explaination .rating .value {
+.explanation .rating .value {
   vertical-align: middle;
   margin-top: 0.5em;
 }
 
-.explaination .rating .description {
+.explanation .rating .description {
   display: inline-block;
   list-style: none;
   text-align: center;
   color: $NAVY;
 }
 
-.explaination .rating .value p {
+.explanation .rating .value p {
   vertical-align: middle;
   margin: 0.4em 0 0 0;
 }
 
-.explaination .rating .value .rating-yes {
+.explanation .rating .value .rating-yes {
   float: left;
   width: 13.6%;
   height: 2.2em;
   font-size: 1.3em;
   margin: 0.5% 0.3% 0.5% 0.3%;
   color: #FFFFFF;
-  background: #F58C23;
+  background: $ORANGE;
   vertical-align: middle;
 }
 
-.explaination .rating .value .rating-no {
+.explanation .rating .value .rating-no {
   float: left;
   width: 13.6%;
   height: 2.2em;
@@ -148,30 +148,30 @@
   color: #A5ACB8;
 }
 
-.explaination .rating .low {
+.explanation .rating .low {
   text-align: left;
   color: $NAVY;
 }
 
-.explaination .rating .medium {
+.explanation .rating .medium {
   text-align: right;
   color: $NAVY;
 }
 
-.explaination .rating .high {
+.explanation .rating .high {
   text-align: right;
   color: $NAVY;
 }
 
 #rating-enabled {
-  background: #7CC021;
+  background: $GREEN;
   width: 10px;
   height: 10px;
   border-radius: 50%;
 }
 
 #rating-disabled {
-  background: #E2E3E5;
+  background: $DISABLED-GRAY;
   width: 10px;
   height: 10px;
   border-radius: 50%;
