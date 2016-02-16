@@ -77,55 +77,6 @@
   font-weight: 100;
 }
 
-.other {
-  margin-top: 8%
-}
-
-.concepts table {
-  width: 100%;
-  padding-top: 1.5em;
-  text-align: center;
-  border-spacing: 2em;
-
-  td {
-    background-color: #FFFFFF;
-    border-radius: 4px;
-    height: 2em;
-    box-shadow: 0px 2px 0px #C2C7D0;
-    font-weight: 400;
-    text-align: center;
-
-    .button-title {
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: .9em;
-    }
-
-    a, u{
-      text-decoration: none;
-      color: #1768C7;
-      min-width: 150px;
-      text-align: center;
-      padding: 2px 10px;
-      height: 100%;
-      display: block;
-
-      &:hover {
-        color: #FFFFFF;
-      }
-    }
-
-    &:hover {
-      background-color: #000000;
-
-      a {
-        color: white !important;
-      }
-
-    }
-  }
-}
 
 .home .section-details .super-icon {
   margin: 11% 0 4% 0;

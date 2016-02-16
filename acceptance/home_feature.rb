@@ -46,19 +46,11 @@ describe 'Home Page' do
       expect(current_url).to include('/super')
     end
 
-  end
-
-  describe 'Supporting Content' do
-
-    it 'should have the correct title' do
-      expect(find('div.divider span').text).to eq('Supporting Content')
+    it 'supporting content button should link to supporting content page' do
+      find('div.supporting-content').click
+      expect(current_url).to include('/supporting_content')
     end
 
-    it 'should open a new tab when clicking content button' do
-      first('tbody tr td').click
-      page.driver.browser.switch_to.window(page.driver.browser.window_handles.last)
-      expect(current_url).to include('.pdf')
-    end
   end
 
 end
