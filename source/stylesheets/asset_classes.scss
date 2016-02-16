@@ -104,12 +104,12 @@
   border: 1px solid $color;
 }
 
-#aus-shares  { @include chart-labels(#225Ab7);     }
+#aus-shares  { @include chart-labels($OCEAN);     }
 #int-shares  { @include chart-labels($NAVY);       }
 #property    { @include chart-labels($LIGHT-BLUE); }
 #fixed       { @include chart-labels($ORANGE);     }
-#cash        { @include chart-labels(#12A99C);     }
-#diversified { @include chart-labels(#2F4F4F);     }
+#cash        { @include chart-labels($TURQUOISE);  }
+#diversified { @include chart-labels($MOSS-GREEN); }
 
 .legend {
   padding: 5px;
