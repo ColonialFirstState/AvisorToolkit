@@ -16,6 +16,7 @@
   vertical-align: middle;
 
   .button {
+    background-color: #d7deea;
     background-image: -webkit-linear-gradient(top, $LIGHT-GRAY, #d7deea);
     color: #1768C7;
     width: 68%;
@@ -36,6 +37,7 @@
   }
 
   .button-title {
+    //background-color: $LIGHT-GRAY;
     position: relative;
     top: 50%;
     transform: translateY(-50%);

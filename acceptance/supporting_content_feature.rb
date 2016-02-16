@@ -13,7 +13,7 @@ describe 'Supporting Content Page' do
   end
 
   it 'should open a new tab when clicking content button' do
-    first('tbody tr td').click
+    first('div.grid-3').click
     page.driver.browser.switch_to.window(page.driver.browser.window_handles.last)
     expect(current_url).to include('.pdf')
   end
