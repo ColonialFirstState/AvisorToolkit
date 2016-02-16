@@ -1,3 +1,5 @@
+@import "colour";
+
 .managed-funds .title {
   text-align: center;
   color: #1768C7;
@@ -41,8 +43,8 @@
 }
 
 .managed-funds .buttons .button {
-  background-color: #eff2f7;
-  background-image: -webkit-linear-gradient(top, #eff2f7, #d7deea);
+  background-color: $LIGHT-GRAY;
+  background-image: -webkit-linear-gradient(top, $LIGHT-GRAY, #d7deea);
   color: #000000;
   width: 68%;
   margin: 0 auto;
@@ -75,7 +77,7 @@
   display: inline-block;
   height: 0.6em;
   width: 0.6em;
-  background: #204581;
+  background: $NAVY;
   border-radius: 100%;
   margin-right: 0.5em;
 }

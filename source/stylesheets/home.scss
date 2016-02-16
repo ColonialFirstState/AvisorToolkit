@@ -1,3 +1,5 @@
+@import "colour";
+
 .title-text {
   color: #1768C7;
   font-size: 4em;
@@ -27,7 +29,7 @@
 }
 
 .risk {
-  background-color: #204581;
+  background-color: $NAVY;
 }
 
 .asset-classes {
@@ -43,7 +45,7 @@
 }
 
 .supporting-content {
-  background-color: #204581;
+  background-color: $NAVY;
 }
 
 

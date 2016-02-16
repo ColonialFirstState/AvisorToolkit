@@ -1,3 +1,5 @@
+@import "colour";
+
 .asset_classes {
   margin: 0;
 }
@@ -16,7 +18,7 @@
 }
 
 .asset_classes .explaination .index {
-  border-top: 1px solid #204581;
+  border-top: 1px solid $NAVY;
   float: left;
   margin-bottom: 0.5em;
 }
@@ -103,8 +105,8 @@
 }
 
 #int-shares {
-  background-color: #204581;
-  border: 1px solid #204581;
+  background-color: $NAVY;
+  border: 1px solid $NAVY;
 }
 
 #property {

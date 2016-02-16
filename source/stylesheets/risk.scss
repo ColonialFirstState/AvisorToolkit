@@ -1,3 +1,5 @@
+@import "colour";
+
 .risk .title {
   text-align: center;
   color: #1768C7;
@@ -32,8 +34,8 @@
 }
 
 .risk .buttons .button {
-  background-color: #eff2f7;
-  background-image: -webkit-linear-gradient(top, #eff2f7, #d7deea);
+  background-color: $LIGHT-GRAY;
+  background-image: -webkit-linear-gradient(top, $LIGHT-GRAY, #d7deea);
   color: #000000;
   width: 55%;
   margin: 0 auto;
@@ -67,7 +69,7 @@
   display: inline-block;
   height: .7em;
   width: .7em;
-  background: #204581;
+  background: $NAVY;
   border-radius: 100%;
   margin-right: 0.5em;
 }
@@ -117,7 +119,7 @@
   display: inline-block;
   list-style: none;
   text-align: center;
-  color: #204581;
+  color: $NAVY;
 }
 
 .explaination .rating .value p {
@@ -148,17 +150,17 @@
 
 .explaination .rating .low {
   text-align: left;
-  color: #204581;
+  color: $NAVY;
 }
 
 .explaination .rating .medium {
   text-align: right;
-  color: #204581;
+  color: $NAVY;
 }
 
 .explaination .rating .high {
   text-align: right;
-  color: #204581;
+  color: $NAVY;
 }
 
 #rating-enabled {
