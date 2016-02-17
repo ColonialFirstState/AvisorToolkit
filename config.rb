@@ -1,4 +1,5 @@
-require "gridle"
+require 'gridle'
+require_relative './apps/helper'
 ###
 # Compass
 ###
@@ -30,9 +31,9 @@ require "gridle"
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 #
 
-page "/login.html", :layout => false
-page "/index.html", :layout => false
-page "/image_galary.html", :layout => 'image_galary.haml'
+page '/login.html', :layout => false
+page '/index.html', :layout => false
+page '/image_galary.html', :layout => 'image_galary.haml'
 
 ###
 # Helpers
@@ -53,23 +54,7 @@ page "/image_galary.html", :layout => 'image_galary.haml'
 #     "Helping"
 #   end
 # end
-helpers do
-  def menu(selected={})
-    partial "components/nav.haml"
-  end
-
-  def secondary_menu_item(text, url)
-    link_to(text, url) + tag(:img, src: "/images/nav/pointer.svg", class: "pointer")
-  end
-
-  def secondary_asset_classes_menu(selected={})
-    partial "components/secondary_menu/_asset_classes.haml", selected:'#cash'
-  end
-
-  def secondary_risk_menu(selected={})
-    partial "components/secondary_menu/_risk.haml", selected:'#profiles'
-  end
-end
+helpers { include Helper }
 
 activate :directory_indexes
 set :css_dir, 'stylesheets'

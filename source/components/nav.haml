@@ -15,7 +15,9 @@
           = link_to "SUPER", "/super"
         .l1-item{class: ('selected' if page_classes.include?("supporting_content"))}
           = link_to "SUPPORTING CONTENT", "/supporting_content"
-  .second-level{class: ('hide' if !page_classes.include?("asset_classes"))}
+        .l1-item{class: ('selected' if page_classes.include?("retirement"))}
+          = link_to "RETIREMENT", "/retirement/transition"
+  .second-level{class: ('hide' if !asset_classes? && !retirement?)}
     .interactable
       .nav
-        = secondary_asset_classes_menu
+        = secondary_menu
