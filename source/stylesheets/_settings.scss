@@ -6,3 +6,8 @@
   context : 12,
   gutter-width : 20px,
 ) );
+
+@include gridle_register_state ( tablet , (
+        min-width : 481px,
+        max-width : 1024px
+) ) ;
