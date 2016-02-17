@@ -54,7 +54,7 @@ describe 'Home Page' do
 
     it 'retirement button should link to retirement page' do
       find('div.retirement').click
-      expect(current_url).to include('/retirement')
+      expect(current_url).to include('/retirement/transition')
     end
 
   end

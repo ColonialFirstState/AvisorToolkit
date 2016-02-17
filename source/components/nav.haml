@@ -13,10 +13,10 @@
           = link_to "MANAGED FUNDS", "/managed_funds"
         .l1-item{class: ('selected' if page_classes.include?("super"))}
           = link_to "SUPER", "/super"
-        .l1-item{class: ('selected' if page_classes.include?("supporting_content"))}
-          = link_to "SUPPORTING CONTENT", "/supporting_content"
         .l1-item{class: ('selected' if page_classes.include?("retirement"))}
           = link_to "RETIREMENT", "/retirement/transition"
+        .l1-item{class: ('selected' if page_classes.include?("supporting_content"))}
+          = link_to "SUPPORTING CONTENT", "/supporting_content"
   .second-level{class: ('hide' if !asset_classes? && !retirement?)}
     .interactable
       .nav
