@@ -29,4 +29,12 @@ describe 'Supporting Content Page' do
     end
   end
 
+  describe 'Previous Button' do
+
+    it 'should direct to Income page when click' do
+      find('div.previous').click
+      expect(current_url).to include('/retirement/income')
+    end
+  end
+
 end
