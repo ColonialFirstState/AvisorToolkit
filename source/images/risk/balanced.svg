@@ -11,10 +11,10 @@
                     <path d="M173.287054,172.931026 L9.09208195,226.129092 C-20.3727045,135.705497 29.255004,38.5846536 119.936558,9.20405229 C138.073096,3.3288366 154.217268,0.779065359 173.287054,0.779065359 L173.287054,172.931026" id="Fill-1" fill="#279EEE"></path>
                     <path d="M173.287054,172.931026 L173.287054,0.779065359 C268.637116,0.779065359 345.932286,77.8533922 345.932286,172.931026 C345.932286,268.007529 268.637116,345.082987 173.287054,345.082987 C97.0079106,345.082987 32.6636843,298.467967 9.09208195,226.129092 L173.287054,172.931026" id="Fill-2" fill="#204581"></path>
                 </g>
-                <text id="70%" sketch:type="MSTextLayer" font-family=".AppleSystemUIFont" font-size="28" font-weight="normal" sketch:alignment="middle" line-spacing="36" fill="#FFFFFF">
+                <text id="70%" sketch:type="MSTextLayer" font-family="Open Sans" font-size="28" font-weight="100" sketch:alignment="middle" line-spacing="36" fill="#FFFFFF">
                     <tspan x="203.21875" y="244">70%</tspan>
                 </text>
-                <text id="30%" sketch:type="MSTextLayer" font-family=".AppleSystemUIFont" font-size="28" font-weight="normal" sketch:alignment="middle" line-spacing="36" fill="#FFFFFF">
+                <text id="30%" sketch:type="MSTextLayer" font-family="Open Sans" font-size="28" font-weight="100" sketch:alignment="middle" line-spacing="36" fill="#FFFFFF">
                     <tspan x="71.21875" y="126.680669">30%</tspan>
                 </text>
             </g>
