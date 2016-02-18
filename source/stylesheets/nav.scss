@@ -5,6 +5,15 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1024px) {
+  .menu .first-level {
+    height: 4.2em;
+  }
+  .menu .first-level .nav .l1-item.selected {
+    height: 4.2em;
+  }
+}
+
 .menu .first-level .interactable {
   height: 3.5em;
   margin: auto;
@@ -24,8 +33,7 @@
   vertical-align: baseline;
   height: 100%;
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
   text-align: center;
 }
 
@@ -123,7 +131,6 @@
 
 
 .menu .second-level .nav a:hover {
-  // font-weight: 600;
   color: #999B9D;
 }
 

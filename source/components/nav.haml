@@ -1,23 +1,23 @@
 .menu
-  .first-level
+  .first-level.grid-12
     .interactable
       .logo.float-left
         %a{href: "/"}
           %img{src: "/images/nav/home.svg"}
-      .nav
-        .l1-item{class: ('selected' if page_classes.include?("risk"))}
+      .grid-12.nav
+        .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("risk"))}
           = link_to "RISK", "/risk/profiles"
-        .l1-item{class: ('selected' if page_classes.include?("asset_classes"))}
+        .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("asset_classes"))}
           = link_to "ASSET CLASSES", "/asset_classes/cash"
-        .l1-item{class: ('selected' if page_classes.include?("managed_funds"))}
+        .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("managed_funds"))}
           = link_to "MANAGED FUNDS", "/managed_funds"
-        .l1-item{class: ('selected' if page_classes.include?("super"))}
+        .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("super"))}
           = link_to "SUPER", "/super"
-        .l1-item{class: ('selected' if page_classes.include?("retirement"))}
+        .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("retirement"))}
           = link_to "RETIREMENT", "/retirement/transition"
-        .l1-item{class: ('selected' if page_classes.include?("supporting_content"))}
+        .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("supporting_content"))}
           = link_to "SUPPORTING CONTENT", "/supporting_content"
-  .second-level{class: ('hide' if !asset_classes? && !retirement?)}
+  .second-level.grid-12{class: ('hide' if !asset_classes? && !retirement?)}
     .interactable
       .nav
         = secondary_menu
