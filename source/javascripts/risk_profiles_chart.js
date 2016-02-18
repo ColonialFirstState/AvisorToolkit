@@ -1,60 +1,51 @@
-$(window).load(function () {
-    if ($("#pieChartContainer").length) {
+$(document).ready(function () {
+  if($("#pieChartContainer").length === 0) {
+    return
+  }
 
-        var chartOptions = {
-            animationEnabled: true,
-            animationDuration: 600,
-            colorSet: "customColorSet1",
-            toolTip: {
-                enabled: false
-            },
-            data: [//array of dataSeries
-                {
-                    type: "pie",
-                    visible: true,
-                    highlightEnabled: false,
-                    name: "aus-shares",
-                    startAngle: -90,
-                    markerType: "none",
-                    indexLabel: "#percent%",
-                    indexLabelPlacement: "inside",
-                    indexLabelFontSize: 28,
-                    indexLabelFontColor: "white",
-                    indexLabelFontFamily: "Open sans, sans-serif",
-                    indexLabelFontWeight: 100,
-                    dataPoints: [{y: 30}, {y: 70}]
-                }
-            ]
-        };
-        CanvasJS.addColorSet("customColorSet1",
-            [
-                "#204581",
-                "#279EEE"
-            ]);
-        var pieChart = new CanvasJS.Chart("pieChartContainer", chartOptions);
+  CanvasJS.addColorSet("customColorSet1", ["#204581", "#279EEE"]);
+  var chartOptions = {
+    animationEnabled: true,
+    animationDuration: 600,
+    colorSet: "customColorSet1",
+    toolTip: {
+      enabled: false
+    },
+    data: [
+      {
+        type: "pie",
+        visible: true,
+        highlightEnabled: false,
+        name: "aus-shares",
+        startAngle: -90,
+        markerType: "none",
+        indexLabel: "#percent%",
+        indexLabelPlacement: "inside",
+        indexLabelFontSize: 28,
+        indexLabelFontColor: "white",
+        indexLabelFontFamily: "Open sans, sans-serif",
+        indexLabelFontWeight: 100,
+      }
+    ]
+  };
 
-        pieChart.render();
-        $('.canvasjs-chart-credit').hide();
-
-        $('#conservative').click(function () {
-            var pieChart = new CanvasJS.Chart("pieChartContainer", chartOptions);
-            pieChart.options.data[0].dataPoints = [{y: 30}, {y: 70}];
-            pieChart.render();
-            $('.canvasjs-chart-credit').hide();
-        });
-
-        $('#balanced').click(function () {
-            var pieChart = new CanvasJS.Chart("pieChartContainer", chartOptions);
-            pieChart.options.data[0].dataPoints = [{y: 70}, {y: 30}];
-            pieChart.render();
-            $('.canvasjs-chart-credit').hide();
-        });
-
-        $('#growth').click(function () {
-            var pieChart = new CanvasJS.Chart("pieChartContainer", chartOptions);
-            pieChart.options.data[0].dataPoints = [{y: 85}, {y: 15}];
-            pieChart.render();
-            $('.canvasjs-chart-credit').hide();
-        });
-    }
+  renderPieChartOnClick('#conservative', [{ y: 30 }, { y: 70 }], chartOptions);
+  renderPieChartOnClick('#balanced',     [{ y: 70 }, { y: 30 }], chartOptions);
+  renderPieChartOnClick('#growth',       [{ y: 85 }, { y: 15 }], chartOptions);
+  $('#conservative').click();
 });
+
+/*
+ * From http://canvasjs.com/docs/charts/chart-options/animationenabled/
+ * "Animation is supported only during the initial chart render.
+ *  But you can workaround this by re-creating the entire chart."
+ */
+function renderPieChartOnClick(button, dataPoints, chartOptions) {
+  $(button).on('click', function (e) {
+    e.preventDefault();
+    var pieChart = new CanvasJS.Chart("pieChartContainer", chartOptions);
+    pieChart.options.data[0].dataPoints = dataPoints;
+    pieChart.render();
+    $('.canvasjs-chart-credit').hide();
+  });
+}
