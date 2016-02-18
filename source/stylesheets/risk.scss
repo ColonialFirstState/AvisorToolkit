@@ -105,40 +105,29 @@
   padding-bottom: 2%;
 }
 
-.explanation .rating {
+.explanation .ratings {
   padding-top: 7%;
   padding-right: 0;
   padding-left: 0;
 }
-.explanation .rating .value {
+.explanation .ratings .value {
   vertical-align: middle;
   margin-top: 0.5em;
 }
 
-.explanation .rating .description {
+.explanation .ratings .description {
   display: inline-block;
   list-style: none;
   text-align: center;
   color: $NAVY;
 }
 
-.explanation .rating .value p {
+.explanation .ratings .value p {
   vertical-align: middle;
   margin: 0.4em 0 0 0;
 }
 
-.explanation .rating .value .rating-yes {
-  float: left;
-  width: 13.6%;
-  height: 2.2em;
-  font-size: 1.3em;
-  margin: 0.5% 0.3% 0.5% 0.3%;
-  color: #FFFFFF;
-  background: $ORANGE;
-  vertical-align: middle;
-}
-
-.explanation .rating .value .rating-no {
+.explanation .ratings .value .rating {
   float: left;
   width: 13.6%;
   height: 2.2em;
@@ -146,19 +135,24 @@
   margin: 0.5% 0.3% 0.5% 0.3%;
   background: #EDEFF4;
   color: #A5ACB8;
+  &.rating-yes {
+    color: #FFFFFF;
+    background: $ORANGE;
+    vertical-align: middle;
+  }
 }
 
-.explanation .rating .low {
+.explanation .ratings .low {
   text-align: left;
   color: $NAVY;
 }
 
-.explanation .rating .medium {
+.explanation .ratings .medium {
   text-align: right;
   color: $NAVY;
 }
 
-.explanation .rating .high {
+.explanation .ratings .high {
   text-align: right;
   color: $NAVY;
 }
