@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 @import 'settings';
+@import 'all';
 
 body {
   font-family: $FONT;
@@ -26,6 +27,7 @@ body {
   padding-bottom: 0.3em;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  margin: 0;
 }
 
 .title p {
