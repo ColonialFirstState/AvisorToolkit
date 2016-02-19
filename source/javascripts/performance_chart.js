@@ -50,7 +50,8 @@ $(document).ready(function () {
       lineOption('property',    PROPERTY_DATA,    "#279EEE"),
       lineOption('fixed',       FIXED_DATA,       "#F58C23"),
       lineOption('cash',        CASH_DATA,        "#12A99C"),
-      lineOption('diversified', DIVERSIFIED_DATA, "#2F4F4F")
+      lineOption('diversified', DIVERSIFIED_DATA, "#2F4F4F"),
+      lineOption('make_empty_chart_consistent', [ { x: 0, y: 1}, { x: 1, y: 1}], "#E2E3E5")
     ]
   });
 
