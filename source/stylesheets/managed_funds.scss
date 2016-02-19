@@ -25,38 +25,27 @@
   }
 }
 
-.managed-funds .chart img {
-  height: 50vh;
-}
-
 .managed-funds .chart {
   display: inline-block;
   width: 50%;
 }
 
 .managed-funds .buttons {
-  padding-top: 6vh;
-  display: inline-block;
-  vertical-align: top;
-  padding-left: 9%;
-  padding-right: 3%;
+
 }
 
 .managed-funds .buttons .button {
   background-color: $LIGHT-GRAY;
   background-image: -webkit-linear-gradient(top, $LIGHT-GRAY, #d7deea);
   color: #000000;
-  width: 68%;
-  margin: 0 auto;
+  width: 100%;
   border-radius: 4px;
-  height: 2.4em;
-  padding-top: 1em;
   box-shadow: 0px 2px 0px #A2A6AF;
   font-weight: bold;
   font-size: small;
   text-align: center;
   margin-bottom: 1.3em;
-  min-width: 172px;
+  padding: 1em;
 
   &:hover {
     cursor: pointer;
