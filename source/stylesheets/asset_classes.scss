@@ -17,23 +17,23 @@
   margin-bottom: 0;
 }
 
-.asset_classes .explaination .index {
+.asset_classes .explanation .index {
   border-top: 1px solid $NAVY;
   float: left;
   margin-bottom: 0.5em;
 }
 
-.asset_classes .explaination .steps {
+.asset_classes .explanation .steps {
   border-top: 1px solid #D5DCE9;
   margin-top: 3.5%;
 }
 
-.asset_classes .explaination .steps .step {
+.asset_classes .explanation .steps .step {
   padding-left: 3.125%;
   padding-right: 3.125%;
 }
 
-.asset_classes .explaination .steps div .number {
+.asset_classes .explanation .steps div .number {
   background: #505050;
   font-size: 1.0em;
   font-weight: 600;
@@ -44,7 +44,7 @@
   padding-left: 0.4em;
 }
 
-.asset_classes .explaination .steps .st1 {
+.asset_classes .explanation .steps .st1 {
   padding-top: 1em;
   font-size: 1.02em;
   font-weight: 100;
@@ -53,26 +53,26 @@
   line-height: 1.5em;
 }
 
-.asset_classes .explaination .steps .visualisation {
+.asset_classes .explanation .steps .visualisation {
   padding-top: 4em;
 }
 
 
 @media screen and (min-height: 783px) {
-  .asset_classes .explaination .steps .visualisation {
+  .asset_classes .explanation .steps .visualisation {
     padding-top: 5em;
   }
 }
 
-.asset_classes .explaination .steps .visualisation img {
+.asset_classes .explanation .steps .visualisation img {
   height: 10em;
 }
 
-.asset_classes .explaination .steps .st1 p {
+.asset_classes .explanation .steps .st1 p {
   padding: 0 1em;
 }
 
-.asset_classes .explaination .steps .st2 {
+.asset_classes .explanation .steps .st2 {
   padding-top: 1em;
   font-size: 0.9em;
   font-weight: 100;
