@@ -1,23 +1,21 @@
 @import "colour";
 
 .title-text {
-  color: #1768C7;
-  font-size: 4em;
+  color: $OCEAN;
+  font-size: 1.5em;
   font-weight: 100;
 }
 
 .description {
-  font-size: 1.2em;
+  font-size: 0.5em;
   font-weight: 100;
 }
 
 .home {
   background: #EBEFF5;
-}
-
-.title {
-  text-align: center;
-  padding: 5% 0;
+  .title {
+    text-align: center;
+  }
 }
 
 .section-details {
@@ -58,26 +56,8 @@
 }
 
 .section-title {
-  color: #FFFFFF;
+  color: $WHITE;
   font-weight: 100;
   font-size: 1.8em;
   padding-bottom: 5%;
-}
-
-.divider {
-  height: 0px;
-  text-align: center;
-  border: 1px solid transparent;
-  border-top-color: #C4D1E1;
-  border-bottom-color: #FFFFFF;
-}
-
-.divider span {
-  background-color: #EBEFF5;
-  position: relative;
-  top: -0.75em;
-  font-size: 2em;
-  padding: 0 1%;
-  color: #1768C7;
-  font-weight: 100;
 }

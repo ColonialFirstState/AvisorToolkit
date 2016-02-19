@@ -1,90 +1,9 @@
-@import "colour";
-
-.managed-funds .title {
-  text-align: center;
-  color: #1768C7;
-  font-size: 2.8rem;
-  font-weight: 300;
-  margin: 3% 0;
-}
-
-.managed-funds .explaination .portfolio {
+.managed-funds .explanation .portfolio {
   border-top: 1px solid #D5DCE9;
   padding: 5% 0;
-}
-
-.managed-funds .box {
-  border: 1px solid;
-  border-color: #FF0094;
-  height: 6em;
-
-  .managed-funds-rating {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
 }
 
 .managed-funds .chart {
   display: inline-block;
   width: 50%;
-}
-
-.managed-funds .buttons {
-
-}
-
-.managed-funds .buttons .button {
-  background-color: $LIGHT-GRAY;
-  background-image: -webkit-linear-gradient(top, $LIGHT-GRAY, #d7deea);
-  color: #000000;
-  width: 100%;
-  border-radius: 4px;
-  box-shadow: 0px 2px 0px #A2A6AF;
-  font-weight: bold;
-  font-size: small;
-  text-align: center;
-  margin-bottom: 1.3em;
-  padding: 1em;
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.managed-funds .buttons .button.selected {
-  background-color: #2A2A2A;
-  background-image: -webkit-linear-gradient(top, #2A2A2A, #2A2A2A);
-  color: #FFFFFF;
-}
-
-.managed-funds .chart-indicator {
-  padding-top: 40%;
-}
-
-.managed-funds .chart-indicator .indicator {
-  display: inline-block;
-  height: 0.6em;
-  width: 0.6em;
-  background: $NAVY;
-  border-radius: 100%;
-  margin-right: 0.5em;
-}
-
-.managed-funds .chart-indicator .indicator-text {
-  display: inline-block;
-  font-weight: 100;
-}
-
-.managed-funds .chart-indicator .cash .indicator {
-  background: $LIGHT-BLUE;
-}
-
-.managed-funds .chart-indicator .cash {
-  margin-top: 1em;
-  padding-left: 10%;
-}
-
-.managed-funds .chart-indicator .shares {
-  padding-left: 10%;
 }

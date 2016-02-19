@@ -1,13 +1,5 @@
 @import "colour";
 
-.risk .title {
-  text-align: center;
-  color: #1768C7;
-  font-size: 2.8rem;
-  font-weight: 300;
-  margin: 3% 0;
-}
-
 .risk .explanation .portfolio {
   border-top: 1px solid #D5DCE9;
   padding: 5% 0;
@@ -21,29 +13,6 @@
     top: 50%;
     transform: translateY(-50%);
   }
-}
-
-.risk .buttons .button {
-  background-color: $LIGHT-GRAY;
-  background-image: -webkit-linear-gradient(top, $LIGHT-GRAY, #d7deea);
-  color: #000000;
-  border-radius: 4px;
-  box-shadow: 0px 2px 0px #A2A6AF;
-  font-weight: bold;
-  font-size: small;
-  text-align: center;
-  margin-bottom: 1.3em;
-  padding: 1em;
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.risk .buttons .button.selected {
-  background-color: #2A2A2A;
-  background-image: -webkit-linear-gradient(top, #2A2A2A, #2A2A2A);
-    color: #FFFFFF;
 }
 
 .risk .chart-indicator {
@@ -128,31 +97,12 @@
   }
 }
 
-.explanation .ratings .low {
-  text-align: left;
+.explanation .ratings {
   color: $NAVY;
-}
-
-.explanation .ratings .medium {
-  text-align: right;
-  color: $NAVY;
-}
-
-.explanation .ratings .high {
-  text-align: right;
-  color: $NAVY;
-}
-
-#rating-enabled {
-  background: $GREEN;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-#rating-disabled {
-  background: $DISABLED-GRAY;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
+  .low {
+    text-align: left;
+  }
+  .medium, .high{
+    text-align: right;
+  }
 }

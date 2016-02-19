@@ -1,13 +1,5 @@
 @import "colour";
 
-.supporting-content .title {
-  text-align: center;
-  color: #1768C7;
-  font-size: 2.8rem;
-  font-weight: 300;
-  margin: 3% 0;
-}
-
 .concepts {
   border-top: 1px solid #D5DCE9;
   padding: 5% 0;
@@ -19,8 +11,8 @@
 
   .button {
     background-color: #d7deea;
-    background-image: -webkit-linear-gradient(top, $LIGHT-GRAY, #d7deea);
-    color: #1768C7;
+    background-image: -webkit-linear-gradient(top, $LIGHT-GRAY, #D7DEEA);
+    color: $OCEAN;
     width: 68%;
     margin: 0 auto;
     border-radius: 4px;

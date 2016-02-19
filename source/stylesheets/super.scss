@@ -1,40 +1,9 @@
-.super .explaination .portfolio {
-  border-top: 1px solid #D5DCE9;
-  padding: 15px 0;
-  text-align: center;
-}
-
-.super .title {
-  color: #1768C7;
-  font-size: 2.8rem;
-  font-weight: 300;
-  margin: 3% 0;
-  text-align: center;
-}
-
-.super .explaination .visualisation img {
-  height: 10em;
-}
-
-.super .explaination .st1{
-  padding-top: 1em;
-  font-size: 1.02em;
-  font-weight: 100;
-  color: #000;
-  text-align: center;
-  line-height: 1.5em;
-
-  p {
-    padding: 0;
-    margin-top: 3%
+.super {
+  .explanation {
+    .portfolio {
+      border-top: 1px solid #D5DCE9;
+      padding: 15px 0;
+      text-align: center;
+    }
   }
-}
-
-.super .visualisation .sub-step p {
-  padding: 0;
-  margin-top: 1em;
-}
-
-.super .step-title {
-  font-weight: 600;
 }

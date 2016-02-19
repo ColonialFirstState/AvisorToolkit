@@ -7,10 +7,12 @@
 @import 'managed_funds';
 @import 'super';
 @import 'supporting_content';
-@import 'retirement';
+
+$FONT: 'Open Sans';
+$FONT-FAMILY: $FONT, sans-serif;
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: $FONT;
   src: url('../fonts/OpenSans-Regular-webfont.eot');
   src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix')           format('embedded-opentype'),
        url('../fonts/OpenSans-Regular-webfont.woff')                 format('woff'),
@@ -27,7 +29,7 @@ html {
 
 body {
   background: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $FONT;
   margin: 0;
   margin-bottom: 100px !important;
   -webkit-font-smoothing: antialiased;
@@ -100,4 +102,34 @@ a, u {
   .risk, .managed-funds, .super, .supporting-content {
     margin-top: 2.5em;
   }
+}
+
+.button {
+  background-color: $LIGHT-GRAY;
+  background-image: -webkit-linear-gradient(top, $LIGHT-GRAY, #d7deea);
+  color: #000000;
+  border-radius: 4px;
+  box-shadow: 0px 2px 0px #A2A6AF;
+  font-weight: bold;
+  font-size: small;
+  text-align: center;
+  margin-bottom: 1.3em;
+  padding: 1em;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &.selected {
+    background-color: #2A2A2A;
+    background-image: -webkit-linear-gradient(top, #2A2A2A, #2A2A2A);
+    color: #FFFFFF;
+  }
+}
+
+.title {
+  text-align: center;
+  color: #1768C7;
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin: 3% 0;
 }
