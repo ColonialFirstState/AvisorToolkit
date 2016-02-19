@@ -1,50 +1,16 @@
 $(document).ready(function() {
-    $('#all-assets').on('click', function(e) {
-        e.preventDefault();
-        $("#managed-funds-chart").attr("src","/images/managed_funds/all_assets.svg");
-        $('#all-assets').addClass('selected');
-        $('#property-mix').removeClass('selected');
-        $('#share-mix').removeClass('selected');
-        $('#cash-mix').removeClass('selected');
-        $('#fixed-income-mix').removeClass('selected');
-    });
-
-    $('#property-mix').on('click', function(e) {
-        e.preventDefault();
-        $("#managed-funds-chart").attr("src","/images/managed_funds/property_mix.svg");
-        $('#all-assets').removeClass('selected');
-        $('#property-mix').addClass('selected');
-        $('#share-mix').removeClass('selected');
-        $('#cash-mix').removeClass('selected');
-        $('#fixed-income-mix').removeClass('selected');
-    });
-
-    $('#share-mix').on('click', function(e) {
-        e.preventDefault();
-        $("#managed-funds-chart").attr("src","/images/managed_funds/share_mix.svg");
-        $('#all-assets').removeClass('selected');
-        $('#property-mix').removeClass('selected');
-        $('#share-mix').addClass('selected');
-        $('#cash-mix').removeClass('selected');
-        $('#fixed-income-mix').removeClass('selected');
-    });
-
-    $('#cash-mix').on('click', function(e) {
-        e.preventDefault();
-        $("#managed-funds-chart").attr("src","/images/managed_funds/cash_mix.svg");
-        $('#all-assets').removeClass('selected');
-        $('#property-mix').removeClass('selected');
-        $('#share-mix').removeClass('selected');
-        $('#cash-mix').addClass('selected');
-        $('#fixed-income-mix').removeClass('selected');
-    });
-    $('#fixed-income-mix').on('click', function(e) {
-        e.preventDefault();
-        $("#managed-funds-chart").attr("src","/images/managed_funds/fixed_income_mix.svg");
-        $('#all-assets').removeClass('selected');
-        $('#property-mix').removeClass('selected');
-        $('#share-mix').removeClass('selected');
-        $('#cash-mix').removeClass('selected');
-        $('#fixed-income-mix').addClass('selected');
-    });
+    onClickAction('#all-assets', '/images/managed_funds/all_assets.svg')
+    onClickAction('#property-mix', '/images/managed_funds/property_mix.svg')
+    onClickAction('#share-mix', '/images/managed_funds/share_mix.svg')
+    onClickAction('#cash-mix', '/images/managed_funds/cash_mix.svg')
+    onClickAction('#fixed-income-mix', '/images/managed_funds/fixed_income_mix.svg')
 });
+
+function onClickAction(buttonID, image) {
+  $(buttonID).on('click', function(e) {
+    e.preventDefault();
+    $("#managed-funds-chart").attr("src", image);
+    $('.button').removeClass('selected');
+    $(buttonID).addClass('selected');
+  });
+}
