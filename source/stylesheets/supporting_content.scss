@@ -11,7 +11,9 @@
 
   .button {
     background-color: #d7deea;
-    background-image: -webkit-linear-gradient(top, $LIGHT-GRAY, #D7DEEA);
+    background: -webkit-linear-gradient(top, $LIGHT-GRAY, #D7DEEA);
+    background: -moz-linear-gradient(top, $LIGHT-GRAY, #D7DEEA);
+    background: linear-gradient(top, $LIGHT-GRAY, #D7DEEA);
     color: $OCEAN;
     width: 68%;
     margin: 0 auto;
