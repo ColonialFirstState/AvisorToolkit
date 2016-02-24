@@ -66,18 +66,18 @@
                 <text id="Money-Out" sketch:type="MSTextLayer" font-family="Open Sans" font-size="17" font-weight="600" sketch:alignment="middle" fill="#000000">
                     <tspan x="514.478516" y="269">Money Out</tspan>
                 </text>
-                <text id="Your-investment-grow" sketch:type="MSTextLayer" font-family="Open Sans" font-size="16" font-weight="100" sketch:alignment="middle" line-spacing="24" fill="#000000">
+                <text id="Your-investment-grow" sketch:type="MSTextLayer" font-family="Open Sans" font-size="16" font-weight="300" sketch:alignment="middle" line-spacing="24" fill="#000000">
                     <tspan x="316.832031" y="295">Your investment </tspan>
                     <tspan x="328.609375" y="319">grows due to </tspan>
                     <tspan x="311.792969" y="343">contributions and </tspan>
                     <tspan x="347.136719" y="367">returns.</tspan>
                 </text>
-                <text id="You-can-access-your-" sketch:type="MSTextLayer" font-family="Open Sans" font-size="16" font-weight="100" sketch:alignment="middle" line-spacing="24" fill="#000000">
+                <text id="You-can-access-your-" sketch:type="MSTextLayer" font-family="Open Sans" font-size="16" font-weight="300" sketch:alignment="middle" line-spacing="24" fill="#000000">
                     <tspan x="701.003906" y="295">You can access your </tspan>
                     <tspan x="698.820312" y="319">investment once you </tspan>
                     <tspan x="752.101562" y="343">retire.</tspan>
                 </text>
-                <text id="A-portion-of-your-in" sketch:type="MSTextLayer" font-family="Open Sans" font-size="16" font-weight="100" sketch:alignment="middle" line-spacing="24" fill="#000000">
+                <text id="A-portion-of-your-in" sketch:type="MSTextLayer" font-family="Open Sans" font-size="16" font-weight="300" sketch:alignment="middle" line-spacing="24" fill="#000000">
                     <tspan x="499.230469" y="295">A portion of your </tspan>
                     <tspan x="480.585938" y="319">investment is used for </tspan>
                     <tspan x="522.839844" y="343">Insurance,</tspan>
@@ -192,7 +192,7 @@
                         </g>
                     </g>
                 </g>
-                <text id="9.5%-from-your-emplo" sketch:type="MSTextLayer" font-family="Open Sans" font-size="16" font-weight="100" sketch:alignment="middle" line-spacing="24" fill="#000000">
+                <text id="9.5%-from-your-emplo" sketch:type="MSTextLayer" font-family="Open Sans" font-size="16" font-weight="300" sketch:alignment="middle" line-spacing="24" fill="#000000">
                     <tspan x="31.03125" y="295">9.5% from your employer.</tspan>
                     <tspan x="3.25" y="319">Rollovers from other super funds.</tspan>
                     <tspan x="1.5390625" y="343">Additional contributions from you.</tspan>
