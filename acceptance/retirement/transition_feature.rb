@@ -20,7 +20,7 @@ describe 'Retirement Page' do
     end
   end
 
-  describe 'Benefits' do
+  context 'Benefits' do
     before do
       find('#benefits-button').click
     end
@@ -51,6 +51,41 @@ describe 'Retirement Page' do
 
     it 'should have correct text for tax savings on income' do
       expect(find('#tax-saving-on-income-text').text).to eq('Minimise tax on income')
+    end
+
+  end
+
+  context 'Overview' do
+    before do
+      find('#overview-button').click
+    end
+
+    it 'should have a correct sub-title' do
+      expect(find('p.step.st1').text).to eq("You can start to access your super as soon as you reach your preservation age, even while you're working. A Transition to Retirement strategy allows you to maintain your current income or boost your retirement savings, while paying less tax. An example of how this works:")
+    end
+
+    it 'should have correct src for working hours' do
+      expect(find('#working-hours')['src'].include?('/images/retirement/transition_to_retirement/overview/working-hours.svg')).to be_true
+    end
+
+    it 'should have correct src for saving' do
+      expect(find('#saving')['src'].include?('/images/retirement/transition_to_retirement/overview/saving.svg')).to be_true
+    end
+
+    it 'should have correct src for top up reduce income' do
+      expect(find('#pocket')['src'].include?('/images/retirement/transition_to_retirement/overview/pocket.svg')).to be_true
+    end
+
+    it 'should have correct text for working hours' do
+      expect(find('#working-hours-text').text).to eq('Reduce your working hours')
+    end
+
+    it 'should have correct text for saving' do
+      expect(find('#saving-text').text).to eq('Transfer some of your super to a new pre-retirement pension')
+    end
+
+    it 'should have correct text for tax savings on income' do
+      expect(find('#pocket-text').text).to eq('Top up your reduce income from work by drawing from your pre-retirement pension')
     end
 
   end
