@@ -72,6 +72,16 @@ describe 'Retirement Page' do
     it 'should not select benefit button by default' do
       expect(find('#benefits-button')['class'].include?('selected')).to be_false
     end
+
+    it 'should show benefits page by clicking on benefits button' do
+      find('#benefits-button').click
+      expect(find('#benefits')['class'].include?('hide')).to be_false
+    end
+
+    it 'should show overview page by clicking on overview button' do
+      find('#overview-button').click
+      expect(find('#overview')['class'].include?('hide')).to be_false
+    end
   end
 
   describe 'Previous Button' do
