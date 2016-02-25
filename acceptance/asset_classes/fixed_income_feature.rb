@@ -28,7 +28,7 @@ describe 'Fixed Income Page' do
   describe 'Content' do
 
     it 'should have correct title' do
-      expect(find('.explaination .title p').text).to eq('An example of investing in fixed interest')
+      expect(find('.explanation .title').text).to eq('An example of investing in fixed interest')
     end
 
     it 'should have correct step explanation' do

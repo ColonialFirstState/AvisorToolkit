@@ -26,7 +26,7 @@ describe 'Managed Funds Page' do
     end
 
     it 'should have five buttons with correct title' do
-      buttons_title = all('.buttons .button').map {|button| button.text}
+      buttons_title = all('.buttons .button').map(&:text)
 
       expect(buttons_title).to eq(['ALL ASSETS', 'SHARE MIX', 'PROPERTY MIX', 'FIXED INCOME MIX', 'CASH MIX'])
     end

@@ -28,7 +28,7 @@ describe 'Performance Page' do
   describe 'Content' do
 
     it 'should have correct title' do
-      expect(find('.explaination .title p').text).to eq('Performance of Asset Classes')
+      expect(find('.explanation .title').text).to eq('Performance of Asset Classes')
     end
 
     it 'should have six asset buttons with correct title' do

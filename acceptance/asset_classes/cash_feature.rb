@@ -28,15 +28,15 @@ describe 'Cash Page' do
   describe 'Content' do
 
     it 'should have correct title' do
-      expect(find('.explaination .title p').text).to eq('An example of investing in cash')
+      expect(find('.explanation .title').text).to eq('An example of investing in cash')
     end
 
     it 'should have correct step explanation' do
       titles = all('.steps .st1 p')
 
-      expect(titles[0].text).to eq('You loan money to a bank in the form of a term deposit')
-      expect(titles[1].text).to eq('The bank then lends money to borrowers and charges them interest on those loans')
-      expect(titles[2].text).to eq('Your deposit may receive a return in the form of interest plus you receive your initial loan at the end of the term')
+      expect(titles[0].text).to eq('You loan money to a bank in the form of a term deposit.')
+      expect(titles[1].text).to eq('The bank then lends money to borrowers and charges them interest on those loans.')
+      expect(titles[2].text).to eq('Your deposit may receive a return in the form of interest plus you receive your initial loan at the end of the term.')
     end
   end
 end
