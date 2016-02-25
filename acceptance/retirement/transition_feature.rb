@@ -21,6 +21,10 @@ describe 'Retirement Page' do
   end
 
   describe 'Benefits' do
+    before do
+      find('#benefits-button').click
+    end
+
     it 'should have a correct sub-title' do
       expect(find('p.step.st1').text).to eq('Some of the benefits of a transition to retirement strategy:')
     end
@@ -49,6 +53,25 @@ describe 'Retirement Page' do
       expect(find('#tax-saving-on-income-text').text).to eq('Minimise tax on income')
     end
 
+  end
+
+  describe 'Page' do
+    it 'should show overview tab by default' do
+      expect(find('#overview')['class'].include?('hide')).to be_false
+    end
+
+    it 'should hide benefits tab by default' do
+      expect(find('#benefits', visible: false)['class'].include?('hide')).to be_true
+    end
+  end
+
+  describe 'Buttons' do
+    it 'should select overview button by default' do
+      expect(find('#overview-button')['class'].include?('selected')).to be_true
+    end
+    it 'should not select benefit button by default' do
+      expect(find('#benefits-button')['class'].include?('selected')).to be_false
+    end
   end
 
   describe 'Previous Button' do

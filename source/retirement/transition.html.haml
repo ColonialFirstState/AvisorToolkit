@@ -6,7 +6,9 @@
     .grid-12.title
       %p.title Transition to Retirement
     .parent.grid-12.overlay-container
-      %div.overlays.grid-12
+      #overview.overlays.grid-12
+        .grid-12
+      #benefits.overlays.grid-12.hide
         .grid-12.steps
           %p.step.st1 Some of the benefits of a transition to retirement strategy:
           .grid-12.visualisation
@@ -24,7 +26,11 @@
             .grid-4
               %p#tax-saving-on-income-text Minimise tax on income
 
-      %div.overlays
+    .buttons
+      .chart-legend.legend.centered.grid-12
+        #overview-button.button.grid-2.centered.selected Overview
+        #benefits-button.button.grid-2.centered Benefits
+
 
   .grid-1.next
     %a.right{href: "/retirement/income"}
