@@ -58,8 +58,14 @@
 }
 
 .retirement .buttons .button {
-  margin-top: 4em;
+  margin-top: 6em;
   display: inline-block !important;
+}
+
+@media screen and (min-height: 783px) {
+  .retirement .buttons .button {
+    margin-top: 16em;
+  }
 }
 
 .overlay-container {
