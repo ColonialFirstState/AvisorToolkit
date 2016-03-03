@@ -32,7 +32,7 @@
 }
 
 .retirement .explanation .steps .visualisation {
-  padding-top: 2em;
+  padding-top: 4em;
 }
 
 @media screen and (min-height: 783px) {
@@ -74,4 +74,13 @@
   }
   position: relative;
   height: 370px;
+}
+
+.retirement .text {
+  text-align: center;
+  font-weight: 100;
+}
+
+#regular-basis .icon{
+  transform: translateX(20px);
 }

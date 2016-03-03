@@ -5,6 +5,23 @@
   .grid-10.explanation
     .grid-12.title.income
       %p.title Income in Retirement
+    .grid-12.steps
+      .grid-12.parent.visualisation
+        .grid-4.grid-portrait-tablet-12
+          = partial '/retirement/icon',
+            locals: { id: 'income-stream',
+            icon: '/images/retirement/income_in_retirement/income_stream.svg',
+            text: 'You can turn your super into an income stream.' }
+        .grid-4.grid-portrait-tablet-12
+          = partial '/retirement/icon',
+            locals: { id: 'regular-basis',
+            icon: '/images/retirement/income_in_retirement/calendar.svg',
+            text: 'It pays you an income on a regular basis, like a salary.' }
+        .grid-4.grid-portrait-tablet-12
+          = partial '/retirement/icon',
+            locals: { id: 'tax-free',
+            icon: '/images/retirement/income_in_retirement/tax_free.svg',
+            text: 'This income in retirement is tax-free.' }
   .grid-1.next
     %a.right{href: "/supporting_content"}
       %img{src: "/images/nav/next.svg"}
