@@ -12,6 +12,6 @@
         max-width : 1024px
 )) ;
 
-@include gridle_register_state (portrait-tablet , (
-        max-width : 768px
-));
+@include gridle_register_state ( mobile , (
+        max-width : 600px
+) );
