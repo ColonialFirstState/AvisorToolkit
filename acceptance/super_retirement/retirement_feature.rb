@@ -1,16 +1,16 @@
-require_relative '../acceptance/login_helper'
+require_relative '../../acceptance/login_helper'
 
-describe 'Super Page' do
+describe 'Retirement Page' do
   include_context 'valid login'
 
   before (:each) do
     login
-    visit '/super_retirement/super'
+    visit '/super_retirement/transition'
   end
 
   describe 'Navigation Bar' do
 
-    it 'should select retirement tab' do
+    it 'should select super_retirement tab' do
       expect(find('.first-level .nav .selected a').text).to eq('SUPER & RETIREMENT')
     end
 
@@ -25,22 +25,16 @@ describe 'Super Page' do
         expect(current_url).to include('/super_retirement/super')
       end
 
-      it 'should navigate to transition to retirement page when it is clicked' do
+      it 'should navigate to transition to super_retirement page when it is clicked' do
         click_link('Transition to Retirement')
         expect(current_url).to include('/super_retirement/transition')
       end
 
-      it 'should navigate to income in retirement page when it is clicked' do
+      it 'should navigate to income in super_retirement page when it is clicked' do
         click_link('Income in Retirement')
         expect(current_url).to include('/super_retirement/income')
       end
 
-    end
-
-    describe 'title' do
-      it 'should have correct text' do
-        expect(find('.super .title').text).to eq('Example of how super works')
-      end
     end
   end
 end

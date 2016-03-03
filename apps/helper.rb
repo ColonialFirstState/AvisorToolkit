@@ -36,7 +36,7 @@ module Helper
   end
 
   def super_and_retirement?
-    page_classes.include?('retirement') ||
+    page_classes.include?('super_retirement') ||
         page_classes.include?('super')
   end
 
