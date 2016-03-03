@@ -1,11 +1,11 @@
 require_relative '../acceptance/login_helper'
 
-describe 'Retirement Page' do
+describe 'Super Page' do
   include_context 'valid login'
 
   before (:each) do
     login
-    visit '/retirement/transition'
+    visit '/super'
   end
 
   describe 'Navigation Bar' do
@@ -35,6 +35,12 @@ describe 'Retirement Page' do
         expect(current_url).to include('/retirement/income')
       end
 
+    end
+
+    describe 'title' do
+      it 'should have correct text' do
+        expect(find('.super .title').text).to eq('Example of how super works')
+      end
     end
   end
 end

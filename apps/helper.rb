@@ -11,7 +11,7 @@ module Helper
     partial 'components/secondary_menu/_asset_classes.haml', selected:'#cash'
   end
 
-  def retirement(selected ={})
+  def super_and_retirement(selected ={})
     partial 'components/secondary_menu/_retirement_subcategories.haml',
             selected: '#transition'
   end
@@ -35,15 +35,16 @@ module Helper
     page_classes.include?('asset_classes')
   end
 
-  def retirement?
-    page_classes.include?('retirement')
+  def super_and_retirement?
+    page_classes.include?('retirement') ||
+        page_classes.include?('super')
   end
 
   def secondary_menu
     if asset_classes?
       secondary_asset_classes_menu
-    elsif retirement?
-      retirement
+    elsif super_and_retirement?
+      super_and_retirement
     end
   end
 end
