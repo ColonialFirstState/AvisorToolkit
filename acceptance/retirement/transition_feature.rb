@@ -20,104 +20,104 @@ describe 'Retirement Page' do
     end
   end
 
-  context 'Benefits' do
+  context 'Strategy' do
 
-    # before do
-    #   find('#benefits-button').click
-    # end
-
-    xit 'should have a correct sub-title' do
-      expect(find('p.step.st1').text).to eq('Some of the benefits of a transition to retirement strategy:')
+    before do
+      find('#strategy-button').click
     end
 
-    xit 'should have correct src for boost income' do
-      expect(find('#boost-income')['src'].include?('/images/super_retirement/transition/boost_income.svg')).to be_true
+    it 'should have a correct sub-title' do
+      expect(find('p.step.st1').text).to eq('An example of Transition to Retirement:')
     end
 
-    xit 'should have correct src for tax saving on earnings' do
-      expect(find('#tax-saving-on-earnings')['src'].include?('/images/super_retirement/transition/tax_saving_on_earnings.svg')).to be_true
+    it 'should have correct src for tax saving on earnings' do
+      expect(find('#tax-saving-on-earnings')['src'].include?('/images/super_retirement/transition/benefits/tax_saving_on_earnings.svg')).to be_true
     end
 
-    xit 'should have correct src for tax savings on income' do
-      expect(find('#tax-saving-on-income')['src'].include?('/images/super_retirement/transition/tax_saving_on_income.svg')).to be_true
+    it 'should have correct src for tax savings on income' do
+      expect(find('#tax-saving-on-income')['src'].include?('/images/super_retirement/transition/benefits/tax_saving_on_income.svg')).to be_true
     end
 
-    xit 'should have correct text for boost income' do
-      expect(find('#boost-income-text').text).to eq('Maintain or boost your income')
+    it 'should have correct src for boost income' do
+      expect(find('#boost-income')['src'].include?('/images/super_retirement/transition/benefits/boost_income.svg')).to be_true
     end
 
-    xit 'should have correct text for tax saving on earnings' do
-      expect(find('#tax-saving-on-earnings-text').text).to eq('Minimise tax on earnings')
+    it 'should have correct text for boost income' do
+      expect(find('#boost-income-text').text).to eq('Salary sacrifice some of your current income')
     end
 
-    xit 'should have correct text for tax savings on income' do
-      expect(find('#tax-saving-on-income-text').text).to eq('Minimise tax on income')
+    it 'should have correct text for tax saving on earnings' do
+      expect(find('#tax-saving-on-earnings-text').text).to eq('Transfer some of your super to a pre-retirement pension')
+    end
+
+    it 'should have correct text for tax savings on income' do
+      expect(find('#tax-saving-on-income-text').text).to eq('Top up your income by drawing from your pre-retirement pension')
     end
 
   end
 
-  context 'Overview' do
+  context 'Benefits' do
     before do
-      skip
-      find('#overview-button').click
+      find('#benefits-button').click
     end
 
-    xit 'should have a correct sub-title' do
-      expect(find('p.step.st1').text).to eq("You can start to access your super as soon as you reach your preservation age, even while you're working. A Transition to Retirement strategy allows you to maintain your current income or boost your retirement savings, while paying less tax. An example of how this works:")
+    it 'should have a correct sub-title' do
+      expect(find('p.step.st1').text).to eq('You can start to access your super as soon as you reach your preservation age, even while you\'re working. Some of the benefits:')
     end
 
-    xit 'should have correct src for working hours' do
+    it 'should have correct src for saving' do
+      expect(find('#saving')['src'].include?('/images/super_retirement/transition/overview/saving.svg')).to be_true
+    end
+
+    it 'should have correct src for working hours' do
       expect(find('#working-hours')['src'].include?('/images/super_retirement/transition/overview/working-hours.svg')).to be_true
     end
 
-    xit 'should have correct src for saving' do
-      expect(find('#saving')['src'].include?('/images/super_retirement/transition.svg')).to be_true
-    end
 
-    xit 'should have correct src for top up reduce income' do
+    it 'should have correct src for top up reduce income' do
       expect(find('#pocket')['src'].include?('/images/super_retirement/transition/overview/pocket.svg')).to be_true
     end
 
-    xit 'should have correct text for working hours' do
+    it 'should have correct text for working hours' do
       expect(find('#working-hours-text').text).to eq('Reduce your working hours')
     end
 
-    xit 'should have correct text for saving' do
-      expect(find('#saving-text').text).to eq('Transfer some of your super to a new pre-retirement pension')
+    it 'should have correct text for saving' do
+      expect(find('#saving-text').text).to eq('Boost your super or income before retirement')
     end
 
-    xit 'should have correct text for tax savings on income' do
-      expect(find('#pocket-text').text).to eq('Top up your reduce income from work by drawing from your pre-retirement pension')
+    it 'should have correct text for tax savings on income' do
+      expect(find('#pocket-text').text).to eq('Minimise tax on income and earnings')
     end
 
   end
 
   describe 'Page' do
-    xit 'should show overview tab by default' do
-      expect(find('#overview')['class'].include?('hide')).to be_false
+    it 'should show overview tab by default' do
+      expect(find('#benefits')['class'].include?('hide')).to be_false
     end
 
-    xit 'should hide benefits tab by default' do
-      expect(find('#benefits', visible: false)['class'].include?('hide')).to be_true
+    it 'should hide benefits tab by default' do
+      expect(find('#strategy', visible: false)['class'].include?('hide')).to be_true
     end
   end
 
   describe 'Buttons' do
-    xit 'should select overview button by default' do
-      expect(find('#overview-button')['class'].include?('selected')).to be_true
+    it 'should select overview button by default' do
+      expect(find('#strategy-button')['class'].include?('selected')).to be_false
     end
-    xit 'should not select benefit button by default' do
-      expect(find('#benefits-button')['class'].include?('selected')).to be_false
+    it 'should not select benefit button by default' do
+      expect(find('#benefits-button')['class'].include?('selected')).to be_true
     end
 
-    xit 'should show benefits page by clicking on benefits button' do
+    it 'should show benefits page by clicking on benefits button' do
       find('#benefits-button').click
       expect(find('#benefits')['class'].include?('hide')).to be_false
     end
 
-    xit 'should show overview page by clicking on overview button' do
-      find('#overview-button').click
-      expect(find('#overview')['class'].include?('hide')).to be_false
+    it 'should show overview page by clicking on overview button' do
+      find('#strategy-button').click
+      expect(find('#strategy')['class'].include?('hide')).to be_false
     end
   end
 

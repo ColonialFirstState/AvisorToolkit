@@ -1,6 +1,6 @@
 $(function() {
     onButtonClickAction('#benefits-button');
-    onButtonClickAction('#overview-button');
+    onButtonClickAction('#strategy-button');
 });
 
 function onButtonClickAction(buttonClass) {
@@ -9,8 +9,8 @@ function onButtonClickAction(buttonClass) {
             return;
         }
         $('#benefits').toggleClass('hide');
-        $('#overview').toggleClass('hide');
-        $('#overview-button').toggleClass('selected');
+        $('#strategy').toggleClass('hide');
+        $('#strategy-button').toggleClass('selected');
         $('#benefits-button').toggleClass('selected');
     });
 }

@@ -5,46 +5,46 @@
   .grid-10.explanation
     .grid-12.title
       %p.title Transition to Retirement
-    .parent.grid-12.overlay-container.hide
-      #overview.overlays.grid-12
+    .parent.grid-12.overlay-container
+      #benefits.overlays.grid-12
         .grid-12.steps
-          %p.step.st1 You can start to access your super as soon as you reach your preservation age, even while you're working. A Transition to Retirement strategy allows you to maintain your current income or boost your retirement savings, while paying less tax. An example of how this works:
+          %p.step.st1 You can start to access your super as soon as you reach your preservation age, even while you're working. Some of the benefits:
           .grid-12.visualisation
             .grid-4
-              %img#working-hours.grid-12{src: '/images/retirement/transition_to_retirement/overview/working-hours.svg'}
+              %img#working-hours.grid-12{src: '/images/super_retirement/transition/overview/working-hours.svg'}
             .grid-4
-              %img#saving.grid-12{src: '/images/retirement/transition_to_retirement/overview/saving.svg'}
+              %img#saving.grid-12{src: '/images/super_retirement/transition/overview/saving.svg'}
             .grid-4
-              %img#pocket.grid-12{src: '/images/retirement/transition_to_retirement/overview/pocket.svg'}
+              %img#pocket.grid-12{src: '/images/super_retirement/transition/overview/pocket.svg'}
           .grid-12.st1
             .grid-4
               %p#working-hours-text Reduce your working hours
             .grid-4
-              %p#saving-text Transfer some of your super to a new pre-retirement pension
+              %p#saving-text Boost your super or income before retirement
             .grid-4
-              %p#pocket-text Top up your reduce income from work by drawing from your pre-retirement pension
-      #benefits.overlays.grid-12.hide
+              %p#pocket-text Minimise tax on income and earnings
+      #strategy.overlays.grid-12.hide
         .grid-12.steps
-          %p.step.st1 Some of the benefits of a transition to retirement strategy:
+          %p.step.st1 An example of Transition to Retirement:
           .grid-12.visualisation
             .grid-4
-              %img#boost-income.grid-12{src: '/images/retirement/transition_to_retirement/benefits/boost_income.svg'}
+              %img#boost-income.grid-12{src: '/images/super_retirement/transition/benefits/boost_income.svg'}
             .grid-4
-              %img#tax-saving-on-earnings.grid-12{src: '/images/retirement/transition_to_retirement/benefits/tax_saving_on_earnings.svg'}
+              %img#tax-saving-on-earnings.grid-12{src: '/images/super_retirement/transition/benefits/tax_saving_on_earnings.svg'}
             .grid-4
-              %img#tax-saving-on-income.grid-12{src: '/images/retirement/transition_to_retirement/benefits/tax_saving_on_income.svg'}
+              %img#tax-saving-on-income.grid-12{src: '/images/super_retirement/transition/benefits/tax_saving_on_income.svg'}
           .grid-12.st1
             .grid-4
-              %p#boost-income-text Maintain or boost your income
+              %p#boost-income-text Salary sacrifice some of your current income
             .grid-4
-              %p#tax-saving-on-earnings-text Minimise tax on earnings
+              %p#tax-saving-on-earnings-text Transfer some of your super to a pre-retirement pension
             .grid-4
-              %p#tax-saving-on-income-text Minimise tax on income
+              %p#tax-saving-on-income-text Top up your income by drawing from your pre-retirement pension
 
-    .buttons.hide
+    .buttons
       .chart-legend.legend.centered.grid-12
-        #overview-button.button.grid-2.centered.selected Overview
-        #benefits-button.button.grid-2.centered Benefits
+        #benefits-button.button.grid-2.centered.selected Benefits
+        #strategy-button.button.grid-2.centered Strategy
 
 
   .grid-1.next
