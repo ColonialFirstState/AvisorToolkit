@@ -5,7 +5,7 @@ describe 'Retirement Page' do
 
   before (:each) do
     login
-    visit '/retirement/transition'
+    visit '/super_retirement/transition'
   end
 
   it 'should have the correct title' do
@@ -16,7 +16,7 @@ describe 'Retirement Page' do
 
     it 'should direct to Income page when click' do
       find('div.next').click
-      expect(current_url).to include('/retirement/income')
+      expect(current_url).to include('/super_retirement/income')
     end
   end
 
@@ -31,15 +31,15 @@ describe 'Retirement Page' do
     end
 
     xit 'should have correct src for boost income' do
-      expect(find('#boost-income')['src'].include?('/images/retirement/transition_to_retirement/boost_income.svg')).to be_true
+      expect(find('#boost-income')['src'].include?('/images/super_retirement/transition/boost_income.svg')).to be_true
     end
 
     xit 'should have correct src for tax saving on earnings' do
-      expect(find('#tax-saving-on-earnings')['src'].include?('/images/retirement/transition_to_retirement/tax_saving_on_earnings.svg')).to be_true
+      expect(find('#tax-saving-on-earnings')['src'].include?('/images/super_retirement/transition/tax_saving_on_earnings.svg')).to be_true
     end
 
     xit 'should have correct src for tax savings on income' do
-      expect(find('#tax-saving-on-income')['src'].include?('/images/retirement/transition_to_retirement/tax_saving_on_income.svg')).to be_true
+      expect(find('#tax-saving-on-income')['src'].include?('/images/super_retirement/transition/tax_saving_on_income.svg')).to be_true
     end
 
     xit 'should have correct text for boost income' do
@@ -67,15 +67,15 @@ describe 'Retirement Page' do
     end
 
     xit 'should have correct src for working hours' do
-      expect(find('#working-hours')['src'].include?('/images/retirement/transition_to_retirement/overview/working-hours.svg')).to be_true
+      expect(find('#working-hours')['src'].include?('/images/super_retirement/transition/overview/working-hours.svg')).to be_true
     end
 
     xit 'should have correct src for saving' do
-      expect(find('#saving')['src'].include?('/images/retirement/transition_to_retirement/overview/saving.svg')).to be_true
+      expect(find('#saving')['src'].include?('/images/super_retirement/transition.svg')).to be_true
     end
 
     xit 'should have correct src for top up reduce income' do
-      expect(find('#pocket')['src'].include?('/images/retirement/transition_to_retirement/overview/pocket.svg')).to be_true
+      expect(find('#pocket')['src'].include?('/images/super_retirement/transition/overview/pocket.svg')).to be_true
     end
 
     xit 'should have correct text for working hours' do
@@ -125,7 +125,7 @@ describe 'Retirement Page' do
 
     it 'should direct to Super when click' do
       find('div.previous').click
-      expect(current_url).to include('/super')
+      expect(current_url).to include('/super_retirement/super')
     end
   end
 

@@ -5,7 +5,7 @@ describe 'Retirement Page' do
 
   before (:each) do
     login
-    visit '/retirement/transition'
+    visit '/super_retirement/transition'
   end
 
   describe 'Navigation Bar' do
@@ -22,17 +22,17 @@ describe 'Retirement Page' do
 
       it 'should navigate to transition to super page when it is clicked' do
         click_link('Super')
-        expect(current_url).to include('/super')
+        expect(current_url).to include('/super_retirement/super')
       end
 
       it 'should navigate to transition to retirement page when it is clicked' do
         click_link('Transition to Retirement')
-        expect(current_url).to include('/retirement/transition')
+        expect(current_url).to include('/super_retirement/transition')
       end
 
       it 'should navigate to income in retirement page when it is clicked' do
         click_link('Income in Retirement')
-        expect(current_url).to include('/retirement/income')
+        expect(current_url).to include('/super_retirement/income')
       end
 
     end

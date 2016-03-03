@@ -12,7 +12,7 @@
         .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("managed_funds"))}
           = link_to "MANAGED FUNDS", "/managed_funds"
         .grid-tablet-2.l1-item{class: ('selected' if super_and_retirement?)}
-          = link_to "SUPER & RETIREMENT", "/super"
+          = link_to "SUPER & RETIREMENT", "/super_retirement/super"
         .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("supporting_content"))}
           = link_to "SUPPORTING CONTENT", "/supporting_content"
   .second-level.grid-12{class: ('hide' if !asset_classes? && !super_and_retirement?)}

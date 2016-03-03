@@ -33,7 +33,7 @@ describe 'Supporting Content Page' do
 
     it 'should direct to Income page when click' do
       find('div.previous').click
-      expect(current_url).to include('/retirement/income')
+      expect(current_url).to include('/super_retirement/income')
     end
   end
 

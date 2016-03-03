@@ -129,8 +129,11 @@ a, u {
 
 .title {
   text-align: center;
-  color: #1768C7;
+  color: black;
   font-size: 2.8rem;
   font-weight: 300;
   margin: 3% 0;
+  .description {
+    color: black;
+  }
 }

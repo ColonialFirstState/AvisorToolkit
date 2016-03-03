@@ -1,7 +1,7 @@
 @import "colour";
 
 .title-text {
-  color: $OCEAN;
+  color: black;
   font-size: 1.5em;
   font-weight: 100;
 }
@@ -43,11 +43,20 @@
 }
 
 .supporting-content {
-  background-color: $MOSS-GREEN;
-}
-
-.retirement {
-  background-color: $OCEAN;
+  min-height: 0;
+  height: auto;
+  margin-top: 4em;
+  font-size: 12px;
+  box-shadow: none;
+  u {
+    border-bottom: 1px dotted $OCEAN;
+    text-decoration: none;
+  }
+  .section-title {
+    padding: 0;
+    color: $OCEAN;
+    text-decoration: dotted;
+  }
 }
 
 .section-details img {

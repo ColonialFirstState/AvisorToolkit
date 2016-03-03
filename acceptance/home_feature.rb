@@ -22,9 +22,8 @@ describe 'Home Page' do
       expect(find('.risk .section-title').text).to eq('Risk')
       expect(find('.asset-classes .section-title').text).to eq('Asset Classes')
       expect(find('.managed-funds .section-title').text).to eq('Managed Funds')
-      expect(find('.super .section-title').text).to eq('Super')
+      expect(find('.super .section-title').text).to eq('Super & Retirement')
       expect(find('.supporting-content .section-title').text).to eq('Supporting Content')
-      expect(find('.retirement .section-title').text).to eq('Retirement')
     end
 
     it 'risk button should link to risk profile page' do
@@ -50,11 +49,6 @@ describe 'Home Page' do
     it 'supporting content button should link to supporting content page' do
       find('div.supporting-content').click
       expect(current_url).to include('/supporting_content')
-    end
-
-    it 'retirement button should link to retirement page' do
-      find('div.retirement').click
-      expect(current_url).to include('/retirement/transition')
     end
 
   end
