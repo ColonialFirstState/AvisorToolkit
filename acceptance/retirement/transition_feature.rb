@@ -30,20 +30,13 @@ describe 'Retirement Page' do
       expect(find('p.step.st1').text).to eq('An example of Transition to Retirement:')
     end
 
-    it 'should have correct src for tax saving on earnings' do
-      expect(find('#tax-saving-on-earnings')['src'].include?('/images/super_retirement/transition/benefits/tax_saving_on_earnings.svg')).to be_true
-    end
-
-    it 'should have correct src for tax savings on income' do
-      expect(find('#tax-saving-on-income')['src'].include?('/images/super_retirement/transition/benefits/tax_saving_on_income.svg')).to be_true
-    end
 
     it 'should have correct src for boost income' do
-      expect(find('#boost-income')['src'].include?('/images/super_retirement/transition/benefits/boost_income.svg')).to be_true
+      expect(find('#salary-sacrifice')['src'].include?('/images/super_retirement/transition/benefits/pie.svg')).to be_true
     end
 
     it 'should have correct text for boost income' do
-      expect(find('#boost-income-text').text).to eq('Salary sacrifice some of your current income')
+      expect(find('#salary-sacrifice-text').text).to eq('Salary sacrifice some of your current income')
     end
 
     it 'should have correct text for tax saving on earnings' do
@@ -54,6 +47,15 @@ describe 'Retirement Page' do
       expect(find('#tax-saving-on-income-text').text).to eq('Top up your income by drawing from your pre-retirement pension')
     end
 
+
+
+    it 'should have correct src for top up reduce income' do
+      expect(find('#pocket')['src'].include?('/images/super_retirement/transition/overview/pocket.svg')).to be_true
+    end
+
+    it 'should have correct src for saving' do
+      expect(find('#saving')['src'].include?('/images/super_retirement/transition/overview/saving.svg')).to be_true
+    end
   end
 
   context 'Benefits' do
@@ -61,21 +63,21 @@ describe 'Retirement Page' do
       find('#benefits-button').click
     end
 
+    it 'should have correct src for tax saving on earnings' do
+      expect(find('#tax-saving-on-earnings')['src'].include?('/images/super_retirement/transition/benefits/tax_saving_on_earnings.svg')).to be_true
+    end
+
+    it 'should have correct src for tax savings on income' do
+      expect(find('#tax-saving-on-income')['src'].include?('/images/super_retirement/transition/benefits/tax_saving_on_income.svg')).to be_true
+    end
+
     it 'should have a correct sub-title' do
       expect(find('p.step.st1').text).to eq('You can start to access your super as soon as you reach your preservation age, even while you\'re working. Some of the benefits:')
     end
 
-    it 'should have correct src for saving' do
-      expect(find('#saving')['src'].include?('/images/super_retirement/transition/overview/saving.svg')).to be_true
-    end
 
     it 'should have correct src for working hours' do
       expect(find('#working-hours')['src'].include?('/images/super_retirement/transition/overview/working-hours.svg')).to be_true
-    end
-
-
-    it 'should have correct src for top up reduce income' do
-      expect(find('#pocket')['src'].include?('/images/super_retirement/transition/overview/pocket.svg')).to be_true
     end
 
     it 'should have correct text for working hours' do

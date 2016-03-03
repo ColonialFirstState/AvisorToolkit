@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="153px" height="152px" viewBox="0 0 153 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="91.4062108%" y1="-32.8762273%" x2="16.3354027%" y2="123.196752%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D5DCE9" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-2" d="M0,0.0142985843 L99,0.0142985843 L99,100.09009 L0,100.09009 L0,0.0142985843 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="16-Income-in-Retirement-Copy" sketch:type="MSArtboardGroup" transform="translate(-163.000000, -386.000000)">
+            <g id="Group-5" sketch:type="MSLayerGroup" transform="translate(163.000000, 386.000000)">
+                <path d="M76.4420629,151.458825 C106.888243,151.458825 133.177116,133.825216 145.470312,108.304647 C150.22331,98.4374626 152.884126,87.391274 152.884126,75.7294124 C152.884126,33.9052128 118.659848,0 76.4420629,0 C34.2242773,0 0,33.9052128 0,75.7294124 C0,117.553612 34.2242773,151.458825 76.4420629,151.458825 Z" id="Oval-298" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
+                <g id="pie-chart-finances" transform="translate(33.000000, 17.000000)">
+                    <mask id="mask-3" sketch:name="Clip 2" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M45.7857065,56.3573392 L45.7857065,18.8850394 C45.7857065,17.131318 44.3606087,15.7111111 42.6022826,15.7111111 C19.1102283,15.7111111 0,34.755753 0,58.1653952 C0,81.5768248 19.1102283,100.621467 42.6022826,100.621467 C53.7218478,100.621467 64.2456196,96.3765744 72.232337,88.6685651 C80.2007609,80.9777141 84.7963696,70.6698647 85.1747935,59.6399367 C85.2042065,58.7798769 84.8820978,57.9448396 84.2823587,57.3264258 C83.6811848,56.7076545 82.8543913,56.3573392 81.9913696,56.3573392 L45.7857065,56.3573392 Z" id="Fill-1" fill="#204581" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+                    <path d="M56.2800652,2.24444444 C54.5217391,2.24444444 53.0966413,3.66465133 53.0966413,5.41837269 L53.0966413,46.0660307 C53.0966413,47.8183222 54.5217391,49.2399589 56.2800652,49.2399589 L95.6709457,49.2399589 C97.3873043,49.2399589 98.7955435,47.8840957 98.8543696,46.1750574 C98.872663,45.6163402 98.8823478,45.1473466 98.8823478,44.7005159 C98.8823478,21.2890863 79.7706848,2.24444444 56.2800652,2.24444444 L56.2800652,2.24444444 Z" id="Fill-3" fill="#4D73AE" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
