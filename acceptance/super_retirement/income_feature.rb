@@ -12,6 +12,10 @@ describe 'Income in Retirement Page' do
     expect(find('p.title').text).to eq('Income in Retirement')
   end
 
+  it 'should have correct subtitle' do
+    expect(find('.step.st1').text).to eq('Use your super to generate a regular tax-free income in retirement')
+  end
+
   describe 'content' do
     describe 'income stream' do
       it 'should have correct image path' do
