@@ -48,7 +48,7 @@ describe 'Income in Retirement Page' do
   describe 'Next Button' do
 
     it 'should direct to Supporting Content page when click' do
-      find('div.next').click
+      find('a.right').click
       expect(current_url).to include('/supporting_content')
     end
   end

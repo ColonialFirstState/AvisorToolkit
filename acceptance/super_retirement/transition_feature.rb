@@ -27,7 +27,7 @@ describe 'Retirement Page' do
     end
 
     it 'should have a correct sub-title' do
-      expect(find('p.step.st1').text).to eq('An example of Transition to Retirement:')
+      expect(find('p.step.st1').text).to eq('How Transition to Retirement works:')
     end
 
 
@@ -36,15 +36,15 @@ describe 'Retirement Page' do
     end
 
     it 'should have correct text for boost income' do
-      expect(find('#salary-sacrifice-text').text).to eq('Salary sacrifice some of your current income')
+      expect(find('#salary-sacrifice-text').text).to eq('Salary sacrifice some of your current income.')
     end
 
     it 'should have correct text for tax saving on earnings' do
-      expect(find('#tax-saving-on-earnings-text').text).to eq('Transfer some of your super to a pre-retirement pension')
+      expect(find('#tax-saving-on-earnings-text').text).to eq('Transfer some of your super to a pre-retirement pension.')
     end
 
     it 'should have correct text for tax savings on income' do
-      expect(find('#tax-saving-on-income-text').text).to eq('Top up your income by drawing from your pre-retirement pension')
+      expect(find('#tax-saving-on-income-text').text).to eq('Top up your income by drawing from your pre-retirement pension.')
     end
 
 
@@ -81,15 +81,15 @@ describe 'Retirement Page' do
     end
 
     it 'should have correct text for working hours' do
-      expect(find('#working-hours-text').text).to eq('Reduce your working hours')
+      expect(find('#working-hours-text').text).to eq('Reduce your working hours.')
     end
 
     it 'should have correct text for saving' do
-      expect(find('#saving-text').text).to eq('Boost your super or income before retirement')
+      expect(find('#saving-text').text).to eq('Boost your super or income before retirement.')
     end
 
     it 'should have correct text for tax savings on income' do
-      expect(find('#pocket-text').text).to eq('Minimise tax on income and earnings')
+      expect(find('#pocket-text').text).to eq('Minimise tax on income and earnings.')
     end
 
   end
