@@ -13,7 +13,7 @@ describe 'Income in Retirement Page' do
   end
 
   it 'should have correct subtitle' do
-    expect(find('.step.st1').text).to eq('Use your super to generate a regular tax-free income in retirement')
+    expect(find('.step.st1').text).to eq('Use your super to generate a regular tax-free income in retirement.')
   end
 
   describe 'content' do
