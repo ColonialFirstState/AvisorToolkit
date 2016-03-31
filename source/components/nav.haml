@@ -7,7 +7,7 @@
       .grid-12.nav
         .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("asset_classes"))}
           = link_to "ASSET CLASSES", "/asset_classes/cash"
-        .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("risk"))}
+        .grid-tablet-2.l1-item.diversification{class: ('selected' if page_classes.include?("risk"))}
           = link_to "DIVERSIFICATION", "/risk/profiles"
         .grid-tablet-2.l1-item{class: ('selected' if page_classes.include?("managed_funds"))}
           = link_to "MANAGED FUNDS", "/managed_funds"
