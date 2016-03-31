@@ -14,11 +14,6 @@ describe 'Cash Page' do
       expect(find('.second-level .nav .selected a').text).to eq('Cash')
     end
 
-    it 'should direct to risk profile when click previous button' do
-      find('div.previous').click
-      expect(current_url).to include('/risk/profile')
-    end
-
     it 'should direct to fixed income page when click next button' do
       find('div.next').click
       expect(current_url).to include('/asset_classes/fixed_income')

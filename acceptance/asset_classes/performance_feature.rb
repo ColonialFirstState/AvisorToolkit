@@ -19,9 +19,9 @@ describe 'Performance Page' do
       expect(current_url).to include('/asset_classes/shares')
     end
 
-    it 'should direct to managed funds when click next button' do
+    it 'should direct to risk when click next button' do
       find('div.next').click
-      expect(current_url).to include('/managed_funds')
+      expect(current_url).to include('/risk/profiles')
     end
   end
 

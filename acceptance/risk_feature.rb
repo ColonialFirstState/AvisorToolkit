@@ -17,6 +17,11 @@ describe 'Risk Page' do
     it 'should hide the second level' do
       page.should have_css('div.second-level', :visible => false)
     end
+
+    it 'should direct to performance when click previous button' do
+      find('div.previous').click
+      expect(current_url).to include('/asset_classes/performance')
+    end
   end
 
   describe 'Buttons' do
@@ -45,9 +50,9 @@ describe 'Risk Page' do
 
   describe 'Next Button' do
 
-    it 'should direct to cash page when click' do
+    it 'should direct to managed funds page when click' do
       find('div.next').click
-      expect(current_url).to include('/asset_classes/cash')
+      expect(current_url).to include('/managed_funds')
     end
   end
 
