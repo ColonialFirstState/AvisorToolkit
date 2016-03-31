@@ -19,7 +19,7 @@ describe 'Home Page' do
   describe 'Navigation' do
 
     it 'should have five buttons' do
-      expect(find('.risk .section-title').text).to eq('Risk')
+      expect(find('.risk .section-title').text).to eq('Diversification')
       expect(find('.asset-classes .section-title').text).to eq('Asset Classes')
       expect(find('.managed-funds .section-title').text).to eq('Managed Funds')
       expect(find('.super .section-title').text).to eq('Super & Retirement')

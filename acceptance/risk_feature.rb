@@ -11,7 +11,7 @@ describe 'Risk Page' do
   describe 'Navigation Bar' do
 
     it 'should select Risk tab' do
-      expect(find('.nav .selected a').text).to eq('RISK')
+      expect(find('.nav .selected a').text).to eq('DIVERSIFICATION')
     end
 
     it 'should hide the second level' do
