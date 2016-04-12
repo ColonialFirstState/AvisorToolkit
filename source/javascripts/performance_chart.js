@@ -3,7 +3,7 @@ $(document).ready(function () {
     return;
   }
 
-  var font       = "Open Sans";
+  var font       = "Open Sans, sans-serif";
   var gridColour = "#E9EDF4";
   var chart      = new CanvasJS.Chart("chartContainer", {
     animationEnabled: true,
@@ -51,7 +51,12 @@ $(document).ready(function () {
       lineOption('fixed',       FIXED_DATA,       "#F58C23"),
       lineOption('cash',        CASH_DATA,        "#12A99C"),
       lineOption('diversified', DIVERSIFIED_DATA, "#2F4F4F"),
-      lineOption('make_empty_chart_consistent', [ { x: 0, y: 1}, { x: 1, y: 1}], "#E2E3E5")
+      // Chart does not show x-axis labels on render if no data is visible
+      // insert dummy data and set visible to true to get around this problem
+      $.extend(
+        lineOption('make_empty_chart_consistent', [ { x: 0, y: 1}, { x: 1, y: 1}], "#E2E3E5"),
+        { visible: true }
+      )
     ]
   });
 
@@ -77,11 +82,10 @@ function lineOption(name, dataPoints, lineColour) {
   return {
     type: "line",
     lineThickness: 1,
-    visible: true,
+    visible: false,
     name: name,
     color: lineColour,
     markerType: "none",
     dataPoints: dataPoints
   };
-}
-
+};

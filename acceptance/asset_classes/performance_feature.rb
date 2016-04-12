@@ -38,4 +38,26 @@ describe 'Performance Page' do
     end
 
   end
+
+  # Checks if element has HTML class
+  # The following matcher works, and is more concise but
+  # takes 5 seconds to run.
+  #
+  #     expect(find('#aus-shares')).to have_css('.disabled')
+  #
+  # We can also do something like
+  #
+  #     find(el)[:class].include?(klass)
+  #
+  # but it'll match even if find(el)[:class] has a substring of klass
+  # @return bool
+  def class?(element_id, klass)
+    find(element_id)[:class].split(' ').any? { |e| e == klass }
+  end
+
+  describe 'Chart buttons' do
+    %w(aus-shares int-shares property fixed cash diversified).each do |id|
+      it { expect(class?("##{id}", 'disabled')).to be(true) }
+    end
+  end
 end
