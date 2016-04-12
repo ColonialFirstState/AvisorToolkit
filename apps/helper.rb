@@ -47,4 +47,11 @@ module Helper
       super_and_retirement
     end
   end
+
+  def google_analytics
+    return '' if ENV['RACK_ENV'] != 'production'
+    content_tag(:script, '',
+                src: '/javascripts/analytics.js',
+                type: 'text/javascript')
+  end
 end
