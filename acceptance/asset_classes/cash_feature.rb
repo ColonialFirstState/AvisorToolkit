@@ -3,13 +3,12 @@ require_relative '../../acceptance/login_helper'
 describe 'Cash Page' do
   include_context 'valid login'
 
-  before (:each) do
+  before(:each) do
     login
     visit '/asset_classes/cash'
   end
 
   describe 'Navigation' do
-
     it 'should select cash in second navigation level' do
       expect(find('.second-level .nav .selected a').text).to eq('Cash')
     end
@@ -21,7 +20,6 @@ describe 'Cash Page' do
   end
 
   describe 'Content' do
-
     it 'should have correct title' do
       expect(find('.explanation .title').text).to eq('An example of investing in cash')
     end

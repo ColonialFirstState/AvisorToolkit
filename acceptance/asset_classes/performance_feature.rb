@@ -3,13 +3,12 @@ require_relative '../../acceptance/login_helper'
 describe 'Performance Page' do
   include_context 'valid login'
 
-  before (:each) do
+  before(:each) do
     login
     visit '/asset_classes/performance'
   end
 
   describe 'Navigation' do
-
     it 'should select performance in second navigation level' do
       expect(find('.second-level .nav .selected a').text).to eq('Performance')
     end
@@ -26,21 +25,17 @@ describe 'Performance Page' do
   end
 
   describe 'Content' do
-
     it 'should have correct title' do
       expect(find('.explanation .title').text).to eq('Performance of Asset Classes')
     end
 
     it 'should have six asset buttons with correct title' do
-      buttons_title = all('.legend').map {|button| button.text}
-
       # The order is significant
       # https://trello.com/c/OEobbSRc
-      expect(buttons_title).to match_array(
+      expect(all('.legend').map(&:text)).to match_array(
         %w(Cash Fixed Property Aus\ Shares Int\ Shares Diversified)
       )
     end
-
   end
 
   # Checks if element has HTML class

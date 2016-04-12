@@ -3,19 +3,18 @@ require_relative '../acceptance/login_helper'
 describe 'Risk Page' do
   include_context 'valid login'
 
-  before (:each) do
+  before(:each) do
     login
     visit '/risk/profiles'
   end
 
   describe 'Navigation Bar' do
-
     it 'should select Risk tab' do
       expect(find('.nav .selected a').text).to eq('DIVERSIFICATION')
     end
 
     it 'should hide the second level' do
-      page.should have_css('div.second-level', :visible => false)
+      page.should have_css('div.second-level', visible: false)
     end
 
     it 'should direct to performance when click previous button' do
@@ -25,7 +24,6 @@ describe 'Risk Page' do
   end
 
   describe 'Buttons' do
-
     it 'should have correct behavior for Conservative Button' do
       find('#conservative').click
       expect(find('#risk-profile-title').text).to eq('Conservative portfolio')
@@ -49,11 +47,9 @@ describe 'Risk Page' do
   end
 
   describe 'Next Button' do
-
     it 'should direct to managed funds page when click' do
       find('div.next').click
       expect(current_url).to include('/managed_funds')
     end
   end
-
 end

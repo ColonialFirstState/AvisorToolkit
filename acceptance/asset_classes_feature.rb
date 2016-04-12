@@ -3,19 +3,17 @@ require_relative '../acceptance/login_helper'
 describe 'Asset Classes Page' do
   include_context 'valid login'
 
-  before (:each) do
+  before(:each) do
     login
     visit '/asset_classes/cash'
   end
 
   describe 'Navigation Bar' do
-
     it 'should select Asset classes tab at first level' do
       expect(find('.first-level .nav .selected a').text).to eq('ASSET CLASSES')
     end
 
     describe 'Second Level' do
-
       it 'should navigate to cash page when click cash' do
         click_link('Cash')
         expect(current_url).to include('/asset_classes/cash')
@@ -40,7 +38,6 @@ describe 'Asset Classes Page' do
         click_link('Performance')
         expect(current_url).to include('/asset_classes/performance')
       end
-
     end
   end
 end

@@ -3,7 +3,7 @@ require_relative '../../acceptance/login_helper'
 describe 'Income in Retirement Page' do
   include_context 'valid login'
 
-  before (:each) do
+  before(:each) do
     login
     visit '/super_retirement/income'
   end
@@ -50,7 +50,6 @@ describe 'Income in Retirement Page' do
   end
 
   describe 'Next Button' do
-
     it 'should direct to Supporting Content page when click' do
       find('a.right').click
       expect(current_url).to include('/supporting_content')
@@ -58,7 +57,6 @@ describe 'Income in Retirement Page' do
   end
 
   describe 'Previous Button' do
-
     it 'should direct to Transition page when click' do
       find('div.previous').click
       expect(current_url).to include('/super_retirement/transition')

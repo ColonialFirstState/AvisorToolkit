@@ -3,13 +3,12 @@ require_relative '../../acceptance/login_helper'
 describe 'Property Page' do
   include_context 'valid login'
 
-  before (:each) do
+  before(:each) do
     login
     visit '/asset_classes/property'
   end
 
   describe 'Navigation' do
-
     it 'should select property in second navigation level' do
       expect(find('.second-level .nav .selected a').text).to eq('Property')
     end
@@ -26,7 +25,6 @@ describe 'Property Page' do
   end
 
   describe 'Content' do
-
     it 'should have correct title' do
       expect(find('.explanation .title').text).to eq('An example of investing in property')
     end

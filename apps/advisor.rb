@@ -1,8 +1,8 @@
-require "rack"
-require "middleman/rack"
-require "rack/contrib/try_static"
-require "warden"
-require "digest"
+require 'rack'
+require 'middleman/rack'
+require 'rack/contrib/try_static'
+require 'warden'
+require 'digest'
 
 require_relative 'advisor/login'
 
@@ -15,24 +15,22 @@ module Advisor
 
       def authenticate!
         if Digest::SHA256.base64digest(params['password']) == ENV['PASS_DIGEST']
-          success!({login: true})
+          success!(login: true)
         else
-          fail!("Invalid password")
+          fail!('Invalid password')
         end
       end
     end
-
-
 
     @@app ||= Rack::Builder.new do
       map '/' do
         # Enable proper HEAD responses
         use Rack::Head
-        use Rack::Session::Cookie, :secret => 'test123'
+        use Rack::Session::Cookie, secret: 'test123'
 
         use Warden::Manager do |manager|
-            manager.default_strategies :password
-            manager.failure_app = Advisor.app
+          manager.default_strategies :password
+          manager.failure_app = Advisor.app
         end
 
         # Check if the user is logged in and handle login requests
@@ -40,19 +38,19 @@ module Advisor
 
         # Attempt to serve static HTML files
         use Rack::TryStatic,
-            :root => "build",
-            :urls => %w[/],
-            :try => ['.html', 'index.html', '/index.html']
+            root: 'build',
+            urls: ['/'],
+            try: ['.html', 'index.html', '/index.html']
 
-        run lambda { |env|
+        run lambda {
           # Serve a 404 page if all else fails
           [
             404,
             {
-              "Content-Type" => "text/html",
-              "Cache-Control" => "public, max-age=60"
+              'Content-Type' => 'text/html',
+              'Cache-Control' => 'public, max-age=60'
             },
-            File.open("build/404/index.html", File::RDONLY)
+            File.open('build/404/index.html', File::RDONLY)
           ]
         }
       end
@@ -64,20 +62,19 @@ module Advisor
       map '/login' do
         # Attempt to serve static HTML files
         use Rack::TryStatic,
-            :root => "build",
-            :urls => %w[/login],
-            :try => ['.html', 'index.html', '/index.html']
-
+            root: 'build',
+            urls: ['/'],
+            try: ['.html', 'index.html', '/index.html']
 
         # Serve a 404 page if all else fails
-        run lambda { |env|
+        run lambda {
           [
             404,
             {
-              "Content-Type" => "text/html",
-              "Cache-Control" => "public, max-age=60"
+              'Content-Type' => 'text/html',
+              'Cache-Control' => 'public, max-age=60'
             },
-            File.open("build/404/index.html", File::RDONLY)
+            File.open('build/404/index.html', File::RDONLY)
           ]
         }
       end

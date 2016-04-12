@@ -3,13 +3,12 @@ require_relative '../acceptance/login_helper'
 describe 'Home Page' do
   include_context 'valid login'
 
-  before (:each) do
+  before(:each) do
     login
     visit '/'
   end
 
   describe 'Title' do
-
     it 'should has correct wording' do
       expect(find('div.title-text').text).to eq('Wealth iQ')
       expect(find('div.description').text).to eq('financial concepts explained')
@@ -17,7 +16,6 @@ describe 'Home Page' do
   end
 
   describe 'Navigation' do
-
     it 'should have five buttons' do
       expect(find('.risk .section-title').text).to eq('Diversification')
       expect(find('.asset-classes .section-title').text).to eq('Asset Classes')
@@ -50,7 +48,5 @@ describe 'Home Page' do
       find('div.supporting-content').click
       expect(current_url).to include('/supporting_content')
     end
-
   end
-
 end

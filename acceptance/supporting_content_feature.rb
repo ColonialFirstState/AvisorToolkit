@@ -3,7 +3,7 @@ require_relative '../acceptance/login_helper'
 describe 'Supporting Content Page' do
   include_context 'valid login'
 
-  before (:each) do
+  before(:each) do
     login
     visit '/supporting_content'
   end
@@ -19,22 +19,19 @@ describe 'Supporting Content Page' do
   end
 
   describe 'Navigation Bar' do
-
     it 'should select supporting content tab' do
       expect(find('.nav .selected a').text).to eq('SUPPORTING CONTENT')
     end
 
     it 'should hide the second level' do
-      page.should have_css('div.second-level', :visible => false)
+      page.should have_css('div.second-level', visible: false)
     end
   end
 
   describe 'Previous Button' do
-
     it 'should direct to Income page when click' do
       find('div.previous').click
       expect(current_url).to include('/super_retirement/income')
     end
   end
-
 end

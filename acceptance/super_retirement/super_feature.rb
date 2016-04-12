@@ -3,13 +3,12 @@ require_relative '../../acceptance/login_helper'
 describe 'Super Page' do
   include_context 'valid login'
 
-  before (:each) do
+  before(:each) do
     login
     visit '/super_retirement/super'
   end
 
   describe 'Navigation Bar' do
-
     it 'should select retirement tab' do
       expect(find('.first-level .nav .selected a').text).to eq('SUPER & RETIREMENT')
     end
@@ -19,7 +18,6 @@ describe 'Super Page' do
     end
 
     describe 'Second Level' do
-
       it 'should navigate to transition to super page when it is clicked' do
         click_link('Super')
         expect(current_url).to include('/super_retirement/super')
@@ -34,7 +32,6 @@ describe 'Super Page' do
         click_link('Income in Retirement')
         expect(current_url).to include('/super_retirement/income')
       end
-
     end
 
     describe 'title' do
