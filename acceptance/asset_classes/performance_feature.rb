@@ -34,7 +34,11 @@ describe 'Performance Page' do
     it 'should have six asset buttons with correct title' do
       buttons_title = all('.legend').map {|button| button.text}
 
-      expect(buttons_title).to eq(['Aus Shares', 'Int Shares', 'Property', 'Fixed', 'Cash', 'Diversified'])
+      # The order is significant
+      # https://trello.com/c/OEobbSRc
+      expect(buttons_title).to match_array(
+        %w(Cash Fixed Property Aus\ Shares Int\ Shares Diversified)
+      )
     end
 
   end
