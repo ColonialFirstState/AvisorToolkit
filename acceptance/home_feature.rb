@@ -49,4 +49,25 @@ describe 'Home Page' do
       expect(current_url).to include('/supporting_content')
     end
   end
+
+  describe 'Legal information' do
+    it 'should show "Important information"' do
+      expect(find('div.disclaimer > .important-information').text).to eq('Important information')
+    end
+
+    it 'should bring user to colornialfirststate\'s website when clicked on the link' do
+      find('#cfs').click
+      expect(current_url).to include('colonialfirststate.com.au')
+    end
+
+    describe 'Disclaimer content' do
+      it 'tells you your responsibility' do
+        text = find('div.disclaimer').text
+        expect(text).to include('The information contained in this tool is for your use, as an adviser, with your clients. It is solely your responsibility to use this tool in accordance with your legal obligations, including any license conditions that apply to you.')
+        expect(text).to include('Colonial First State Investments Limited ABN 98 002 348 352, AFS Licence 232468 (Colonial First State) is the issuer of super, pension and investment products. This tool has been prepared by Colonial First State and may include general advice but does not take into account any person\'s individual objectives, financial situation or needs. You should read the relevant Product Disclosure Statement (PDS) carefully before making any recommendations. Clients should read the PDS before making an investment decision and consider talking to a financial adviser. A PDS for Colonial First State\'s products is available at colonialfirststate.com.au or by calling us on 13 18 36. Past performance is no indication of future performance.')
+        expect(text).to include('While all care has been taken in the preparation of this tool (using sources believed to be reliable and accurate), to the maximum extent permitted by law, no person including Colonial First State or any member of the Commonwealth Bank of Australia group of companies, accepts responsibility for any loss suffered by any person arising from reliance on this information.')
+      end
+    end
+
+  end
 end
