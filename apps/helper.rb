@@ -19,16 +19,16 @@ module Helper
 
   def supporting_content_documents
     {
-      'Returns Of Australian Fixed Interest'       => '/pdfs/aus_fixed_interest.pdf',
-      'Returns of Australian Property Securities'  => '/pdfs/aus_property_securities.pdf',
-      'Returns on Australian Shares'               => '/pdfs/aus_shares.pdf',
-      'Australian and Global Share Market Returns' => '/pdfs/aus_vs_global_share_markets.pdf',
-      'Benefits of Dollar Cost Averaging'          => '/pdfs/benefits_dollar_cost_averaging.pdf',
-      'Consequences of Short Term Focusing'        => '/pdfs/consequences_short_term.pdf',
-      'Diversification and Consistent Returns'     => '/pdfs/diversification_and_consistent_returns.pdf',
-      'Returns of Global Fixed Interest'           => '/pdfs/global_fixed_interest.pdf',
-      'Returns of Global Shares'                   => '/pdfs/global_shares.pdf',
-      'Long Term Investing'                        => '/pdfs/long_term_investing.pdf'
+      'Returns of Australian shares'               => '/pdfs/aus_shares.pdf',
+      'Returns of global shares'                   => '/pdfs/global_shares.pdf',
+      'Returns of Australian fixed interest'       => '/pdfs/aus_fixed_interest.pdf',
+      'Returns of Global fixed interest'           => '/pdfs/global_fixed_interest.pdf',
+      'Returns of Australian property securities'  => '/pdfs/aus_property_securities.pdf',
+      'Diversification can create more consistent returns' => '/pdfs/diversification_and_consistent_returns.pdf',
+      'Long-term investing'                        => '/pdfs/long_term_investing.pdf',
+      'Consequences of a short-term focus'         => '/pdfs/consequences_short_term.pdf',
+      'Benefits of dollar cost averaging'          => '/pdfs/benefits_dollar_cost_averaging.pdf',
+      'Australian and global sharemarkets'         => '/pdfs/aus_vs_global_share_markets.pdf'
     }
   end
 

@@ -28,6 +28,27 @@ describe 'Supporting Content Page' do
     end
   end
 
+  describe 'Supporting content links' do
+      it 'should have the following links' do
+        content = find('.concepts').text
+        titles = [
+          'Returns of Australian shares',
+          'Returns of global shares',
+          'Returns of Australian fixed interest',
+          'Returns of Global fixed interest',
+          'Returns of Australian property securities',
+          'Diversification can create more consistent returns',
+          'Long-term investing',
+          'Consequences of a short-term focus',
+          'Benefits of dollar cost averaging',
+          'Australian and global sharemarkets'
+        ]
+        titles.each do |title|
+          expect(content).to include(title)
+        end
+      end
+  end
+
   describe 'Previous Button' do
     it 'should direct to Income page when click' do
       find('div.previous').click
