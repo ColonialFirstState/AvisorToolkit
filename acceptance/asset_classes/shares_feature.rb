@@ -37,4 +37,10 @@ describe 'Shares Page' do
       expect(titles[2].text).to eq('You may get income in the form of dividends from company profits. You may also make gains if that company grows in market value and you sell your shares.')
     end
   end
+  
+  describe 'disclaimer' do
+    it 'should display disclaimer' do
+      expect(find('.disclaimer').text).to eq('Colonial First State Investments Limited ABN 98 002 348 352, AFS Licence 232468 (Colonial First State) is the issuer of super, pension and investment products. This tool has been prepared by Colonial First State and may include general advice but does not take into account any person’s individual objectives, financial situation or needs. You should read the relevant Product Disclosure Statement (PDS) carefully before making any recommendations. Clients should read the PDS before making an investment decision and consider talking to a financial adviser. A PDS for Colonial First State’s products is available at colonialfirststate.com.au or by calling us on 13 18 36. Past performance is no indication of future performance.')
+    end
+  end
 end

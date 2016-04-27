@@ -68,6 +68,5 @@ describe 'Home Page' do
         expect(text).to include('While all care has been taken in the preparation of this tool (using sources believed to be reliable and accurate), to the maximum extent permitted by law, no person including Colonial First State or any member of the Commonwealth Bank of Australia group of companies, accepts responsibility for any loss suffered by any person arising from reliance on this information.')
       end
     end
-
   end
 end
