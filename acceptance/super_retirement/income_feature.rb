@@ -23,7 +23,7 @@ describe 'Income in Retirement Page' do
       end
 
       it 'should have correct text' do
-        expect(find('#income-stream p.text').text).to eq('You can turn your super into an income stream.')
+        expect(find('#income-stream p.text').text).to eq('You can turn your super into an income stream by transferring it to an income paying investment, like an account based pension or an annuity.')
       end
     end
 
@@ -43,7 +43,7 @@ describe 'Income in Retirement Page' do
       end
 
       it 'should have correct text' do
-        expect(find('#tax-free p.text').text).to eq('This income in retirement is tax-free.')
+        expect(find('#tax-free p.text').text).to eq('The income you receive from age 60 is tax-free.')
       end
     end
 
