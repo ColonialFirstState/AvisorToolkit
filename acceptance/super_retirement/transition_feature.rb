@@ -75,7 +75,7 @@ describe 'Retirement Page' do
     end
 
     it 'should have correct text for saving' do
-      expect(find('#saving-text').text).to eq('Boost your super or income before retirement.')
+      expect(find('#saving-text').text).to eq('Continue to boost your super or income before retirement from continuing contributions.')
     end
 
     it 'should have correct text for tax savings on income' do
