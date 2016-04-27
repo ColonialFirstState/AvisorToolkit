@@ -63,7 +63,7 @@ describe 'Retirement Page' do
     end
 
     it 'should have a correct sub-title' do
-      expect(find('p.step.st1').text).to eq('You can start to access your super as soon as you reach your preservation age, even while you\'re working. Some of the benefits:')
+      expect(find('p.step.st1').text).to eq('If you\'ve reached your preservation age, a Transition to Retirement (TTR) strategy allows you to access your super as a retirement income stream while continuing to work. Some of the benefits:')
     end
 
     it 'should have correct src for working hours' do
