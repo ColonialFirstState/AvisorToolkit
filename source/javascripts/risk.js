@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  buttonClickAction('#conservative', '.low-risk',    'Conservative portfolio');
-  buttonClickAction('#balanced',     '.medium-risk', 'Balanced portfolio');
-  buttonClickAction('#growth',       '.high-risk',   'Growth portfolio');
+  buttonClickAction('#conservative', '.low-risk',    'An example of a conservative portfolio');
+  buttonClickAction('#balanced',     '.medium-risk', 'An example of a balanced portfolio');
+  buttonClickAction('#growth',       '.high-risk',   'An example of a growth portfolio');
 });
 
 function buttonClickAction(button, risk, titleText) {

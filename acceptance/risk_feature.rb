@@ -26,21 +26,21 @@ describe 'Risk Page' do
   describe 'Buttons' do
     it 'should have correct behavior for Conservative Button' do
       find('#conservative').click
-      expect(find('#risk-profile-title').text).to eq('Conservative portfolio')
+      expect(find('#risk-profile-title').text).to eq('An example of a conservative portfolio')
       expect(find('.buttons .selected').text).to eq('CONSERVATIVE')
       expect(find('.risk-rating .rating-yes').text).to eq('1')
     end
 
     it 'should have correct behavior for Balanced Button' do
       find('#balanced').click
-      expect(find('#risk-profile-title').text).to eq('Balanced portfolio')
+      expect(find('#risk-profile-title').text).to eq('An example of a balanced portfolio')
       expect(find('.buttons .selected').text).to eq('BALANCED')
       expect(find('.risk-rating .rating-yes').text).to eq('4')
     end
 
     it 'should have correct behavior for Growth Button' do
       find('#growth').click
-      expect(find('#risk-profile-title').text).to eq('Growth portfolio')
+      expect(find('#risk-profile-title').text).to eq('An example of a growth portfolio')
       expect(find('.buttons .selected').text).to eq('GROWTH')
       expect(find('.risk-rating .rating-yes').text).to eq('7')
     end
