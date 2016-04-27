@@ -54,6 +54,10 @@ describe 'Risk Page' do
   end
 
   describe 'disclaimer' do
+    it 'should display srm disclaimer' do
+      expect(find('.srm-disclaimer').text).to eq('This tool has adopted the Standard Risk Measure (SRM), which is based on industry guidance, to allow investors to compare investment options that are expected to deliver a similar number of negative annual returns over any 20-year period. These measures are regularly reviewed. The change in the SRM for this option reflects updated economic assumptions that are used to calculate them.')
+    end
+
     it 'should display disclaimer' do
       expect(find('.disclaimer').text).to eq('Colonial First State Investments Limited ABN 98 002 348 352, AFS Licence 232468 (Colonial First State) is the issuer of super, pension and investment products. This tool has been prepared by Colonial First State and may include general advice but does not take into account any person’s individual objectives, financial situation or needs. You should read the relevant Product Disclosure Statement (PDS) carefully before making any recommendations. Clients should read the PDS before making an investment decision and consider talking to a financial adviser. A PDS for Colonial First State’s products is available at colonialfirststate.com.au or by calling us on 13 18 36. Past performance is no indication of future performance.')
     end
