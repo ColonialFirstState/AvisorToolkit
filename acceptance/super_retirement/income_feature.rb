@@ -33,7 +33,7 @@ describe 'Income in Retirement Page' do
       end
 
       it 'should have correct text' do
-        expect(find('#regular-basis p.text').text).to eq('It pays you an income on a regular basis, like a salary.')
+        expect(find('#regular-basis p.text').text).to eq('It pays you an income on a regular basis, like a salary. You can choose how often you receive your income.')
       end
     end
 
