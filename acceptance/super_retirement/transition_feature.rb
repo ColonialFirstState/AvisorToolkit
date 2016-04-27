@@ -23,7 +23,7 @@ describe 'Retirement Page' do
     before { find('#strategy-button').click }
 
     it 'should have a correct sub-title' do
-      expect(find('p.step.st1').text).to eq('How Transition to Retirement works:')
+      expect(find('p.step.st1').text).to eq('An example of how Transition to Retirement works:')
     end
 
     it 'should have correct src for boost income' do
@@ -39,7 +39,7 @@ describe 'Retirement Page' do
     end
 
     it 'should have correct text for tax savings on income' do
-      expect(find('#tax-saving-on-income-text').text).to eq('Top up your income by drawing from your pre-retirement pension.')
+      expect(find('#tax-saving-on-income-text').text).to eq('Top up your income by drawing from your pre-retirement pension (caps apply)')
     end
 
     it 'should have correct src for top up reduce income' do
