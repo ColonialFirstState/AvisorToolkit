@@ -13,13 +13,15 @@
                 <path d="M345.730242,345.82611 L345.730242,173.303888 L172.870013,173.303888 C172.870013,268.585094 250.261631,345.82611 345.730242,345.82611 Z" id="Fill-1" fill="#FF9831" sketch:type="MSShapeGroup" transform="translate(259.300128, 259.564999) rotate(-90.000000) translate(-259.300128, -259.564999) "></path>
                 <path d="M86.6097161,-85.6097745 L86.6097161,259.43467 C182.711951,259.43467 259.468317,182.193654 259.468317,86.9124478 C259.468317,-8.36875843 182.711951,-85.6097745 86.6097161,-85.6097745" id="Fill-2" fill="#F16A15" sketch:type="MSShapeGroup" transform="translate(173.039016, 86.912448) rotate(-90.000000) translate(-173.039016, -86.912448) "></path>
                 <path d="M221.50265,154.767358 C193.830093,135.987483 160.539628,125.007628 124.704896,125.007628 C88.8701649,125.007628 55.3044234,135.987483 27.6318664,154.767358 C-17.7723673,186.055229 -47.9468401,239.110977 -47.9468401,297.490834 L124.678835,297.490834 L221.50265,154.767358 Z" id="Fill-3" fill="#FF7B00" sketch:type="MSShapeGroup" transform="translate(86.777905, 211.268739) rotate(-90.000000) translate(-86.777905, -211.268739) "></path>
-                <text id="ASSET-BACKED-BONDS" sketch:type="MSTextLayer" font-family="Open Sans" font-size="11" font-weight="bold" sketch:alignment="middle" line-spacing="13" letter-spacing="0.549999952" fill="#FFFFFF">
-                    <tspan x="197.895738" y="255.692392">ASSET-BACKED </tspan>
-                    <tspan x="219.697544" y="268.692392">BONDS</tspan>
+                <text id="INTERNATIONAL-GOVERNMENT-BONDS" sketch:type="MSTextLayer" font-family="Open Sans" font-size="11" font-weight="bold" sketch:alignment="middle" line-spacing="13" letter-spacing="0.549999952" fill="#FFFFFF">
+                    <tspan x="193.895738" y="255.692392">INTERNATIONAL</tspan>
+                    <tspan x="197.895738" y="268.692392">GOVERNMENT</tspan>
+                    <tspan x="219.697544" y="281.692392">BONDS</tspan>
                 </text>
-                <text id="GOVERNMENT" sketch:type="MSTextLayer" font-family="Open Sans" font-size="11" font-weight="bold" sketch:alignment="middle" line-spacing="13" letter-spacing="0.549999952" fill="#FFFFFF">
-                    <tspan x="47.8957377" y="227.692392">GOVERNMENT</tspan>
-                    <tspan x="68.6120462" y="240.692392">BONDS</tspan>
+                <text id="AUSTRALIAN-GOVERNMENT" sketch:type="MSTextLayer" font-family="Open Sans" font-size="11" font-weight="bold" sketch:alignment="middle" line-spacing="13" letter-spacing="0.549999952" fill="#FFFFFF">
+                    <tspan x="52.8957377" y="227.692392">AUSTRALIAN</tspan>
+                    <tspan x="47.8957377" y="240.692392">GOVERNMENT</tspan>
+                    <tspan x="68.6120462" y="253.692392">BONDS</tspan>
                 </text>
                 <text id="CORPORATE" sketch:type="MSTextLayer" font-family="Open Sans" font-size="11" font-weight="bold" sketch:alignment="middle" line-spacing="13" letter-spacing="0.549999952" fill="#FFFFFF">
                     <tspan x="152.173682" y="99.6923924">CORPORATE</tspan>
