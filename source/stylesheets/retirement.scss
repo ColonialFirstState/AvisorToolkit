@@ -67,12 +67,16 @@
   }
 }
 
+#strategy-button, #benefits-button {
+  margin-top: 1em;
+}
+
 .overlay-container {
   .overlays {
     position: absolute;
   }
   position: relative;
-  height: 400px;
+  height: 430px;
 }
 
 .retirement .text {
