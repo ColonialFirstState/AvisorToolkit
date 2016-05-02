@@ -66,19 +66,19 @@
                 <text id="Money-Out" font-family="Open Sans" font-size="17" font-weight="800" fill="#000000">
                     <tspan x="500.478516" y="269">Money Out</tspan>
                 </text>
-                <text id="Your-super-grows-due" font-family="Open Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <text id="Your-super-grows-due" font-family="Open Sans" font-size="16" font-weight="400" line-spacing="24" fill="#000000">
                     <tspan x="295.953125" y="295">Your super grows </tspan>
                     <tspan x="285.503906" y="319">due to contributions </tspan>
                     <tspan x="303.425781" y="343">and investment </tspan>
                     <tspan x="294.363281" y="367">returns over time.</tspan>
                 </text>
-                <text id="You-can-access-your-" font-family="Open Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <text id="You-can-access-your-" font-family="Open Sans" font-size="16" font-weight="400" line-spacing="24" fill="#000000">
                     <tspan x="684.648438" y="295">You can access your </tspan>
                     <tspan x="680.828125" y="319">super once you meet </tspan>
                     <tspan x="680.488281" y="343">preservation age and </tspan>
                     <tspan x="737.015625" y="367">retire.</tspan>
                 </text>
-                <text id="A-portion-of-your-su" font-family="Open Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <text id="A-portion-of-your-su" font-family="Open Sans" font-size="16" font-weight="400" line-spacing="24" fill="#000000">
                     <tspan x="483.03125" y="295">A portion of your </tspan>
                     <tspan x="484.117188" y="319">super is used for </tspan>
                     <tspan x="507.957031" y="343">insurance,</tspan>
@@ -193,7 +193,7 @@
                         </g>
                     </g>
                 </g>
-                <text id="9.5%-of-your-salary-" font-family="Open Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <text id="9.5%-of-your-salary-" font-family="Open Sans" font-size="16" font-weight="400" line-spacing="24" fill="#000000">
                     <tspan x="15.4570312" y="295">9.5% of your salary from </tspan>
                     <tspan x="13.46875" y="319">your employer. Rollovers </tspan>
                     <tspan x="16.9335938" y="343">from other super funds. </tspan>
