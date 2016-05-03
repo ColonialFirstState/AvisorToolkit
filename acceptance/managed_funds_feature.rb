@@ -28,7 +28,7 @@ describe 'Managed Funds Page' do
 
       expect(buttons_title).to eq(['ALL ASSETS',
                                    'SHARE MIX',
-                                   'PROPERTY MIX',
+                                   'PROPERTY FUND MIX',
                                    'FIXED INCOME MIX',
                                    'CASH MIX'])
     end
