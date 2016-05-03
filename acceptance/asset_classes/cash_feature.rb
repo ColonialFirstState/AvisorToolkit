@@ -13,9 +13,9 @@ describe 'Cash Page' do
       expect(find('.second-level .nav .selected a').text).to eq('Cash')
     end
 
-    it 'should direct to fixed income page when click next button' do
+    it 'should direct to fixed interest page when click next button' do
       find('div.next').click
-      expect(current_url).to include('/asset_classes/fixed_income')
+      expect(current_url).to include('/asset_classes/fixed_interest')
     end
   end
 

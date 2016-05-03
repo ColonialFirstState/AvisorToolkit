@@ -3,7 +3,7 @@ $(document).ready(function() {
     onClickAction('#property-mix', '/images/managed_funds/property_mix.svg')
     onClickAction('#share-mix', '/images/managed_funds/share_mix.svg')
     onClickAction('#cash-mix', '/images/managed_funds/cash_mix.svg')
-    onClickAction('#fixed-income-mix', '/images/managed_funds/fixed_income_mix.svg')
+    onClickAction('#fixed-interest-mix', '/images/managed_funds/fixed_interest_mix.svg')
 });
 
 function onClickAction(buttonID, image) {

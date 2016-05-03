@@ -13,9 +13,9 @@ describe 'Property Page' do
       expect(find('.second-level .nav .selected a').text).to eq('Property')
     end
 
-    it 'should direct to fixed income profile when click previous button' do
+    it 'should direct to fixed interest profile when click previous button' do
       find('div.previous').click
-      expect(current_url).to include('/asset_classes/fixed_income')
+      expect(current_url).to include('/asset_classes/fixed_interest')
     end
 
     it 'should direct to shares page when click next button' do

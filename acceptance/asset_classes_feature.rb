@@ -19,9 +19,9 @@ describe 'Asset Classes Page' do
         expect(current_url).to include('/asset_classes/cash')
       end
 
-      it 'should navigate to fixed income page when click fixed income' do
-        click_link('Fixed Income')
-        expect(current_url).to include('/asset_classes/fixed_income')
+      it 'should navigate to fixed interest page when click fixed interest' do
+        click_link('Fixed Interest')
+        expect(current_url).to include('/asset_classes/fixed_interest')
       end
 
       it 'should navigate to property page when click property' do
