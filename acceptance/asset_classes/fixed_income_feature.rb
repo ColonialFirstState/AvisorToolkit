@@ -32,8 +32,8 @@ describe 'Fixed Income Page' do
     it 'should have correct step explanation' do
       titles = all('.steps .st1 p')
 
-      expect(titles[0].text).to eq('You loan money to the government for a fixed term in the form of a government bond.')
-      expect(titles[1].text).to eq('The government issues bonds when they need to raise money for things like improving roads.')
+      expect(titles[0].text).to eq('You loan money to the government for a fixed term in the form of a government bond, to raise money for things like improving roads.')
+      expect(titles[1].text).to eq('The bond can be held until the end of its term, or sold beforehand at market price.')
       expect(titles[2].text).to eq('At the end of the term you may get both your initial loan value and the agreed interest earned.')
     end
   end
