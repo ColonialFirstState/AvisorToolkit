@@ -20,7 +20,7 @@ describe 'Managed Funds Page' do
 
   describe 'Content' do
     it 'should have the correct title' do
-      expect(find('.explanation .title').text).to eq('Example of how a managed fund works')
+      expect(find('.explanation .title').text).to eq('Example of how a managed fund is invested')
     end
 
     it 'should have five buttons with correct title' do
