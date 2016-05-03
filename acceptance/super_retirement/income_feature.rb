@@ -23,7 +23,7 @@ describe 'Income in Retirement Page' do
       end
 
       it 'should have correct text' do
-        expect(find('#income-stream p.text').text).to eq('You can turn your super into an income stream by transferring it to an income paying investment, like an account based pension or an annuity.')
+        expect(find('#income-stream p.text').text).to eq('When you reach preservation age, you can turn your super into an income stream by transferring it to an income paying investment, like an account based pension or an annuity.')
       end
     end
 
@@ -33,7 +33,7 @@ describe 'Income in Retirement Page' do
       end
 
       it 'should have correct text' do
-        expect(find('#regular-basis p.text').text).to eq('It pays you an income on a regular basis, like a salary. You can choose how often you receive your income.')
+        expect(find('#regular-basis p.text').text).to eq('It pays you an income on a regular basis. You can choose how often you receive your income.')
       end
     end
 
@@ -43,7 +43,7 @@ describe 'Income in Retirement Page' do
       end
 
       it 'should have correct text' do
-        expect(find('#tax-free p.text').text).to eq('The income you receive from age 60 is tax-free.')
+        expect(find('#tax-free p.text').text).to eq('The income you receive from age 60 is tax-free for most people.')
       end
     end
 
