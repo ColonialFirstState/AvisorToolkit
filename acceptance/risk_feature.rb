@@ -55,7 +55,7 @@ describe 'Risk Page' do
 
   describe 'disclaimer' do
     it 'should display srm disclaimer' do
-      expect(find('.srm-disclaimer').text).to eq('This tool has adopted the Standard Risk Measure (SRM), which is based on industry guidance, to allow investors to compare investment options that are expected to deliver a similar number of negative annual returns over any 20-year period. These measures are regularly reviewed. The change in the SRM for this option reflects updated economic assumptions that are used to calculate them.')
+      expect(find('.srm-disclaimer').text).to eq('The risk measure shown here adopts the Standard Risk Measure (SRM), which is based on industry guidance to allow investors to compare investment options that are expected to deliver a similar number of negative annual returns over any 20 year period (as outlined in the table below). The SRM is not a complete assessment of all forms of investment risk and does not take into account the impact of administration fees and tax on the likelihood of a negative return.')
     end
 
     it 'should display disclaimer' do
