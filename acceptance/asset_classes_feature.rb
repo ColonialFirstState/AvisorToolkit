@@ -25,7 +25,7 @@ describe 'Asset Classes Page' do
       end
 
       it 'should navigate to property page when click property' do
-        click_link('Property')
+        click_link('Property Funds')
         expect(current_url).to include('/asset_classes/property')
       end
 

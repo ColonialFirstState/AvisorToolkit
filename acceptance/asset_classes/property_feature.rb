@@ -9,8 +9,8 @@ describe 'Property Page' do
   end
 
   describe 'Navigation' do
-    it 'should select property in second navigation level' do
-      expect(find('.second-level .nav .selected a').text).to eq('Property')
+    it 'should select property funds in second navigation level' do
+      expect(find('.second-level .nav .selected a').text).to eq('Property Funds')
     end
 
     it 'should direct to fixed interest profile when click previous button' do
