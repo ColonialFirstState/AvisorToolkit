@@ -26,7 +26,7 @@ module Advisor
       map '/' do
         # Enable proper HEAD responses
         use Rack::Head
-        use Rack::Session::Cookie, secret: 'test123'
+        use Rack::Session::Cookie, secret: 'Together'
 
         use Warden::Manager do |manager|
           manager.default_strategies :password
