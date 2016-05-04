@@ -73,10 +73,13 @@
                     <tspan x="737.015625" y="367">retire.</tspan>
                 </text>
                 <text id="A-portion-of-your-su" font-family="Open Sans" font-size="16px" font-weight="400" line-spacing="24" fill="#000000">
-                    <tspan x="483.03125" y="295">A portion of your </tspan>
-                    <tspan x="484.117188" y="319">super is used for </tspan>
-                    <tspan x="507.957031" y="343">insurance,</tspan>
-                    <tspan x="490.679688" y="367">taxes and fees.</tspan>
+                    <tspan x="483.03125" y="295">Money out: a portion </tspan>
+                    <tspan x="481.117188" y="319">of your super is taxed </tspan>
+                    <tspan x="477.957031" y="343">and fees are deducted. </tspan>
+                    <tspan x="493.679688" y="367">It can also be used </tspan>
+                    <tspan x="499.679688" y="391">to pay for certain </tspan>
+                    <tspan x="493.679688" y="415">kinds of insurance. </tspan>
+
                 </text>
                 <ellipse id="Oval-77-Copy-6" fill="#FCA63A" cx="413.000119" cy="121.013006" rx="3.00011854" ry="3.01300565"></ellipse>
                 <ellipse id="Oval-77-Copy-7" fill="#FCA63A" cx="428.000119" cy="112.013006" rx="3.00011854" ry="3.01300565"></ellipse>
@@ -188,13 +191,13 @@
                     </g>
                 </g>
                 <text id="9.5%-of-your-salary-" font-family="Open Sans" font-size="16px" font-weight="400" line-spacing="24" fill="#000000">
-                    <tspan x="15.4570312" y="295">9.5% of your salary from </tspan>
-                    <tspan x="13.46875" y="319">your employer. Rollovers </tspan>
-                    <tspan x="16.9335938" y="343">from other super funds. </tspan>
-                    <tspan x="16.5859375" y="367">Additional contributions </tspan>
-                    <tspan x="24.09375" y="391">from you (caps apply). </tspan>
-                    <tspan x="7.546875" y="415">Government contributions </tspan>
-                    <tspan x="66.46875" y="439">(if eligible).</tspan>
+                    <tspan x="24.09375" y="295">Money in: 9.5% of your </tspan>
+                    <tspan x="7.46875" y="319">salary from your employer, </tspan>
+                    <tspan x="8.8" y="343">rollovers from other super </tspan>
+                    <tspan x="44" y="367">funds, additional </tspan>
+                    <tspan x="20.09375" y="391">contributions from you </tspan>
+                    <tspan x="11.49375" y="415">(caps apply). Government </tspan>
+                    <tspan x="15.546875" y="439">contributions (if eligible). </tspan>
                 </text>
             </g>
         </g>
