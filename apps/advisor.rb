@@ -14,7 +14,8 @@ module Advisor
       end
 
       def authenticate!
-        if Digest::SHA256.base64digest(params['password']) == ENV['PASS_DIGEST']
+        password_encrypt = Digest::SHA256.base64digest(params['password'])
+        if password_encrypt == ENV['PASS_DIGEST1'] || password_encrypt == ENV['PASS_DIGEST2']
           success!(login: true)
         else
           fail!('Invalid password')

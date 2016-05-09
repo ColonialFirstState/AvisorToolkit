@@ -1,10 +1,19 @@
 describe 'Login' do
   before(:each) { Capybara.reset_sessions! }
 
-  describe 'with valid password' do
+  describe 'with valid showcase password' do
     it 'should direct to home page' do
       visit '/login'
       fill_in('password', with: 'Together')
+      find('.login-button').click
+      expect(page).to have_content('Wealth iQ')
+    end
+  end
+
+  describe 'with valid advisor password' do
+    it 'should direct to home page' do
+      visit '/login'
+      fill_in('password', with: 'test123')
       find('.login-button').click
       expect(page).to have_content('Wealth iQ')
     end
