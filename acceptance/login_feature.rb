@@ -10,6 +10,15 @@ describe 'Login' do
     end
   end
 
+  describe 'with second valid password' do
+    it 'should direct to home page' do
+      visit '/login'
+      fill_in('password', with: 'Together')
+      find('.login-button').click
+      expect(page).to have_content('Wealth iQ')
+    end
+  end
+
   describe 'with invalid password' do
     it 'should stay in login page' do
       visit '/login'
