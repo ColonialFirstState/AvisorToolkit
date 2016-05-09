@@ -28,21 +28,21 @@ describe 'Risk Page' do
       find('#conservative').click
       expect(find('#risk-profile-title').text).to eq('An example of a conservative portfolio')
       expect(find('.buttons .selected').text).to eq('CONSERVATIVE')
-      expect(find('.risk-rating .rating-yes').text).to eq('1')
+      expect(find('#riskDefinition')['src']).to include('/images/risk/very-low-risk.svg')
     end
 
     it 'should have correct behavior for Balanced Button' do
       find('#balanced').click
       expect(find('#risk-profile-title').text).to eq('An example of a balanced portfolio')
       expect(find('.buttons .selected').text).to eq('BALANCED')
-      expect(find('.risk-rating .rating-yes').text).to eq('4')
+      expect(find('#riskDefinition')['src']).to include('/images/risk/medium-risk.svg')
     end
 
     it 'should have correct behavior for Growth Button' do
       find('#growth').click
       expect(find('#risk-profile-title').text).to eq('An example of a growth portfolio')
       expect(find('.buttons .selected').text).to eq('GROWTH')
-      expect(find('.risk-rating .rating-yes').text).to eq('7')
+      expect(find('#riskDefinition')['src']).to include('/images/risk/very-high-risk.svg')
     end
   end
 
@@ -55,7 +55,7 @@ describe 'Risk Page' do
 
   describe 'disclaimer' do
     it 'should display srm disclaimer' do
-      expect(find('.srm-disclaimer').text).to eq('The risk measure shown here adopts the Standard Risk Measure (SRM), which is based on industry guidance to allow investors to compare investment options that are expected to deliver a similar number of negative annual returns over any 20 year period (as outlined in the table below). The SRM is not a complete assessment of all forms of investment risk and does not take into account the impact of administration fees and tax on the likelihood of a negative return.')
+      expect(find('.srm-disclaimer').text).to eq('The risk measure shown here adopts the Standard Risk Measure (SRM), which is based on industry guidance to allow investors to compare investment options that are expected to deliver a similar number of negative annual returns over any 20 year period (as outlined in the table above). The SRM is not a complete assessment of all forms of investment risk and does not take into account the impact of administration fees and tax on the likelihood of a negative return.')
     end
 
     it 'should display disclaimer' do

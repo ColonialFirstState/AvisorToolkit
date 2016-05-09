@@ -16,8 +16,12 @@
 }
 
 .risk .chart-indicator {
-  padding-top: 40%;
+  padding-top: 10%;
   padding-left: 0;
+}
+
+img#riskDefinition {
+    width: 100%;
 }
 
 .risk .chart-indicator .indicator {
@@ -62,7 +66,6 @@
 }
 
 .explanation .ratings {
-  padding-top: 7%;
   padding-right: 0;
   padding-left: 0;
 }
