@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="151px" height="197px" viewBox="0 0 151 197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <font>
+      <font-face font-family="Open Sans" />
+    </font>
     <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
     <title>very-low-risk</title>
     <desc>Created with Sketch.</desc>
@@ -13,86 +16,86 @@
                             <g id="Group-Copy">
                                 <g id="Group" transform="translate(0.000000, 0.063256)">
                                     <g transform="translate(0.000000, -0.000000)">
-                                        <text id="VERY-LOW" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29682557" font-weight="normal">
+                                        <text id="VERY-LOW" fill="#1F447F" font-family="Open Sans" font-size="5.29682557" font-weight="normal">
                                             <tspan x="35" y="50">VERY LOW</tspan>
                                         </text>
-                                        <text id="Less-than-0.5" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="Less-than-0.5" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="90" y="49">Less than 0.5</tspan>
                                         </text>
-                                        <text id="0.5-to-less-than-1" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="0.5-to-less-than-1" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="90" y="72">0.5 to less than 1</tspan>
                                         </text>
-                                        <text id="1-to-less-than-2" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="1-to-less-than-2" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="90" y="97">1 to less than 2</tspan>
                                         </text>
-                                        <text id="2-to-less-than-3" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="2-to-less-than-3" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="90" y="121">2 to less than 3</tspan>
                                         </text>
-                                        <text id="3-to-less-than-4" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="3-to-less-than-4" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="90" y="143">3 to less than 4</tspan>
                                         </text>
-                                        <text id="4-to-less-than-6" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="4-to-less-than-6" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="90" y="167">4 to less than 6</tspan>
                                         </text>
-                                        <text id="6-or-greater" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="6-or-greater" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="90" y="192">6 or greater</tspan>
                                         </text>
-                                        <text id="LOW" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29682557" font-weight="normal">
+                                        <text id="LOW" fill="#1F447F" font-family="Open Sans" font-size="5.29682557" font-weight="normal">
                                             <tspan x="35" y="73">LOW</tspan>
                                         </text>
-                                        <text id="LOW-TO-MEDIUM" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29682557" font-weight="normal">
+                                        <text id="LOW-TO-MEDIUM" fill="#1F447F" font-family="Open Sans" font-size="5.29682557" font-weight="normal">
                                             <tspan x="35" y="97">LOW TO MEDIUM</tspan>
                                         </text>
-                                        <text id="Risk-band" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="Risk-band" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="3" y="24">Risk band</tspan>
                                         </text>
-                                        <text id="Estimated-number-of" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="Estimated-number-of" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="90" y="6">Estimated number of</tspan>
                                         </text>
-                                        <text id="negative-annual-returns" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="negative-annual-returns" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="90" y="15">negative annual returns</tspan>
                                         </text>
-                                        <text id="over-any-20-year-period" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29439946" font-weight="normal">
+                                        <text id="over-any-20-year-period" fill="#1F447F" font-family="Open Sans" font-size="5.29439946" font-weight="normal">
                                             <tspan x="90" y="24">over any 20-year period</tspan>
                                         </text>
-                                        <text id="MEDIUM" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29682557" font-weight="normal">
+                                        <text id="MEDIUM" fill="#1F447F" font-family="Open Sans" font-size="5.29682557" font-weight="normal">
                                             <tspan x="35" y="121">MEDIUM</tspan>
                                         </text>
-                                        <text id="MEDIUM-TO-HIGH" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29682557" font-weight="normal">
+                                        <text id="MEDIUM-TO-HIGH" fill="#1F447F" font-family="Open Sans" font-size="5.29682557" font-weight="normal">
                                             <tspan x="35" y="143">MEDIUM TO HIGH</tspan>
                                         </text>
-                                        <text id="VERY-HIGH" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29682557" font-weight="normal">
+                                        <text id="VERY-HIGH" fill="#1F447F" font-family="Open Sans" font-size="5.29682557" font-weight="normal">
                                             <tspan x="35" y="193">VERY HIGH</tspan>
                                         </text>
-                                        <text id="HIGH" fill="#1F447F" font-family="OpenSans, Open Sans" font-size="5.29682557" font-weight="normal">
+                                        <text id="HIGH" fill="#1F447F" font-family="Open Sans" font-size="5.29682557" font-weight="normal">
                                             <tspan x="35" y="168">HIGH</tspan>
                                         </text>
                                         <rect id="Rectangle-198-Copy-2" fill="#EDEFF4" x="2" y="83" width="26" height="22.4889628"></rect>
-                                        <text id="3" fill="#A5ACB8" font-family="OpenSans, Open Sans" font-size="7.0624341" font-weight="normal">
+                                        <text id="3" fill="#A5ACB8" font-family="Open Sans" font-size="7.0624341" font-weight="normal">
                                             <tspan x="13" y="97">3</tspan>
                                         </text>
                                         <rect id="Rectangle-198-Copy-8" fill="#EDEFF4" x="2" y="36" width="26" height="22.6542828"></rect>
-                                        <text id="1" fill="#A5ACB8" font-family="OpenSans, Open Sans" font-size="7.0624341" font-weight="normal">
+                                        <text id="1" fill="#A5ACB8" font-family="Open Sans" font-size="7.0624341" font-weight="normal">
                                             <tspan x="13" y="50">1</tspan>
                                         </text>
                                         <rect id="Rectangle-198-Copy-4" fill="#EDEFF4" x="2" y="153" width="26" height="22.4889628"></rect>
-                                        <text id="6" fill="#A5ACB8" font-family="OpenSans, Open Sans" font-size="7.0624341" font-weight="normal">
+                                        <text id="6" fill="#A5ACB8" font-family="Open Sans" font-size="7.0624341" font-weight="normal">
                                             <tspan x="13" y="167">6</tspan>
                                         </text>
                                         <rect id="Rectangle-198-Copy" fill="#EDEFF4" x="2" y="60" width="26" height="22.4889628"></rect>
-                                        <text id="2" fill="#A5ACB8" font-family="OpenSans, Open Sans" font-size="7.0624341" font-weight="normal">
+                                        <text id="2" fill="#A5ACB8" font-family="Open Sans" font-size="7.0624341" font-weight="normal">
                                             <tspan x="13" y="74">2</tspan>
                                         </text>
                                         <rect id="Rectangle-198-Copy-5" fill="#EDEFF4" x="2" y="130" width="26" height="22.4889628"></rect>
-                                        <text id="5" fill="#A5ACB8" font-family="OpenSans, Open Sans" font-size="7.0624341" font-weight="normal">
+                                        <text id="5" fill="#A5ACB8" font-family="Open Sans" font-size="7.0624341" font-weight="normal">
                                             <tspan x="13" y="144">5</tspan>
                                         </text>
                                         <rect id="Rectangle-198-Copy-3" fill="#EDEFF4" x="2" y="106" width="26" height="22.4889628"></rect>
-                                        <text id="4" fill="#A5ACB8" font-family="OpenSans, Open Sans" font-size="7.0624341" font-weight="normal">
+                                        <text id="4" fill="#A5ACB8" font-family="Open Sans" font-size="7.0624341" font-weight="normal">
                                             <tspan x="13" y="120">4</tspan>
                                         </text>
                                         <rect id="Rectangle-198-Copy-6" fill="#F58C23" x="2" y="176" width="26" height="22.4889628"></rect>
-                                        <text id="7" fill="#FEFFFF" font-family="OpenSans, Open Sans" font-size="7.0624341" font-weight="normal">
+                                        <text id="7" fill="#FEFFFF" font-family="Open Sans" font-size="7.0624341" font-weight="normal">
                                             <tspan x="13" y="190">7</tspan>
                                         </text>
                                         <path d="M0,30 L150.5,30" id="Line" stroke="#204581"></path>
