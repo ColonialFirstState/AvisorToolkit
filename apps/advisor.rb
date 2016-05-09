@@ -14,8 +14,7 @@ module Advisor
       end
 
       def authenticate!
-        password_encrypt = Digest::SHA256.base64digest(params['password'])
-        if password_encrypt == ENV['PASS_DIGEST1'] || password_encrypt == ENV['PASS_DIGEST2']
+        if Digest::SHA256.base64digest(params['password']) == ENV['PASS_DIGEST']
           success!(login: true)
         else
           fail!('Invalid password')
@@ -27,7 +26,7 @@ module Advisor
       map '/' do
         # Enable proper HEAD responses
         use Rack::Head
-        use Rack::Session::Cookie, secret: 'Together'
+        use Rack::Session::Cookie, :secret => 'test123'
 
         use Warden::Manager do |manager|
           manager.default_strategies :password
